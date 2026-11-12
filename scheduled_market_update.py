@@ -192,6 +192,10 @@ def run():
         "news":headlines,"matched_news":news_by_symbol,"stocks":sorted_stocks
     }
     PREVIOUS.write_text(json.dumps(record,ensure_ascii=False,indent=2,allow_nan=False))
+    day_dir=DATA/"reports"/DATE
+    day_dir.mkdir(parents=True,exist_ok=True)
+    snapshot=day_dir/(NOW.strftime("%H%M")+".json")
+    snapshot.write_text(json.dumps(record,ensure_ascii=False,indent=2,allow_nan=False))
     daily=DATA/"reports"/f"{DATE}.json"
     daily.parent.mkdir(exist_ok=True)
     daily.write_text(json.dumps(record,ensure_ascii=False,indent=2,allow_nan=False))
