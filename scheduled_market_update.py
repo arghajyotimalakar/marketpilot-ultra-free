@@ -191,6 +191,25 @@ def run():
         "warning":"Scenario derived from available daily returns, not trained news prediction."},
         "news":headlines,"matched_news":news_by_symbol,"stocks":sorted_stocks
     }
+    current={"snapshot_at_ist":STAMP,"fresh_green":green,"fresh_red":red,"uptrend_count":trend_pos,
+             "indices":{k:v.get("close") for k,v in indices.items()}}
+    timeline=old.get("intraday_timeline",[]) if old.get("market_date_ist")==DATE else []
+    timeline=[x for x in timeline if isinstance(x,dict) and x.get("snapshot_at_ist")!=STAMP]
+    timeline.append(current)
+    record["intraday_timeline"]=timeline[-12:]
+    start=timeline[0] if timeline else current
+    first_index=(start.get("indices") or {}).get("^NSEI")
+    last_index=(indices.get("^NSEI") or {}).get("close")
+    nifty_since_start=finite((last_index/first_index-1)*100) if first_index and last_index else None
+    record["day_review"]={
+        "first_observation_ist":start.get("snapshot_at_ist"),
+        "last_observation_ist":STAMP,
+        "nifty_change_since_first_snapshot_pct":nifty_since_start,
+        "first_snapshot_breadth":{"green":start.get("fresh_green"),"red":start.get("fresh_red")},
+        "last_snapshot_breadth":{"green":green,"red":red},
+        "interpretation":outlook,
+        "warning":"Breadth totals reflect rotating stock batches; changes across batches are NOT an apples-to-apples measure of NSE market breadth."
+    }
     PREVIOUS.write_text(json.dumps(record,ensure_ascii=False,indent=2,allow_nan=False))
     day_dir=DATA/"reports"/DATE
     day_dir.mkdir(parents=True,exist_ok=True)
