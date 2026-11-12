@@ -5,11 +5,14 @@ import yfinance as yf
 import plotly.graph_objects as go
 from datetime import datetime
 import feedparser
+import io
+import requests
+import difflib
 
 st.set_page_config(page_title="MarketPilot Ultra Free",page_icon="📈",layout="wide")
 st.title("📈 MarketPilot Ultra • Free")
 st.caption("Indian & global markets | Educational research | Data may be delayed or unavailable | No automatic trading")
-page=st.sidebar.radio("Tools",["🌐 Market Pulse","🔎 Trade Scanner","📉 Chart & Trade Plan","🏦 Fundamentals","🧪 Backtest Lab","📰 Market News","💰 Risk Calculator","📁 CSV Data Lab"])
+page=st.sidebar.radio("Tools",["🌐 Market Pulse","🔎 Trade Scanner","📉 Chart & Trade Plan","🏦 Fundamentals","🧪 Backtest Lab","📰 Market News","💰 Risk Calculator","📁 CSV Data Lab","🏢 NSE Company Directory","📈 Broad Market Screener","🆕 IPO GMP Watch"])
 st.sidebar.warning("Not exchange-grade live quotes. Check timestamps. No signal guarantees profit.")
 @st.cache_data(ttl=300,show_spinner=False)
 def history(sym,period="1y"):
@@ -48,6 +51,64 @@ def candle(p):
         if k in q:fig.add_trace(go.Scatter(x=q.index,y=q[k],mode="lines",name=k))
     fig.update_layout(height=500,template="plotly_dark",xaxis_rangeslider_visible=False,margin=dict(l=5,r=5,t=20,b=5))
     st.plotly_chart(fig,use_container_width=True)
+
+@st.cache_data(ttl=86400,show_spinner=False)
+def company_directory():
+    """Only published directories, never fabricated listings."""
+    sources=[
+      ("NSE official equity listing","https://archives.nseindia.com/content/equities/EQUITY_L.csv"),
+      ("Nifty Indices official Nifty 500","https://www.niftyindices.com/IndexConstituent/ind_nifty500list.csv")
+    ]
+    for title,url in sources:
+        try:
+            r=requests.get(url,headers={"User-Agent":"Mozilla/5.0 (compatible; MarketPilotResearch/1.0)","Accept":"text/csv, */*"},timeout=15)
+            r.raise_for_status()
+            df=pd.read_csv(io.BytesIO(r.content))
+            df.columns=[str(c).strip().lower() for c in df.columns]
+            symbol_col=next((c for c in df.columns if c in ("symbol","ticker","nse symbol")),None)
+            name_col=next((c for c in df.columns if c in ("name of company","company name","company","name")),None)
+            if symbol_col is None or name_col is None:continue
+            df=df[[symbol_col,name_col]].rename(columns={symbol_col:"Symbol",name_col:"Company"})
+            df=df.dropna().astype(str)
+            df["Symbol"]=df.Symbol.str.strip().str.upper()
+            df["Company"]=df.Company.str.strip()
+            df=df[df.Symbol.str.fullmatch(r"[A-Z0-9&._-]{1,30}",na=False)]
+            df=df.drop_duplicates("Symbol").reset_index(drop=True)
+            if len(df)>200:return df,title
+        except Exception:pass
+    return pd.DataFrame(columns=["Symbol","Company"]),"No online company list currently available"
+
+def resolve_ticker(term, directory):
+    value=term.strip()
+    if not value:return ""
+    if value.startswith("^") or value.upper().endswith((".NS",".BO")) or value.upper() in ("AAPL","MSFT","GOOGL","TSLA","AMZN","NVDA","SPY"):return value.upper()
+    if not directory.empty:
+        exact=directory[(directory.Symbol.str.casefold()==value.casefold())|(directory.Company.str.casefold()==value.casefold())]
+        if not exact.empty:return exact.Symbol.iloc[0]+".NS"
+        match=directory[directory.Company.str.contains(value,case=False,regex=False)]
+        if len(match)==1:return match.Symbol.iloc[0]+".NS"
+    return value.upper()+".NS" if " " not in value else ""
+
+@st.cache_data(ttl=900,show_spinner=False)
+def batch_daily_changes(symbols):
+    """Batch prices at daily resolution; never present them as live quotes."""
+    results=[]
+    for start in range(0,len(symbols),40):
+        part=symbols[start:start+40]
+        tickers=[x+".NS" for x in part]
+        try:
+            raw=yf.download(tickers,period="7d",interval="1d",auto_adjust=True,progress=False,threads=True,group_by="ticker")
+            for symbol,ticker in zip(part,tickers):
+                try:
+                    x=raw[ticker] if isinstance(raw.columns,pd.MultiIndex) else raw
+                    cl=x["Close"].dropna()
+                    if len(cl)<2:continue
+                    ch=float((cl.iloc[-1]/cl.iloc[-2]-1)*100)
+                    results.append({"Symbol":symbol,"Last daily close ₹":round(float(cl.iloc[-1]),2),"Previous close ₹":round(float(cl.iloc[-2]),2),"1D gain %":round(ch,2),"As of":str(cl.index[-1])[:10]})
+                except Exception:continue
+        except Exception:continue
+    return pd.DataFrame(results)
+
 if page=="🌐 Market Pulse":
     st.header("Overnight and India market pulse")
     symbols={"Nifty 50":"^NSEI","Sensex":"^BSESN","Bank Nifty":"^NSEBANK","India VIX":"^INDIAVIX","S&P 500":"^GSPC","Nasdaq":"^IXIC","Nikkei 225":"^N225","US 10-year yield":"^TNX","USD/INR":"INR=X","Brent crude":"BZ=F","WTI crude":"CL=F","Gold":"GC=F"}
@@ -88,9 +149,20 @@ elif page=="🔎 Trade Scanner":
     st.caption("Entry triggers and stops are derived from the last retrieved historical daily bars; NOT instructions to execute immediately.")
 elif page=="📉 Chart & Trade Plan":
     st.header("Chart, indicators and trade plan")
-    sym=st.text_input("Ticker (NSE example RELIANCE.NS, US example AAPL)","RELIANCE.NS").upper().strip()
+    directory, directory_source=company_directory()
+    query=st.text_input("Search company name or ticker (e.g. Relaxo, RELAXO, AAPL)","RELAXO")
+    if not directory.empty and query.strip() and len(query.strip())>=2:
+        hits=directory[directory.Company.str.contains(query.strip(),case=False,regex=False)|directory.Symbol.str.contains(query.strip(),case=False,regex=False)].head(25)
+        if len(hits):
+            opts=[f"{r.Company} — {r.Symbol}" for r in hits.itertuples(index=False)]
+            selected=st.selectbox("Select matching company",["Auto-detect"]+opts)
+            sym=(selected.rsplit(" — ",1)[-1]+".NS") if selected!="Auto-detect" else resolve_ticker(query,directory)
+        else:sym=resolve_ticker(query,directory)
+    else:sym=resolve_ticker(query,directory)
+    if not sym:st.warning("No exact match found. Type its NSE symbol, e.g. RELAXO or RELAXO.NS.")
+    else:st.caption(f"Resolved ticker: {sym} | Company directory: {directory_source}")
     per=st.selectbox("Price history",["6mo","1y","2y","5y"],index=2)
-    p=history(sym,per)
+    p=history(sym,per) if sym else pd.DataFrame()
     if len(p)>30:
         p=compute(p);q=p.iloc[-1];a,b,c=st.columns(3)
         a.metric("Last recorded close",f"{q.Close:,.2f}");b.metric("RSI14",f"{q.RSI:.1f}");c.metric("ATR14",f"{q.ATR:.2f}")
@@ -198,5 +270,73 @@ elif page=="📁 CSV Data Lab":
                 plan=trade_plan(p)
                 if plan:st.dataframe(pd.DataFrame([plan]),use_container_width=True)
         except Exception as ex:st.error(f"Could not parse CSV: {ex}")
+
+elif page=="🏢 NSE Company Directory":
+    st.header("Company-name search across published NSE lists")
+    st.caption("This is a *company directory*, not a claim that all companies have reliable live price feeds.")
+    directory,src=company_directory()
+    st.write(f"**Source:** {src} • **Successfully retrieved symbols:** {len(directory):,}")
+    if directory.empty:
+        st.warning("The free server could not retrieve official listings. Upload your own NSE company list (CSV columns Symbol, Company / NAME OF COMPANY).")
+        uploaded=st.file_uploader("Upload NSE company directory",type="csv")
+        if uploaded:
+            try:
+                df=pd.read_csv(uploaded);df.columns=[c.strip().lower() for c in df.columns]
+                symbol=next((c for c in df if c=="symbol"),None);name=next((c for c in df if c in ("company","company name","name of company")),None)
+                if symbol and name:directory=df[[symbol,name]].rename(columns={symbol:"Symbol",name:"Company"})
+                else:st.error("CSV must contain Symbol and Company or NAME OF COMPANY.")
+            except Exception as e:st.error(str(e))
+    if not directory.empty:
+        term=st.text_input("Company name, e.g. Relaxo Footwear", "")
+        matching=directory[directory.Company.str.contains(term,case=False,regex=False)|directory.Symbol.str.contains(term,case=False,regex=False)].copy() if term else directory
+        st.write(f"{len(matching):,} results")
+        st.dataframe(matching.head(1000),hide_index=True,use_container_width=True)
+        st.download_button("Export directory CSV",directory.to_csv(index=False),"nse_company_directory.csv",mime="text/csv")
+        st.info("For a chart, select the ticker (e.g. RELAXO.NS) in Chart & Trade Plan.")
+elif page=="📈 Broad Market Screener":
+    st.header("Broad NSE universe — daily gain and liquidity research")
+    directory,src=company_directory()
+    st.caption(f"Listing source: {src}. Free quote feeds can reject bulk requests. This scanner DOES NOT use IPO GMP.")
+    symbols=directory.Symbol.tolist()
+    up=st.file_uploader("Optional: use your NSE symbol list CSV instead (Symbol column)",type="csv",key="broad_symbols")
+    if up:
+        try:
+            z=pd.read_csv(up);z.columns=[x.strip().lower() for x in z.columns]
+            symbols=z["symbol"].dropna().astype(str).str.upper().str.replace(".NS","",regex=False).unique().tolist()
+        except Exception as e:st.error(f"CSV error: {e}")
+    st.write(f"Universe contains **{len(symbols):,} companies**. No guarantee that all have usable price history.")
+    maxn=st.slider("Symbols to fetch per scan (larger scans can be slow or rate-limited)",25,1000,100,25)
+    min_gain=st.number_input("Minimum daily gain (%)",value=0.0,step=1.0)
+    max_gain=st.number_input("Maximum daily gain (%)",value=200.0,step=10.0)
+    st.warning("150–200% daily returns are extremely unusual for ordinary listed shares. This percentage filter is separate from IPO grey-market premium in rupees.")
+    if st.button("Scan selected symbols",type="primary",disabled=not symbols):
+        sample=symbols[:maxn]
+        with st.spinner(f"Checking {len(sample)} daily price histories..."):
+            df=batch_daily_changes(sample)
+        if df.empty:st.error("Public quote source returned no usable daily closes. Reduce scan size or try later.")
+        else:
+            out=df[df["1D gain %"].between(min_gain,max_gain)].sort_values("1D gain %",ascending=False)
+            st.write(f"**Price data available:** {len(df)}/{len(sample)} symbols. **Matches:** {len(out)}. Unavailable symbols are excluded, not assumed to have no gain.")
+            st.dataframe(out,use_container_width=True,hide_index=True)
+            st.download_button("Export matches",out.to_csv(index=False),"nse_daily_gainers.csv",mime="text/csv")
+elif page=="🆕 IPO GMP Watch":
+    st.header("IPO Grey Market Premium (GMP) — separate watchlist")
+    st.info("IPO GMP is an unofficial, unregulated prelisting premium, typically quoted in ₹ per share. It does **not** apply to 1,000 ordinary already-listed stocks. There is no reliable free official NSE GMP feed.")
+    st.caption("To avoid inventing GMP values, use a dated CSV from a source you trust. Prices here are user-supplied, not independently verified.")
+    file=st.file_uploader("Upload IPO GMP CSV: Company, Issue Price, GMP, As Of, Source",type="csv",key="ipo_gmp")
+    threshold=st.radio("Show GMP at least",["₹150","₹200"],horizontal=True)
+    if file:
+        try:
+            x=pd.read_csv(file);required=["Company","Issue Price","GMP","As Of","Source"]
+            if not all(v in x.columns for v in required):st.error("Missing required columns: "+", ".join([v for v in required if v not in x.columns]))
+            else:
+                x["GMP"]=pd.to_numeric(x["GMP"],errors="coerce")
+                x["Issue Price"]=pd.to_numeric(x["Issue Price"],errors="coerce")
+                x["Implied premium %"]=((x["GMP"]/x["Issue Price"])*100).round(1)
+                x=x[x["GMP"]>=int(threshold[1:])].sort_values("GMP",ascending=False)
+                st.dataframe(x,hide_index=True,use_container_width=True)
+        except Exception as ex:st.error(str(ex))
+    st.markdown("Official [NSE IPO information](https://www.nseindia.com/market-data/all-upcoming-issues-ipo) can be checked separately from unverified GMP reports.")
+
 st.divider()
 st.caption("MarketPilot Ultra Free • Research only; no investment advice, no assured predictions, no paid APIs, no broker-connected trade execution.")
