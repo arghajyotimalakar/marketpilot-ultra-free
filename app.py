@@ -12,7 +12,7 @@ import difflib
 st.set_page_config(page_title="MarketPilot Ultra Free",page_icon="📈",layout="wide")
 st.title("📈 MarketPilot Ultra • Free")
 st.caption("Indian & global markets | Educational research | Data may be delayed or unavailable | No automatic trading")
-page=st.sidebar.radio("Tools",["🌐 Market Pulse","🔎 Trade Scanner","📉 Chart & Trade Plan","🏦 Fundamentals","🧪 Backtest Lab","📰 Market News","💰 Risk Calculator","📁 CSV Data Lab","🏢 NSE Company Directory","📈 Broad Market Screener","🆕 IPO GMP Watch"])
+page=st.sidebar.radio("Tools",["🌐 Market Pulse","🔎 Trade Scanner","📉 Chart & Trade Plan","🏦 Fundamentals","🧪 Backtest Lab","📰 Market News","💰 Risk Calculator","📁 CSV Data Lab","🏢 NSE Company Directory","📈 Broad Market Screener","🆕 IPO GMP Watch","📋 Daily Trading & Investment Brief"])
 st.sidebar.warning("Not exchange-grade live quotes. Check timestamps. No signal guarantees profit.")
 @st.cache_data(ttl=300,show_spinner=False)
 def history(sym,period="1y"):
@@ -80,6 +80,7 @@ def company_directory():
 
 def resolve_ticker(term, directory):
     value=term.strip()
+    if value.upper().endswith(".NS"):return value.upper()
     if not value:return ""
     aliases={"relaxo footwear":"RELAXO.NS","relaxo footware":"RELAXO.NS","relaxo foot wears":"RELAXO.NS","relaxo":"RELAXO.NS","tata motors":"TATAMOTORS.NS","reliance industries":"RELIANCE.NS","hdfc bank":"HDFCBANK.NS","infosys":"INFY.NS"}
     if value.casefold() in aliases:return aliases[value.casefold()]
@@ -152,7 +153,7 @@ elif page=="🔎 Trade Scanner":
 elif page=="📉 Chart & Trade Plan":
     st.header("Chart, indicators and trade plan")
     directory, directory_source=company_directory()
-    query=st.text_input("Search company name or ticker (e.g. Relaxo, RELAXO, AAPL)","RELAXO")
+    query=st.text_input("Search company name or ticker (e.g. Relaxo Footwear, RELAXO.NS, AAPL)","Relaxo")
     if not directory.empty and query.strip() and len(query.strip())>=2:
         hits=directory[directory.Company.str.contains(query.strip(),case=False,regex=False)|directory.Symbol.str.contains(query.strip(),case=False,regex=False)].head(25)
         if len(hits):
@@ -289,12 +290,24 @@ elif page=="🏢 NSE Company Directory":
                 else:st.error("CSV must contain Symbol and Company or NAME OF COMPANY.")
             except Exception as e:st.error(str(e))
     if not directory.empty:
-        term=st.text_input("Company name, e.g. Relaxo Footwear", "")
-        matching=directory[directory.Company.str.contains(term,case=False,regex=False)|directory.Symbol.str.contains(term,case=False,regex=False)].copy() if term else directory
-        st.write(f"{len(matching):,} results")
-        st.dataframe(matching.head(1000),hide_index=True,use_container_width=True)
-        st.download_button("Export directory CSV",directory.to_csv(index=False),"nse_company_directory.csv",mime="text/csv")
-        st.info("For a chart, select the ticker (e.g. RELAXO.NS) in Chart & Trade Plan.")
+        term=st.text_input("Type any company name OR ticker — e.g. Relaxo, RELAXO, RELAXO.NS", "",key="directory_query")
+        normalized=term.strip().upper().removesuffix(".NS").removesuffix(".BO")
+        matching=directory[directory.Company.str.contains(normalized,case=False,regex=False)|directory.Symbol.str.contains(normalized,case=False,regex=False)].copy() if normalized else directory
+        st.write(f"**{len(matching):,} matching companies**")
+        if len(matching):
+            matching["Choose company"]=matching["Company"]+" ("+matching["Symbol"]+".NS)"
+            options=matching["Choose company"].head(100).tolist()
+            choice=st.selectbox("Suggestions — select the correct company",options,key="company_suggestion")
+            selected=choice.rsplit("(",1)[-1].rstrip(")")
+            st.success(f"Selected ticker: {selected}")
+            st.link_button("Search ticker on NSE",f"https://www.nseindia.com/get-quotes/equity?symbol={selected.removesuffix('.NS')}")
+            st.caption("To view a chart, open Chart & Trade Plan and paste the selected ticker.")
+        else:
+            st.warning("No matching company. Try a shorter name without .NS, or search using the official NSE link below.")
+            st.link_button("Open official NSE site","https://www.nseindia.com/market-data/securities-available-for-trading")
+        st.dataframe(matching[["Symbol","Company"]].head(1000),hide_index=True,use_container_width=True)
+        st.download_button("Export full NSE directory",directory.to_csv(index=False),"nse_company_directory.csv",mime="text/csv")
+        st.caption("Directory entries identify listed companies, not verified live trading prices. ")
 elif page=="📈 Broad Market Screener":
     st.header("Broad NSE universe — daily gain and liquidity research")
     directory,src=company_directory()
@@ -321,6 +334,64 @@ elif page=="📈 Broad Market Screener":
             st.write(f"**Price data available:** {len(df)}/{len(sample)} symbols. **Matches:** {len(out)}. Unavailable symbols are excluded, not assumed to have no gain.")
             st.dataframe(out,use_container_width=True,hide_index=True)
             st.download_button("Export matches",out.to_csv(index=False),"nse_daily_gainers.csv",mime="text/csv")
+
+@st.cache_data(ttl=900,show_spinner=False)
+def collect_market_headlines():
+    feeds={
+        "Economic Times Markets":"https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "Mint Markets":"https://www.livemint.com/rss/markets"
+    }
+    items=[]
+    for name,url in feeds.items():
+        try:
+            feed=feedparser.parse(url)
+            for e in feed.entries[:20]:
+                title=str(e.get("title","")).strip()
+                if title:
+                    items.append({"Headline":title,"Source":name,"Published":str(e.get("published","Unknown")),"Link":str(e.get("link",url))})
+        except Exception:
+            continue
+    return items
+
+def news_context(symbol,company,headlines):
+    parts=[v for v in [str(symbol).lower(),str(company).lower()] if v and v!="nan"]
+    words=[w for w in str(company).lower().replace(" ltd","").replace(" limited","").split() if len(w)>=5 and w not in ("industries","company","corporation","private")]
+    found=[]
+    for item in headlines:
+        h=item["Headline"].lower()
+        if any(p in h for p in parts) or any(w in h for w in words[:2]):
+            found.append(item)
+    return found[:3]
+
+@st.cache_data(ttl=3600,show_spinner=False)
+def daily_research_universe(symbols):
+    """Download a transparent sample of prices in smaller batches; failures omitted."""
+    rows=[]
+    for start in range(0,len(symbols),30):
+        batch=symbols[start:start+30]
+        tickers=[s+".NS" for s in batch]
+        try:
+            data=yf.download(tickers,period="1y",interval="1d",auto_adjust=True,progress=False,threads=True,group_by="ticker",timeout=25)
+            for symbol,ticker in zip(batch,tickers):
+                try:
+                    p=data[ticker].dropna(subset=["Close"]) if isinstance(data.columns,pd.MultiIndex) else data.dropna(subset=["Close"])
+                    if len(p)<210:continue
+                    if not all(k in p.columns for k in ("Open","High","Low","Close","Volume")):continue
+                    p=compute(p)
+                    q=p.iloc[-1];prior=p.iloc[-2]
+                    if any(not np.isfinite(float(q[k])) for k in ["Close","ATR","EMA20","EMA50","EMA200","RSI","MACD","MACDs"]):continue
+                    avg=float(p.Turnover.tail(20).mean())/1e7
+                    if not np.isfinite(avg):continue
+                    mom=sum([q.Close>q.EMA20,q.EMA20>q.EMA50,q.EMA50>q.EMA200,q.MACD>q.MACDs,q.RSI>52, q.Close>prior.High])
+                    rev=sum([q.RSI<42,q.Close<q.EMA20,q.MACD>q.MACDs,q.Close>q.EMA200])
+                    risk=float(q.ATR)*1.5
+                    if risk<=0:continue
+                    trigger=float(q.High)*1.002
+                    rows.append({"Symbol":symbol,"Close ₹":round(float(q.Close),2),"1D %":round((q.Close/prior.Close-1)*100,2),"20D %":round((q.Close/p.Close.iloc[-21]-1)*100,2),"Turnover ₹cr":round(avg,1),"RSI14":round(float(q.RSI),1),"RVOL":round(float(q.RVOL),2) if np.isfinite(q.RVOL) else None,"ATR14":round(float(q.ATR),2),"Trade score / 100":round(mom/6*100),"Investment trend / 100":round((int(q.Close>q.EMA200)+int(q.EMA50>q.EMA200)+int(q.Close>q.EMA50)+int(p.Close.iloc[-1]>p.Close.iloc[-63]))/4*100),"Mean reversion / 100":round(rev/4*100),"Entry trigger ₹":round(trigger,2),"Stop ₹":round(trigger-risk,2),"Take half ₹":round(trigger+1.5*risk,2),"Final target ₹":round(trigger+3*risk,2),"As of":str(p.index[-1])[:10]})
+                except Exception:continue
+        except Exception:continue
+    return pd.DataFrame(rows)
+
 elif page=="🆕 IPO GMP Watch":
     st.header("IPO Grey Market Premium (GMP) — separate watchlist")
     st.info("IPO GMP is an unofficial, unregulated prelisting premium, typically quoted in ₹ per share. It does **not** apply to 1,000 ordinary already-listed stocks. There is no reliable free official NSE GMP feed.")
@@ -339,6 +410,64 @@ elif page=="🆕 IPO GMP Watch":
                 st.dataframe(x,hide_index=True,use_container_width=True)
         except Exception as ex:st.error(str(ex))
     st.markdown("Official [NSE IPO information](https://www.nseindia.com/market-data/all-upcoming-issues-ipo) can be checked separately from unverified GMP reports.")
+
+
+elif page=="📋 Daily Trading & Investment Brief":
+    st.header("Daily Trading & Investment Research Brief")
+    st.caption("On-demand, cached one hour; research uses latest available *daily* candles, not guaranteed live prices. Refresh your browser or click Recalculate after cache expires.")
+    directory,source=company_directory()
+    st.write(f"NSE company directory: **{len(directory):,} listings** • Source: {source}")
+    st.markdown("**Official verification:** [NSE listed securities](https://www.nseindia.com/static/market-data/securities-available-for-trading) · [NSE historical reports](https://www.nseindia.com/static/resources/historical-reports-capital-market-daily-monthly-archives) · [NSE corporate announcements](https://www.nseindia.com/companies-listing/corporate-filings-announcements)")
+    size=st.select_slider("Number of stocks to analyze (data providers may limit large batches)",options=[30,60,100,150,200,300,500],value=100)
+    turn=st.number_input("Minimum average daily turnover (₹ crore)",min_value=0.0,max_value=10000.0,value=20.0,step=10.0,key="daily_turnover")
+    budget=st.number_input("Paper trading capital (₹)",1000,100000000,100000,key="daily_capital")
+    st.info("Investment trend score is **price trend only**, NOT fundamental quality. Use the Fundamentals page for P/E, profitability, valuation and debt. News headline relevance is keyword matching, NOT a predictive AI model.")
+    if st.button("Generate today's latest available brief",type="primary",disabled=directory.empty):
+        with st.spinner("Retrieving historical daily candles. Broad free scans can be rate-limited..."):
+            base=directory.Symbol.tolist()
+            df=daily_research_universe(base[:size])
+        st.session_state["daily_df"]=df
+        st.session_state["daily_requested"]=size
+        st.session_state["daily_source"]=source
+    if "daily_df" in st.session_state:
+        df=st.session_state["daily_df"]
+        if df.empty:
+            st.error("No qualifying price histories were returned. Yahoo may be blocking large requests. Try 30 symbols or use official NSE data exports.")
+        else:
+            n=st.session_state.get("daily_requested",len(df))
+            st.caption(f"Coverage: {len(df)}/{n} attempted symbols produced usable price histories. Missing stocks do not mean negative results. Last bars are shown in the table.")
+            clean=df[df["Turnover ₹cr"]>=turn].copy()
+            if clean.empty:st.warning("No stocks satisfy your minimum turnover filter.")
+            else:
+                st.subheader("A. Trading candidates — rules-based momentum")
+                ranked=clean.sort_values(["Trade score / 100","Turnover ₹cr"],ascending=False).head(25)
+                st.dataframe(ranked[["Symbol","Trade score / 100","Close ₹","1D %","RSI14","RVOL","Turnover ₹cr","Entry trigger ₹","Stop ₹","Take half ₹","Final target ₹","As of"]],use_container_width=True,hide_index=True)
+                st.download_button("Download trading shortlist",ranked.to_csv(index=False),"trading_shortlist.csv",key="trading_dl")
+                st.caption("For these hypothetical long setups, stop distance is 1.5× ATR. Maximum shares based on 1% capital risk = floor(min(capital/entry, 0.01×capital/(entry−stop))). Reject gaps, illiquidity and stale data. No automatic trades.")
+                st.subheader("B. Longer-term observation — trend shortlist")
+                invests=clean.sort_values(["Investment trend / 100","20D %","Turnover ₹cr"],ascending=False).head(25)
+                st.dataframe(invests[["Symbol","Investment trend / 100","Close ₹","20D %","RSI14","Turnover ₹cr","As of"]],use_container_width=True,hide_index=True)
+                st.caption("Price trend is NOT proof of good valuation or future returns. Analyze business quality, debt, cash flow and earnings, then review quarterly across 6–24 months.")
+                st.download_button("Download investment observation list",invests.to_csv(index=False),"investment_watchlist.csv",key="invest_dl")
+                st.subheader("C. What the latest news says about these symbols")
+                headlines=collect_market_headlines()
+                if not headlines:st.warning("No current headlines could be retrieved from free RSS feeds. Verify directly with RBI, NSE filings, ET and Mint.")
+                else:
+                    universe=directory.set_index("Symbol")["Company"].to_dict()
+                    found=[]
+                    for sym in ranked.Symbol.head(12).tolist():
+                        for h in news_context(sym,universe.get(sym,""),headlines):
+                            found.append({"Symbol":sym,"Headline":h["Headline"],"Published":h["Published"],"Source":h["Source"],"URL":h["Link"]})
+                    if found:st.dataframe(pd.DataFrame(found),hide_index=True,use_container_width=True,column_config={"URL":st.column_config.LinkColumn("Source link")})
+                    else:st.info("No clearly matching headlines in the retrieved RSS batch. This does not mean that no material company news exists.")
+                st.subheader("D. Explain an individual setup")
+                sym=st.selectbox("Choose ticker to understand its score and risk",ranked.Symbol.tolist())
+                row=clean[clean.Symbol==sym].iloc[0]
+                stopdist=row["Entry trigger ₹"]-row["Stop ₹"]
+                qty=max(0,int(min(budget//row["Entry trigger ₹"],budget*.01//stopdist))) if stopdist>0 else 0
+                st.write(f"**{sym}** • Trend {row['Trade score / 100']}/100 • RSI {row['RSI14']} • Relative volume {row['RVOL']} • Daily turnover ₹{row['Turnover ₹cr']} crore")
+                st.write(f"**Conditional entry:** ₹{row['Entry trigger ₹']:,} only if the price triggers and conditions remain valid. **Stop:** ₹{row['Stop ₹']:,}. **Sell half:** ₹{row['Take half ₹']:,}. **Second target:** ₹{row['Final target ₹']:,}. **Maximum paper shares:** {qty} (1% planned account risk).")
+                st.caption("Review the technical setup within 5–15 trading sessions; long-term investments require a separate fundamental thesis and quarterly review. Price gaps/slippage can exceed the planned stop.")
 
 st.divider()
 st.caption("MarketPilot Ultra Free • Research only; no investment advice, no assured predictions, no paid APIs, no broker-connected trade execution.")
