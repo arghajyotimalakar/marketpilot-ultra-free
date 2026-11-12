@@ -112,6 +112,64 @@ def batch_daily_changes(symbols):
         except Exception:continue
     return pd.DataFrame(results)
 
+@st.cache_data(ttl=900,show_spinner=False)
+def collect_market_headlines():
+    feeds={
+        "Economic Times Markets":"https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "Mint Markets":"https://www.livemint.com/rss/markets"
+    }
+    items=[]
+    for name,url in feeds.items():
+        try:
+            feed=feedparser.parse(url)
+            for e in feed.entries[:20]:
+                title=str(e.get("title","")).strip()
+                if title:
+                    items.append({"Headline":title,"Source":name,"Published":str(e.get("published","Unknown")),"Link":str(e.get("link",url))})
+        except Exception:
+            continue
+    return items
+
+def news_context(symbol,company,headlines):
+    parts=[v for v in [str(symbol).lower(),str(company).lower()] if v and v!="nan"]
+    words=[w for w in str(company).lower().replace(" ltd","").replace(" limited","").split() if len(w)>=5 and w not in ("industries","company","corporation","private")]
+    found=[]
+    for item in headlines:
+        h=item["Headline"].lower()
+        if any(p in h for p in parts) or any(w in h for w in words[:2]):
+            found.append(item)
+    return found[:3]
+
+@st.cache_data(ttl=3600,show_spinner=False)
+def daily_research_universe(symbols):
+    """Download a transparent sample of prices in smaller batches; failures omitted."""
+    rows=[]
+    for start in range(0,len(symbols),30):
+        batch=symbols[start:start+30]
+        tickers=[s+".NS" for s in batch]
+        try:
+            data=yf.download(tickers,period="1y",interval="1d",auto_adjust=True,progress=False,threads=True,group_by="ticker",timeout=25)
+            for symbol,ticker in zip(batch,tickers):
+                try:
+                    p=data[ticker].dropna(subset=["Close"]) if isinstance(data.columns,pd.MultiIndex) else data.dropna(subset=["Close"])
+                    if len(p)<210:continue
+                    if not all(k in p.columns for k in ("Open","High","Low","Close","Volume")):continue
+                    p=compute(p)
+                    q=p.iloc[-1];prior=p.iloc[-2]
+                    if any(not np.isfinite(float(q[k])) for k in ["Close","ATR","EMA20","EMA50","EMA200","RSI","MACD","MACDs"]):continue
+                    avg=float(p.Turnover.tail(20).mean())/1e7
+                    if not np.isfinite(avg):continue
+                    mom=sum([q.Close>q.EMA20,q.EMA20>q.EMA50,q.EMA50>q.EMA200,q.MACD>q.MACDs,q.RSI>52, q.Close>prior.High])
+                    rev=sum([q.RSI<42,q.Close<q.EMA20,q.MACD>q.MACDs,q.Close>q.EMA200])
+                    risk=float(q.ATR)*1.5
+                    if risk<=0:continue
+                    trigger=float(q.High)*1.002
+                    rows.append({"Symbol":symbol,"Close ₹":round(float(q.Close),2),"1D %":round((q.Close/prior.Close-1)*100,2),"20D %":round((q.Close/p.Close.iloc[-21]-1)*100,2),"Turnover ₹cr":round(avg,1),"RSI14":round(float(q.RSI),1),"RVOL":round(float(q.RVOL),2) if np.isfinite(q.RVOL) else None,"ATR14":round(float(q.ATR),2),"Trade score / 100":round(mom/6*100),"Investment trend / 100":round((int(q.Close>q.EMA200)+int(q.EMA50>q.EMA200)+int(q.Close>q.EMA50)+int(p.Close.iloc[-1]>p.Close.iloc[-63]))/4*100),"Mean reversion / 100":round(rev/4*100),"Entry trigger ₹":round(trigger,2),"Stop ₹":round(trigger-risk,2),"Take half ₹":round(trigger+1.5*risk,2),"Final target ₹":round(trigger+3*risk,2),"As of":str(p.index[-1])[:10]})
+                except Exception:continue
+        except Exception:continue
+    return pd.DataFrame(rows)
+
+
 if page=="🌐 Market Pulse":
     st.header("Overnight and India market pulse")
     symbols={"Nifty 50":"^NSEI","Sensex":"^BSESN","Bank Nifty":"^NSEBANK","India VIX":"^INDIAVIX","S&P 500":"^GSPC","Nasdaq":"^IXIC","Nikkei 225":"^N225","US 10-year yield":"^TNX","USD/INR":"INR=X","Brent crude":"BZ=F","WTI crude":"CL=F","Gold":"GC=F"}
@@ -334,63 +392,6 @@ elif page=="📈 Broad Market Screener":
             st.write(f"**Price data available:** {len(df)}/{len(sample)} symbols. **Matches:** {len(out)}. Unavailable symbols are excluded, not assumed to have no gain.")
             st.dataframe(out,use_container_width=True,hide_index=True)
             st.download_button("Export matches",out.to_csv(index=False),"nse_daily_gainers.csv",mime="text/csv")
-
-@st.cache_data(ttl=900,show_spinner=False)
-def collect_market_headlines():
-    feeds={
-        "Economic Times Markets":"https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
-        "Mint Markets":"https://www.livemint.com/rss/markets"
-    }
-    items=[]
-    for name,url in feeds.items():
-        try:
-            feed=feedparser.parse(url)
-            for e in feed.entries[:20]:
-                title=str(e.get("title","")).strip()
-                if title:
-                    items.append({"Headline":title,"Source":name,"Published":str(e.get("published","Unknown")),"Link":str(e.get("link",url))})
-        except Exception:
-            continue
-    return items
-
-def news_context(symbol,company,headlines):
-    parts=[v for v in [str(symbol).lower(),str(company).lower()] if v and v!="nan"]
-    words=[w for w in str(company).lower().replace(" ltd","").replace(" limited","").split() if len(w)>=5 and w not in ("industries","company","corporation","private")]
-    found=[]
-    for item in headlines:
-        h=item["Headline"].lower()
-        if any(p in h for p in parts) or any(w in h for w in words[:2]):
-            found.append(item)
-    return found[:3]
-
-@st.cache_data(ttl=3600,show_spinner=False)
-def daily_research_universe(symbols):
-    """Download a transparent sample of prices in smaller batches; failures omitted."""
-    rows=[]
-    for start in range(0,len(symbols),30):
-        batch=symbols[start:start+30]
-        tickers=[s+".NS" for s in batch]
-        try:
-            data=yf.download(tickers,period="1y",interval="1d",auto_adjust=True,progress=False,threads=True,group_by="ticker",timeout=25)
-            for symbol,ticker in zip(batch,tickers):
-                try:
-                    p=data[ticker].dropna(subset=["Close"]) if isinstance(data.columns,pd.MultiIndex) else data.dropna(subset=["Close"])
-                    if len(p)<210:continue
-                    if not all(k in p.columns for k in ("Open","High","Low","Close","Volume")):continue
-                    p=compute(p)
-                    q=p.iloc[-1];prior=p.iloc[-2]
-                    if any(not np.isfinite(float(q[k])) for k in ["Close","ATR","EMA20","EMA50","EMA200","RSI","MACD","MACDs"]):continue
-                    avg=float(p.Turnover.tail(20).mean())/1e7
-                    if not np.isfinite(avg):continue
-                    mom=sum([q.Close>q.EMA20,q.EMA20>q.EMA50,q.EMA50>q.EMA200,q.MACD>q.MACDs,q.RSI>52, q.Close>prior.High])
-                    rev=sum([q.RSI<42,q.Close<q.EMA20,q.MACD>q.MACDs,q.Close>q.EMA200])
-                    risk=float(q.ATR)*1.5
-                    if risk<=0:continue
-                    trigger=float(q.High)*1.002
-                    rows.append({"Symbol":symbol,"Close ₹":round(float(q.Close),2),"1D %":round((q.Close/prior.Close-1)*100,2),"20D %":round((q.Close/p.Close.iloc[-21]-1)*100,2),"Turnover ₹cr":round(avg,1),"RSI14":round(float(q.RSI),1),"RVOL":round(float(q.RVOL),2) if np.isfinite(q.RVOL) else None,"ATR14":round(float(q.ATR),2),"Trade score / 100":round(mom/6*100),"Investment trend / 100":round((int(q.Close>q.EMA200)+int(q.EMA50>q.EMA200)+int(q.Close>q.EMA50)+int(p.Close.iloc[-1]>p.Close.iloc[-63]))/4*100),"Mean reversion / 100":round(rev/4*100),"Entry trigger ₹":round(trigger,2),"Stop ₹":round(trigger-risk,2),"Take half ₹":round(trigger+1.5*risk,2),"Final target ₹":round(trigger+3*risk,2),"As of":str(p.index[-1])[:10]})
-                except Exception:continue
-        except Exception:continue
-    return pd.DataFrame(rows)
 
 elif page=="🆕 IPO GMP Watch":
     st.header("IPO Grey Market Premium (GMP) — separate watchlist")
