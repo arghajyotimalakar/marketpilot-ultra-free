@@ -81,6 +81,8 @@ def company_directory():
 def resolve_ticker(term, directory):
     value=term.strip()
     if not value:return ""
+    aliases={"relaxo footwear":"RELAXO.NS","relaxo footware":"RELAXO.NS","relaxo foot wears":"RELAXO.NS","relaxo":"RELAXO.NS","tata motors":"TATAMOTORS.NS","reliance industries":"RELIANCE.NS","hdfc bank":"HDFCBANK.NS","infosys":"INFY.NS"}
+    if value.casefold() in aliases:return aliases[value.casefold()]
     if value.startswith("^") or value.upper().endswith((".NS",".BO")) or value.upper() in ("AAPL","MSFT","GOOGL","TSLA","AMZN","NVDA","SPY"):return value.upper()
     if not directory.empty:
         exact=directory[(directory.Symbol.str.casefold()==value.casefold())|(directory.Company.str.casefold()==value.casefold())]
