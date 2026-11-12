@@ -645,6 +645,23 @@ elif page=="⏰ Scheduled Market Reports":
                     st.markdown(f"- [{h.get('title','Headline')}]({h.get('url','#')}) · {h.get('source','')} · {h.get('published','unknown time')}")
                 st.caption("Headlines are keyword-matched; a headline does not by itself prove any stock's future reaction.")
             else:st.info("No clearly matched company headlines in the retrieved RSS batch.")
+        timeline=report.get("intraday_timeline",[])
+        if timeline:
+            st.subheader("Today's scheduled update timeline")
+            compact=[{"Time IST":x.get("snapshot_at_ist",""),"Green (batch)":x.get("fresh_green"),
+                      "Red (batch)":x.get("fresh_red"),"Uptrend (batch)":x.get("uptrend_count"),
+                      "Nifty reference":(x.get("indices") or {}).get("^NSEI")} for x in timeline]
+            st.dataframe(pd.DataFrame(compact),hide_index=True,use_container_width=True)
+            st.caption("Each scheduled batch rotates across different stocks, so green/red totals are NOT directly comparable across time slots.")
+        review=report.get("day_review",{})
+        if review:
+            st.subheader("Combined day review")
+            st.write("**First snapshot:** "+str(review.get("first_observation_ist","Unknown")))
+            st.write("**Most recent snapshot:** "+str(review.get("last_observation_ist","Unknown")))
+            move=review.get("nifty_change_since_first_snapshot_pct")
+            if move is not None:st.metric("Nifty change since first available snapshot",f"{move:+.2f}%")
+            st.write(review.get("interpretation","No scenario available."))
+            st.caption(review.get("warning","Daily scenario is not a forecast."))
         st.subheader("End-of-day consolidated reports")
         today=report.get("market_date_ist","")
         if today:
