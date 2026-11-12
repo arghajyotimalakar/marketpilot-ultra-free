@@ -33,7 +33,7 @@ The GitHub version is designed as a lightweight free deployment. News-prediction
 
 Workflow: [.github/workflows/scheduled-market.yml](.github/workflows/scheduled-market.yml)
 
-Requested weekdays in India Standard Time (Asia/Kolkata): **07:00**, **09:30**, **10:00**, **13:00**, **14:00**, **15:30** (market close) and **16:30** (end-of-day consolidation).
+Requested in India Standard Time (Asia/Kolkata): **07:00 daily** (including weekend news); **09:30**, **10:00**, **13:00**, **14:00**, **15:30** (market close), and **16:30** (end-of-day consolidation) on weekdays.
 
 GitHub scheduled workflows can run late, occasionally be skipped, or be disabled after extended repository inactivity. A scheduled run does not deliver exchange-grade live market data and does not adjust for special market holidays. Data is saved to data/latest.json and data/reports/YYYY-MM-DD/HHMM.json after a successful workflow.
 
