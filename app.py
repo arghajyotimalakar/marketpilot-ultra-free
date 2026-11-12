@@ -289,20 +289,130 @@ elif page=="🧪 Backtest Lab":
     else:st.warning("Need about 220+ historical daily bars; source may be unavailable.")
     st.caption("Signals calculated from yesterday close; filled at today's open. Includes cost, but no survivorship correction, tax, impact cost or overnight gap control. Backtest is not a prediction.")
 elif page=="📰 Market News":
-    st.header("Indian financial news")
-    feeds={"Economic Times markets":"https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms","Mint markets":"https://www.livemint.com/rss/markets"}
-    pos=["growth","beat","rally","profit","gain","upgrade"];neg=["fall","loss","cuts","crash","downgrade"]
-    for name,url in feeds.items():
-        st.subheader(name)
-        try:
-            f=feedparser.parse(url)
-            if not f.entries:st.warning("RSS feed currently unavailable or restricted.")
-            for item in f.entries[:8]:
-                h=item.get("title","Untitled");v=sum(w in h.lower() for w in pos)-sum(w in h.lower() for w in neg)
-                st.markdown(f"- [{h}]({item.get('link',url)}) · {'positive wording' if v>0 else 'negative wording' if v<0 else 'neutral wording'}")
-        except Exception:st.warning("Cannot retrieve feed.")
-    st.markdown("[RBI official announcements](https://www.rbi.org.in/)")
-    st.info("News labels are simple word-count sentiment. A predictive historical news-impact model requires a genuine dated news archive and aligned price data. It has NOT been trained by this page.")
+    st.header("📰 News → Commodities → Indian market impact")
+    st.caption("Today's headlines and historical asset-price moves, with transparent economic explanations. Impact directions are HYPOTHESES, not forecast probabilities or trade signals.")
+    asset_map={
+        "Brent crude (USD/bbl)":"BZ=F",
+        "WTI crude (USD/bbl)":"CL=F",
+        "Gold futures (USD/oz)":"GC=F",
+        "Silver futures (USD/oz)":"SI=F",
+        "Copper futures (USD/lb)":"HG=F",
+        "USD/INR":"INR=X",
+        "India VIX":"^INDIAVIX",
+        "Nifty 50":"^NSEI",
+        "Bank Nifty":"^NSEBANK",
+        "S&P 500":"^GSPC",
+        "US 10Y yield":"^TNX"
+    }
+    tab_quotes,tab_news,tab_guide=st.tabs(["Commodity & market moves","News impact explorer","Understand sector sensitivity"])
+    with tab_quotes:
+        st.subheader("Latest available commodity and market reference prices")
+        st.caption("Source: Yahoo Finance daily candles via yfinance. Values are not official MCX spot prices or licensed live NSE quotes. Market holidays and provider delays apply.")
+        quote_rows=[]
+        for asset,ticker in asset_map.items():
+            bars=history(ticker,"3mo")
+            if len(bars)>=22:
+                c=bars["Close"]
+                quote_rows.append({
+                    "Asset / market":asset,"Source symbol":ticker,
+                    "Last reference":round(float(c.iloc[-1]),3),
+                    "1D %":round(float((c.iloc[-1]/c.iloc[-2]-1)*100),2),
+                    "5D %":round(float((c.iloc[-1]/c.iloc[-6]-1)*100),2),
+                    "20D %":round(float((c.iloc[-1]/c.iloc[-21]-1)*100),2),
+                    "Last bar":str(bars.index[-1])[:16],"Source":"Yahoo Finance (possibly delayed)"
+                })
+            else:
+                quote_rows.append({"Asset / market":asset,"Source symbol":ticker,"Last reference":None,"1D %":None,"5D %":None,"20D %":None,"Last bar":"Unavailable","Source":"Yahoo Finance (no data)"})
+        st.dataframe(pd.DataFrame(quote_rows),hide_index=True,use_container_width=True)
+        st.caption("To study a commodity in Chart & Trade Plan, use BZ=F (Brent), GC=F (gold), SI=F (silver), or CL=F (WTI). Futures prices and percentage changes do not establish that today's headlines caused the move.")
+    impact_categories={
+        "Crude oil / energy": {
+            "terms":["crude","brent","wti","opec","oil price","oil output","oil supply","petroleum","refinery","refining","fuel price","iran oil","russian oil"],
+            "drivers":"Supply cuts or geopolitical disruptions may raise crude prices; weak demand or extra production may lower them.",
+            "beneficiaries":"Upstream producers may benefit when realized crude prices rise (e.g. ONGC, Oil India), subject to taxes and company specifics.",
+            "pressured":"Oil marketing, aviation, paints, chemicals, tyres and logistics can face higher input costs if crude prices rise; pass-through matters.",
+            "watch":"Brent BZ=F, WTI CL=F, USD/INR, ONGC, OIL, IOC, BPCL, HPCL, INDIGO, ASIANPAINT",
+            "markets":"Indian energy, aviation, paints, chemicals, transport; inflation, INR and bond yields"
+        },
+        "Gold / safe-haven": {
+            "terms":["gold","bullion","central bank buying","safe haven","safe-haven","gold reserves","gold import"],
+            "drivers":"Falling real yields, weaker USD, central-bank buying and uncertainty may support gold; rising real yields can pressure it.",
+            "beneficiaries":"Gold-linked investors may benefit from rising prices, but jewellery company profit depends on demand, volumes and margins.",
+            "pressured":"Higher gold prices can reduce discretionary jewellery volumes and increase working-capital needs.",
+            "watch":"Gold GC=F, USD/INR, US 10Y ^TNX, TITAN, KALYANKJIL",
+            "markets":"Precious metals, jewellery, gold imports, INR, inflation and gold-linked savings"
+        },
+        "Silver / industrial metals": {
+            "terms":["silver","photovoltaic","solar panel","industrial metal","silver demand","silver supply"],
+            "drivers":"Silver combines precious-metal sensitivity with industrial demand from solar, electronics and manufacturing; volatility can exceed gold.",
+            "beneficiaries":"Silver-linked holdings may gain when price rises; mining and downstream manufacturing effects depend on exposures.",
+            "pressured":"Solar and electronics inputs may become more expensive if silver rises sharply; hedging and pass-through matter.",
+            "watch":"Silver SI=F, Copper HG=F, Gold GC=F",
+            "markets":"Silver, solar, electronics, electrical equipment, industrial metals"
+        },
+        "Interest rates / currency": {
+            "terms":["rbi","repo rate","fed","federal reserve","interest rate","rate cut","rate hike","inflation","cpi","bond yield","rupee","dollar"],
+            "drivers":"Rate decisions change bond yields and discount rates; currency moves affect imports, exporters and global commodity prices in rupees.",
+            "beneficiaries":"Lower funding costs may help rate-sensitive sectors; a weaker INR can help some exporters, depending on hedges and imports.",
+            "pressured":"A weaker INR raises imported energy and commodity costs; rising yields can pressure long-duration equities and borrowers.",
+            "watch":"USD/INR, US 10Y ^TNX, Gold GC=F, Bank Nifty ^NSEBANK, Brent BZ=F",
+            "markets":"Banks, NBFCs, real estate, IT exporters, imported energy, metals, bonds and INR"
+        },
+        "Geopolitics / shipping": {
+            "terms":["war","missile","sanction","tariff","red sea","shipping","strait of hormuz","geopolitical","trade war","supply chain"],
+            "drivers":"Shipping disruptions and sanctions can increase freight costs and risk premia in energy and metals; equity impact is scenario-dependent.",
+            "beneficiaries":"Shipping/freight firms may benefit from higher rates in some situations, but their costs and routes can worsen.",
+            "pressured":"Import-dependent sectors, aviation and logistics can be negatively affected by higher freight or fuel costs.",
+            "watch":"Brent BZ=F, Gold GC=F, USD/INR, Nifty 50 ^NSEI",
+            "markets":"Crude, safe-haven assets, transport, shipping, aviation, importers and broad equity risk sentiment"
+        }
+    }
+    with tab_news:
+        st.subheader("Current accessible financial headlines")
+        headlines=collect_market_headlines()
+        if not headlines:
+            st.warning("Free RSS feeds did not return headlines. No news inference is possible until a source responds.")
+        else:
+            category_filter=st.selectbox("Focus on impact",["All"]+list(impact_categories),key="news_impact_filter")
+            enriched=[]
+            for item in headlines:
+                title=item["Headline"].lower()
+                matches=[name for name,cfg in impact_categories.items() if any(term in title for term in cfg["terms"])]
+                if category_filter!="All" and category_filter not in matches:continue
+                enriched.append({**item,"Impact topics":", ".join(matches) if matches else "Unclassified"})
+            st.caption(f"Showing {len(enriched)} accessible headlines. Categories are keyword matching, not trained AI sentiment.")
+            if enriched:
+                labels=[f"{i+1}. {x['Headline'][:100]}" for i,x in enumerate(enriched)]
+                idx=st.selectbox("Select a headline for impact analysis",range(len(labels)),format_func=lambda i:labels[i],key="impact_news_index")
+                chosen=enriched[idx]
+                st.markdown(f"**[{chosen['Headline']}]({chosen['Link']})**")
+                st.caption(f"{chosen['Source']} • Published: {chosen['Published']} • Tagged: {chosen['Impact topics']}")
+                matches=[name for name,cfg in impact_categories.items() if name in chosen["Impact topics"]]
+                if matches:
+                    for name in matches:
+                        cfg=impact_categories[name]
+                        with st.expander(f"Potential impact: {name}",expanded=True):
+                            st.write("**Possible price mechanism:** "+cfg["drivers"])
+                            st.write("**Potential beneficiaries:** "+cfg["beneficiaries"])
+                            st.write("**Potential risks:** "+cfg["pressured"])
+                            st.write("**Which markets/sectors:** "+cfg["markets"])
+                            st.write("**Tickers to verify:** "+cfg["watch"])
+                else:
+                    st.info("No reliable commodity-specific keyword match. A generic headline alone is not enough to assign a positive or negative market impact.")
+                st.warning("The selected news item has NOT been causally linked to the price moves above. Confirm its original timestamp, whether markets already priced it in, and relevant company filings.")
+            else:st.info("No current accessible headlines matched the chosen impact topic.")
+        st.markdown("**Primary-source verification:** [RBI announcements](https://www.rbi.org.in/) · [NSE corporate announcements](https://www.nseindia.com/companies-listing/corporate-filings-announcements) · [EIA oil market data](https://www.eia.gov/petroleum/) · [IEA](https://www.iea.org/)")
+    with tab_guide:
+        st.subheader("How commodities affect Indian stocks and sectors")
+        for name,cfg in impact_categories.items():
+            with st.expander(name):
+                st.write("**Economic link:** "+cfg["drivers"])
+                st.write("**Potentially helped:** "+cfg["beneficiaries"])
+                st.write("**Potentially hurt:** "+cfg["pressured"])
+                st.write("**Market exposures:** "+cfg["markets"])
+                st.write("**Track:** "+cfg["watch"])
+        st.markdown("**Example:** A surprise OPEC supply cut can increase Brent prices. This may support upstream oil producers but create cost pressure for airlines and paint makers. The actual stock reaction depends on expectations, hedging, currency, valuations and company-specific news.")
+        st.info("A genuine historical news-impact model would need timestamped event archives, careful event classification, price benchmarks, and out-of-sample testing. This version provides transparent scenario mapping and observed price returns, not a trained predictive model.")
 elif page=="💰 Risk Calculator":
     st.header("1% position sizing")
     cap=st.number_input("Capital ₹",1000.,1000000000.,100000.,1000.)
