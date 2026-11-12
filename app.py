@@ -12,7 +12,7 @@ import difflib
 st.set_page_config(page_title="MarketPilot Ultra Free",page_icon="📈",layout="wide")
 st.title("📈 MarketPilot Ultra • Free")
 st.caption("Indian & global markets | Educational research | Data may be delayed or unavailable | No automatic trading")
-page=st.sidebar.radio("Tools",["🌐 Market Pulse","🔎 Trade Scanner","📉 Chart & Trade Plan","🏦 Fundamentals","🧪 Backtest Lab","📰 Market News","💰 Risk Calculator","📁 CSV Data Lab","🏢 NSE Company Directory","📈 Broad Market Screener","🆕 IPO GMP Watch","📋 Daily Trading & Investment Brief"])
+page=st.sidebar.radio("Tools",["🌐 Market Pulse","🔎 Trade Scanner","📉 Chart & Trade Plan","🏦 Fundamentals","🧪 Backtest Lab","📰 Market News","💰 Risk Calculator","📁 CSV Data Lab","🏢 NSE Company Directory","📈 Broad Market Screener","🆕 IPO GMP Watch","📋 Daily Trading & Investment Brief","⏰ Scheduled Market Reports"])
 st.sidebar.warning("Not exchange-grade live quotes. Check timestamps. No signal guarantees profit.")
 @st.cache_data(ttl=300,show_spinner=False)
 def history(sym,period="1y"):
@@ -579,6 +579,87 @@ elif page=="📋 Daily Trading & Investment Brief":
                 st.write(f"**{sym}** • Trend {row['Trade score / 100']}/100 • RSI {row['RSI14']} • Relative volume {row['RVOL']} • Daily turnover ₹{row['Turnover ₹cr']} crore")
                 st.write(f"**Conditional entry:** ₹{row['Entry trigger ₹']:,} only if the price triggers and conditions remain valid. **Stop:** ₹{row['Stop ₹']:,}. **Sell half:** ₹{row['Take half ₹']:,}. **Second target:** ₹{row['Final target ₹']:,}. **Maximum paper shares:** {qty} (1% planned account risk).")
                 st.caption("Review the technical setup within 5–15 trading sessions; long-term investments require a separate fundamental thesis and quarterly review. Price gaps/slippage can exceed the planned stop.")
+
+
+elif page=="⏰ Scheduled Market Reports":
+    st.header("⏰ Scheduled Indian Market Intelligence — IST")
+    st.caption("Automatic research snapshot slots: 07:00, 09:30, 10:00, 13:00, 14:00, 15:30 and 16:30 (market-close synthesis) on weekdays. GitHub Actions timing may be delayed or skipped. Market holidays are not excluded.")
+    repo_data="https://raw.githubusercontent.com/arghajyotimalakar/marketpilot-ultra-free/main/data"
+    @st.cache_data(ttl=120,show_spinner=False)
+    def get_scheduled_report(url):
+        try:
+            response=requests.get(url,timeout=15)
+            response.raise_for_status()
+            return response.json()
+        except Exception:return None
+    report=get_scheduled_report(repo_data+"/latest.json")
+    if not report:
+        st.warning("No scheduled report has been published yet. Scheduled jobs start after GitHub Actions is enabled and the first job completes.")
+        st.markdown("[Open the scheduled workflow](https://github.com/arghajyotimalakar/marketpilot-ultra-free/actions/workflows/scheduled-market.yml) — select **Run workflow** if you want to test it manually.")
+    else:
+        st.success(f"Latest completed snapshot: **{report.get('generated_at_ist','unknown')}**")
+        st.info(report.get("quote_freshness_note","Public prices may be delayed."))
+        st.markdown(f"**Universe source:** {report.get('universe_source','unknown')}  |  **Listed symbols available:** {report.get('directory_count',0):,}  |  **Records accumulated:** {report.get('symbols_with_record',0):,}  |  **Attempted this run:** {report.get('run_symbol_count',0)}")
+        summary=report.get("summary",{})
+        k1,k2,k3=st.columns(3)
+        k1.metric("Green in latest completed batch",summary.get("fresh_green","n/a"))
+        k2.metric("Red in latest completed batch",summary.get("fresh_red","n/a"))
+        k3.metric("Uptrend in latest batch",summary.get("uptrend_count","n/a"))
+        st.subheader("Next-session outlook (conditional)")
+        st.info(summary.get("next_session_scenario","Not enough data to establish a scenario."))
+        st.caption(summary.get("warning","This is not a forecast probability."))
+        indices=report.get("indices",{})
+        if indices:
+            st.subheader("Indices & commodity reference moves")
+            idx_rows=[{"Asset":symbol,**r} for symbol,r in indices.items()]
+            st.dataframe(pd.DataFrame(idx_rows),hide_index=True,use_container_width=True)
+        stocks=report.get("stocks",[])
+        if stocks:
+            st.subheader("Green and red NSE stocks")
+            df=pd.DataFrame(stocks)
+            select=st.radio("Price direction",["All","Green","Red"],horizontal=True)
+            if select!="All":df=df[df.get("direction","").str.lower()==select.lower()]
+            minturn=st.number_input("Minimum traded value (₹ crore)",0.0,100000.0,20.0,10.0,key="scheduled_turnover")
+            if "turnover_crore" in df:df=df[pd.to_numeric(df.turnover_crore,errors="coerce").fillna(-1)>=minturn]
+            if len(df):
+                cols=[x for x in ["symbol","company","direction","close","daily_change_pct","alpha_20d_pct","rsi14","relative_volume","turnover_crore","trend_score","last_price_bar","last_checked_at_ist"] if x in df]
+                st.dataframe(df[cols].head(500),hide_index=True,use_container_width=True)
+                st.download_button("Export this stock screen",df.to_csv(index=False),"scheduled_stock_screen.csv",key="scheduled_export")
+            st.caption("Green/red is daily price change only. 'Alpha 20D' here means a simple 20-session return minus the Nifty 50's 20-session return, NOT regression alpha. All stocks can have different last-updated times.")
+            st.subheader("Fundamentals — real values only where source available")
+            available=[]
+            for x in stocks:
+                fundamentals=x.get("fundamentals") or {}
+                if any(v is not None for v in fundamentals.values()):
+                    available.append({"symbol":x.get("symbol"),"company":x.get("company"),**fundamentals,"financials_asof":x.get("fundamentals_asof")})
+            if available:
+                st.dataframe(pd.DataFrame(available).head(250),hide_index=True,use_container_width=True)
+                st.caption("P/E, forward P/E, P/B, ROE, debt/equity, growth, free cash flow and vendor beta are sampled slowly from Yahoo. Data can be missing or stale; company valuation measures are not synchronized to the last candle.")
+            else:st.info("No company fundamental ratios available yet. These are collected slowly due to free-provider limits.")
+            st.subheader("Company-related financial headlines")
+            related=report.get("matched_news",{})
+            if related:
+                tickers=sorted(related)
+                sym=st.selectbox("Company news search",tickers,key="scheduled_news")
+                for h in related.get(sym,[]):
+                    st.markdown(f"- [{h.get('title','Headline')}]({h.get('url','#')}) · {h.get('source','')} · {h.get('published','unknown time')}")
+                st.caption("Headlines are keyword-matched; a headline does not by itself prove any stock's future reaction.")
+            else:st.info("No clearly matched company headlines in the retrieved RSS batch.")
+        st.subheader("End-of-day consolidated reports")
+        today=report.get("market_date_ist","")
+        if today:
+            close_url=repo_data+"/reports/"+today+"/1630.json"
+            close=get_scheduled_report(close_url)
+            if close:
+                st.success("16:30 IST end-of-day snapshot is available")
+                st.write(close.get("summary",{}).get("next_session_scenario","Outlook unavailable"))
+                st.caption("This is an end-of-day synthesis of observed price breadth; it is NOT a trained future-market prediction.")
+            else:
+                st.caption("No 16:30 IST close snapshot is available for the recorded date (yet).")
+        st.subheader("Unclassified broader headlines")
+        for n in report.get("news",[])[:12]:
+            st.markdown(f"- [{n.get('title','Headline')}]({n.get('url','#')}) · {n.get('source','')} · {n.get('published','unknown')}")
+        st.caption("All values are provided for educational research. This dashboard cannot guarantee live 1-minute data or 100% coverage of listed stocks.")
 
 st.divider()
 st.caption("MarketPilot Ultra Free • Research only; no investment advice, no assured predictions, no paid APIs, no broker-connected trade execution.")
