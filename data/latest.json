@@ -1,11 +1,11 @@
 {
-  "generated_at_ist": "2026-11-13T23:58:36+05:30",
-  "market_date_ist": "2026-11-13",
+  "generated_at_ist": "2026-11-14T13:12:39+05:30",
+  "market_date_ist": "2026-11-14",
   "source": "Yahoo Finance unofficial feed; may be delayed, rate-limited or unavailable",
   "universe_source": "https://archives.nseindia.com/content/equities/EQUITY_L.csv",
   "directory_count": 2635,
-  "run_symbol_count": 125,
-  "symbols_with_record": 975,
+  "run_symbol_count": 10,
+  "symbols_with_record": 985,
   "quote_freshness_note": "Daily candle bar may be partial during market hours; no guaranteed 1-minute or live update.",
   "indices": {
     "^NSEI": {
@@ -14,40 +14,113 @@
       "last_price_bar": "2026-11-13 00:00:00"
     },
     "^GSPC": {
-      "close": 7544.7402,
-      "daily_change_pct": -0.6277,
+      "close": 7561.6699,
+      "daily_change_pct": -0.4047,
       "last_price_bar": "2026-11-13 00:00:00"
     },
     "BZ=F": {
-      "close": 95.86,
-      "daily_change_pct": 0.0417,
-      "last_price_bar": "2026-11-13 00:00:00"
-    },
-    "GC=F": {
-      "close": 3888.8,
-      "daily_change_pct": 0.0901,
+      "close": 95.84,
+      "daily_change_pct": 0.0209,
       "last_price_bar": "2026-11-13 00:00:00"
     },
     "SI=F": {
-      "close": 49.095,
-      "daily_change_pct": -1.755,
+      "close": 49.031,
+      "daily_change_pct": -1.8831,
       "last_price_bar": "2026-11-13 00:00:00"
     },
     "INR=X": {
-      "close": 94.23,
-      "daily_change_pct": 0.5674,
-      "last_price_bar": "2026-11-13 00:00:00"
+      "close": 94.24,
+      "daily_change_pct": 0.2193,
+      "last_price_bar": "2026-11-14 00:00:00"
     }
   },
   "summary": {
-    "fresh_green": 51,
-    "fresh_red": 67,
-    "fresh_flat_or_unavailable": 7,
-    "uptrend_count": 49,
-    "next_session_scenario": "Mixed breadth: look for confirmation rather than a directional bet.",
+    "fresh_green": 2,
+    "fresh_red": 8,
+    "fresh_flat_or_unavailable": 0,
+    "uptrend_count": 4,
+    "next_session_scenario": "Uncertain: insufficient fresh breadth data.",
     "warning": "Scenario derived from available daily returns, not trained news prediction."
   },
   "news": [
+    {
+      "title": "6 out of 10 top performing largecap stocks in November delivered multibagger returns in long run. Do you own any?",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/6-out-of-10-top-performing-largecap-stocks-in-november-delivered-multibagger-returns-in-long-run-do-you-own-any/slideshow/135824732.cms",
+      "published": "Sat, 14 Nov 2026 11:31:43 +0530",
+      "source": "Economic Times Markets"
+    },
+    {
+      "title": "Anthropic IPO buyers have more influence on price than SpaceX",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ipo-buyers-have-more-influence-on-price-than-spacex/articleshow/135823355.cms",
+      "published": "Sat, 14 Nov 2026 10:33:57 +0530",
+      "source": "Economic Times Markets"
+    },
+    {
+      "title": "Wall Street’s wild ride delivers big paydays and bigger bruises",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-streets-wild-ride-delivers-big-paydays-and-bigger-bruises/articleshow/135822826.cms",
+      "published": "Sat, 14 Nov 2026 10:24:26 +0530",
+      "source": "Economic Times Markets"
+    },
+    {
+      "title": "Nvidia has worst week since Trump tariff selloff as Huang exits",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidia-has-worst-week-since-trump-tariff-selloff-as-huang-exits/articleshow/135822623.cms",
+      "published": "Sat, 14 Nov 2026 09:58:50 +0530",
+      "source": "Economic Times Markets"
+    },
+    {
+      "title": "Bitcoin’s billion-dollar wipeouts are becoming a familiar sight",
+      "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoins-billion-dollar-wipeouts-are-becoming-a-familiar-sight/articleshow/135822462.cms",
+      "published": "Sat, 14 Nov 2026 09:46:35 +0530",
+      "source": "Economic Times Markets"
+    },
+    {
+      "title": "5 world market themes for the week ahead",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/5-world-market-themes-for-the-week-ahead/articleshow/135822113.cms",
+      "published": "Sat, 14 Nov 2026 09:32:17 +0530",
+      "source": "Economic Times Markets"
+    },
+    {
+      "title": "AI rockets to top of worries about financial system in latest Fed survey",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/ai-rockets-to-top-of-worries-about-financial-system-in-latest-fed-survey/articleshow/135821841.cms",
+      "published": "Sat, 14 Nov 2026 09:25:22 +0530",
+      "source": "Economic Times Markets"
+    },
+    {
+      "title": "Fed's Jefferson says he is taking his policy cues from inflation",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/feds-jefferson-says-he-is-taking-his-policy-cues-from-inflation/articleshow/135821792.cms",
+      "published": "Sat, 14 Nov 2026 09:20:59 +0530",
+      "source": "Economic Times Markets"
+    },
+    {
+      "title": "Wall Street Week Ahead: Nvidia results, Anthropic IPO pose tests for tumultuous AI trade",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-st-week-ahead-nvidia-results-anthropic-ipo-pose-tests-for-tumultuous-ai-trade/articleshow/135821735.cms",
+      "published": "Sat, 14 Nov 2026 09:16:38 +0530",
+      "source": "Economic Times Markets"
+    },
+    {
+      "title": "US Supreme Court to consider lawsuit over Robinhood's 2021 IPO",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-supreme-court-to-consider-lawsuit-over-robinhoods-2021-ipo/articleshow/135821666.cms",
+      "published": "Sat, 14 Nov 2026 09:14:05 +0530",
+      "source": "Economic Times Markets"
+    },
+    {
+      "title": "Goldman Sachs sees S&amp;P 500 rising to 8,700 next year despite slower earnings growth",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/goldman-sachs-sees-sp-500-rising-to-8700-next-year-despite-slower-earnings-growth/articleshow/135821647.cms",
+      "published": "Sat, 14 Nov 2026 09:11:07 +0530",
+      "source": "Economic Times Markets"
+    },
+    {
+      "title": "Softbank further trims India exposure, offloads Meesho shares worth Rs 1,885 cr",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/softbank-further-trims-india-exposure-offloads-meesho-shares-worth-rs-1885-cr/articleshow/135820907.cms",
+      "published": "Sat, 14 Nov 2026 08:15:13 +0530",
+      "source": "Economic Times Markets"
+    },
+    {
+      "title": "OpenAI, Google, Anthropic hit with lawsuit to halt AI development",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/openai-google-anthropic-hit-with-lawsuit-to-halt-ai-development/articleshow/135820787.cms",
+      "published": "Sat, 14 Nov 2026 08:14:47 +0530",
+      "source": "Economic Times Markets"
+    },
     {
       "title": "Anthropic IPO share orders from China are said to be rebuffed",
       "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ipo-share-orders-from-china-are-said-to-be-rebuffed/articleshow/135809948.cms",
@@ -85,7 +158,7 @@
       "source": "Economic Times Markets"
     },
     {
-      "title": "Nasdaq, S&amp;P 500 tumble as Nvidia overhang weighs on tech stocks: Stock Market Live Updates",
+      "title": "S&amp;P 500, Nasdaq close lower as rate-hike bets pressure US stocks: Stock Market Highlights",
       "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-microsoft-cerebras-amd-micron-treasury-yield-news-13th-november-2026/liveblog/135804970.cms",
       "published": "Fri, 13 Nov 2026 18:41:45 +0530",
       "source": "Economic Times Markets"
@@ -211,82 +284,82 @@
       "source": "Economic Times Markets"
     },
     {
-      "title": "ONGC Share Price Highlights: ONGC Stock Price History",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ongc-share-price-today-live-13-nov-2026/liveblog/135787990.cms",
-      "published": "Fri, 13 Nov 2026 08:57:19 +0530",
-      "source": "Economic Times Markets"
+      "title": "Up 325% in 4 years! Multibagger brewery stock with 1:10 stock split history declares Q2 Results 2026; revenue up 203%",
+      "url": "https://www.livemint.com/market/stock-market-news/up-325-in-4-years-multibagger-brewery-stock-with-1-10-stock-split-history-declares-q2-results-2026-revenue-up-203-11794638711855.html",
+      "published": "Sat, 14 Nov 2026 12:38:43 +0530",
+      "source": "Mint Markets"
     },
     {
-      "title": "Tata Motors PV Share Price Highlights: Tata Motors PV Stock Price History",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-motors-pv-share-price-live-13-nov-2026/liveblog/135787967.cms",
-      "published": "Fri, 13 Nov 2026 08:55:50 +0530",
-      "source": "Economic Times Markets"
+      "title": "Rekha Jhunjhunwala stock VA Tech Wabag:  ₹2,400 cr Saudi project cancelled - Should you buy after 18% rise in 6 months?",
+      "url": "https://www.livemint.com/market/stock-market-news/rekha-jhunjhunwala-stock-va-tech-wabag-rs-2-400-cr-saudi-project-cancelled-should-you-buy-after-18-rise-in-6-months-11794636173819.html",
+      "published": "Sat, 14 Nov 2026 11:53:18 +0530",
+      "source": "Mint Markets"
     },
     {
-      "title": "Maruti Suzuki Share Price Highlights: Maruti Suzuki Stock Price History",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/maruti-suzuki-stock-price-live-updates-13-nov-2026/liveblog/135787960.cms",
-      "published": "Fri, 13 Nov 2026 08:55:29 +0530",
-      "source": "Economic Times Markets"
+      "title": "Germany Has an Edge in a Lower Oil Price World: Taking Stock",
+      "url": "https://www.livemint.com/market/germany-has-an-edge-in-a-lower-oil-price-world-taking-stock-11794636529660.html",
+      "published": "Sat, 14 Nov 2026 11:38:49 +0530",
+      "source": "Mint Markets"
     },
     {
-      "title": "HUL Share Price Highlights: HUL Stock Price History",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hul-share-price-live-13-nov-2026/liveblog/135787956.cms",
-      "published": "Fri, 13 Nov 2026 08:55:09 +0530",
-      "source": "Economic Times Markets"
+      "title": "₹4K cr Ramayana movie VFX maker parent Prime Focus shares in focus after 14x profit jump in Q2; stock up 61% in a year",
+      "url": "https://www.livemint.com/market/stock-market-news/rs-4k-cr-ramayana-movie-vfx-maker-parent-prime-focus-shares-in-focus-after-14x-profit-jump-in-q2-stock-up-61-in-a-year-11794632446134.html",
+      "published": "Sat, 14 Nov 2026 11:21:55 +0530",
+      "source": "Mint Markets"
     },
     {
-      "title": "Infosys Share Price Highlights: Infosys Stock Price History",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/infosys-share-price-today-live-updates-13-nov-2026/liveblog/135787862.cms",
-      "published": "Fri, 13 Nov 2026 08:50:51 +0530",
-      "source": "Economic Times Markets"
+      "title": "Around 600% jump in 5 years: Citi maintains 'buy' on Maharatna defence PSU HAL for up to 28% - Check target, rationale",
+      "url": "https://www.livemint.com/market/stock-market-news/around-600-jump-in-5-years-citi-maintains-buy-on-maharatna-defence-psu-hal-for-up-to-28-check-target-rationale-11794630844431.html",
+      "published": "Sat, 14 Nov 2026 10:28:42 +0530",
+      "source": "Mint Markets"
     },
     {
-      "title": "HDFC Bank Share Price Highlights: HDFC Bank Stock Price History",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hdfc-bank-stock-price-live-updates-13-nov-2026/liveblog/135787827.cms",
-      "published": "Fri, 13 Nov 2026 08:50:09 +0530",
-      "source": "Economic Times Markets"
+      "title": "₹150 Dividend Alert! Record date next week of Jockey firm for biggest payout declared in Q2 - check key dates, history",
+      "url": "https://www.livemint.com/market/stock-market-news/rs-150-dividend-alert-record-date-next-week-of-jockey-firm-for-biggest-payout-declared-in-q2-check-key-dates-history-11794628701443.html",
+      "published": "Sat, 14 Nov 2026 09:52:20 +0530",
+      "source": "Mint Markets"
     },
     {
-      "title": "NTPC Share Price Highlights: NTPC Stock Price History",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ntpc-share-price-today-live-13-nov-2026/liveblog/135787712.cms",
-      "published": "Fri, 13 Nov 2026 08:46:27 +0530",
-      "source": "Economic Times Markets"
+      "title": "Ramayana effect? Prime Focus Q2 results: Revenue rises to  ₹1,410.17 crore; PAT climbs to  ₹91.04 crore from  ₹5.8 crore",
+      "url": "https://www.livemint.com/market/ramayana-effect-prime-focus-q2-results-revenue-rises-to-1-410-17-crore-pat-climbs-to-91-04-crore-from-5-8-crore-11794627104139.html",
+      "published": "Sat, 14 Nov 2026 09:12:42 +0530",
+      "source": "Mint Markets"
     },
     {
-      "title": "SBI Share Price Highlights: SBI Stock Price History",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/sbi-share-price-today-live-13-nov-2026/liveblog/135787707.cms",
-      "published": "Fri, 13 Nov 2026 08:46:07 +0530",
-      "source": "Economic Times Markets"
+      "title": "Top 3 stocks to buy: Bharti Airtel, Bajaj Finance, Nestle by Sumeet Bagadia | Targets, stop-loss, market prediction",
+      "url": "https://www.livemint.com/market/stock-market-news/top-3-stocks-to-buy-bharti-airtel-bajaj-finance-nestle-by-sumeet-bagadia-targets-stop-loss-market-prediction-11794622858676.html",
+      "published": "Sat, 14 Nov 2026 08:41:12 +0530",
+      "source": "Mint Markets"
     },
     {
-      "title": "Power Grid Share Price Highlights: Power Grid Stock Price History",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/power-grid-share-price-today-live-13-nov-2026/liveblog/135787691.cms",
-      "published": "Fri, 13 Nov 2026 08:45:47 +0530",
-      "source": "Economic Times Markets"
+      "title": "Three fast-growing water infra stocks",
+      "url": "https://www.livemint.com/market/stock-market-news/three-fast-growing-water-infra-stocks-11794577248207.html",
+      "published": "Sat, 14 Nov 2026 07:00:14 +0530",
+      "source": "Mint Markets"
     },
     {
-      "title": "Jio Financial Services Share Price Highlights: Jio Financial Services Stock Price History",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/jio-financial-services-stock-price-today-live-13-nov-2026/liveblog/135787655.cms",
-      "published": "Fri, 13 Nov 2026 08:45:26 +0530",
-      "source": "Economic Times Markets"
+      "title": "Wall St slides as Nvidia uncertainty drags tech shares lower",
+      "url": "https://www.livemint.com/market/wall-st-slides-as-nvidia-uncertainty-drags-tech-shares-lower-11794599915160.html",
+      "published": "Sat, 14 Nov 2026 01:28:34 +0530",
+      "source": "Mint Markets"
     },
     {
-      "title": "L&amp;T Share Price Highlights: L&amp;T Stock Price History",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/lt-stock-price-today-live-13-nov-2026/liveblog/135787644.cms",
-      "published": "Fri, 13 Nov 2026 08:45:07 +0530",
-      "source": "Economic Times Markets"
+      "title": "Rate-hike bets keep gold on track for worst week in four months",
+      "url": "https://www.livemint.com/market/ratehike-bets-keep-gold-on-track-for-worst-week-in-four-months-11794598496469.html",
+      "published": "Sat, 14 Nov 2026 01:04:56 +0530",
+      "source": "Mint Markets"
     },
     {
-      "title": "ICICI Bank Share Price Highlights: ICICI Bank Stock Price History",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/icici-bank-share-price-live-updates-13-nov-2026/liveblog/135787540.cms",
-      "published": "Fri, 13 Nov 2026 08:40:10 +0530",
-      "source": "Economic Times Markets"
+      "title": "Oil prices set for second straight weekly decline on growing signs of supply surplus",
+      "url": "https://www.livemint.com/market/oil-prices-set-for-second-straight-weekly-decline-on-growing-signs-of-supply-surplus-11794595284142.html",
+      "published": "Sat, 14 Nov 2026 00:11:23 +0530",
+      "source": "Mint Markets"
     },
     {
-      "title": "Grasim Inds Share Price Highlights: Grasim Inds. Stock Price History",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/grasim-inds-share-price-today-live-updates-13-nov-2026/liveblog/135787538.cms",
-      "published": "Fri, 13 Nov 2026 08:40:07 +0530",
-      "source": "Economic Times Markets"
+      "title": "Gold Edges Up, Still On Track for Worst Weekly Slump Since June",
+      "url": "https://www.livemint.com/market/gold-edges-up-still-on-track-for-worst-weekly-slump-since-june-11794595223804.html",
+      "published": "Sat, 14 Nov 2026 00:10:23 +0530",
+      "source": "Mint Markets"
     },
     {
       "title": "YES Bank files SC review plea over AT-1 bonds: What does it mean for investors after stock's 15% rebound?",
@@ -389,84 +462,6 @@
       "url": "https://www.livemint.com/market/stock-market-news/up-17-in-ytd-small-cap-hotel-stock-under-rs-200-jumps-4-after-q2-results-2026-do-you-own-11794558406332.html",
       "published": "Fri, 13 Nov 2026 14:42:05 +0530",
       "source": "Mint Markets"
-    },
-    {
-      "title": "Dividend stock: This multibagger share declares dividend of  ₹20 | Check record date, history, yield, returns",
-      "url": "https://www.livemint.com/market/stock-market-news/dividend-stock-multibagger-share-ingersoll-rand-india-declares-dividend-of-20-check-record-date-history-yield-11794557139856.html",
-      "published": "Fri, 13 Nov 2026 14:41:50 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "Microsoft outage gums up markets, forces traders to use phones",
-      "url": "https://www.livemint.com/market/stock-market-news/microsoft-outage-gums-up-markets-forces-traders-to-use-phones-11794560680458.html",
-      "published": "Fri, 13 Nov 2026 14:41:49 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "23% return in 3 months: PL Capital sees 12.6% upside potential in Welspun Enterprises - Check target price, rationale",
-      "url": "https://www.livemint.com/market/stock-market-news/23-return-in-3-months-pl-capital-sees-12-6-upside-potential-in-welspun-enterprises-check-target-price-rationale-11794556377827.html",
-      "published": "Fri, 13 Nov 2026 13:57:05 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "Apollo Micro Systems shares: Why experts bet high on this multibagger defence stock after MSCI rejig? Target, stop-loss",
-      "url": "https://www.livemint.com/market/stock-market-news/apollo-micro-systems-shares-why-experts-bet-high-on-this-multibagger-defence-stock-after-msci-rejig-target-stoploss-11794555639681.html",
-      "published": "Fri, 13 Nov 2026 13:41:20 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "Promoter holding at 3-year high, FII ownership at 14-year low: Did insiders buy what FIIs sold?",
-      "url": "https://www.livemint.com/market/stock-market-news/promoter-holding-at-3-year-high-fii-ownership-at-14-year-low-did-insiders-buy-what-fiis-sold-11794545962669.html",
-      "published": "Fri, 13 Nov 2026 13:35:39 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "Can Ola Electric’s pivot to dealership model hedge revenue decline?",
-      "url": "https://www.livemint.com/market/mark-to-market/ola-electric-pivot-dealership-model-revenue-decline-11794551578116.html",
-      "published": "Fri, 13 Nov 2026 13:24:02 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "Mega AI Anthropic IPO details: Share price band, valuation, listing date - All you need to know about the upcoming issue",
-      "url": "https://www.livemint.com/market/stock-market-news/mega-ai-anthropic-ipo-details-share-price-band-valuation-listing-date-all-you-need-to-know-about-the-upcoming-issue-11794552663877.html",
-      "published": "Fri, 13 Nov 2026 13:11:56 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "IRCTC, RVNL, IRFC, RailTel to IRCON: Railway stocks fall up to 3%; opportunity to buy on dip? Experts' views, target, SL",
-      "url": "https://www.livemint.com/market/stock-market-news/irctc-rvnl-irfc-railtel-to-ircon-railway-stocks-fall-up-to-3-opportunity-to-buy-on-dip-experts-views-target-sl-11794553579136.html",
-      "published": "Fri, 13 Nov 2026 13:04:08 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "Kwality Walls shares rally 8.5% today, up over 53% in 6 months - Should you still buy ice cream stock? Q2 highlights",
-      "url": "https://www.livemint.com/market/stock-market-news/kwality-walls-shares-rally-8-5-today-up-over-53-in-6-months-should-you-still-buy-ice-cream-stock-q2-highlights-11794552631919.html",
-      "published": "Fri, 13 Nov 2026 12:53:40 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "After IPO listing, NSE shares hit  ₹2,000 mark for the first time - Buy, sell or hold? What stock market experts say",
-      "url": "https://www.livemint.com/market/stock-market-news/after-ipo-listing-nse-shares-hit-rs-2-000-mark-for-the-first-time-buy-sell-or-hold-what-stock-market-experts-say-11794550519441.html",
-      "published": "Fri, 13 Nov 2026 12:24:13 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "Zee Entertainment buyback: What happened with ZEEL stock after  ₹600 cr announcement? Check record date, price",
-      "url": "https://www.livemint.com/market/stock-market-news/zee-entertainment-announces-rs-600-cr-share-buyback-stock-down-3-check-record-date-price-other-key-things-to-know-11794549332632.html",
-      "published": "Fri, 13 Nov 2026 12:20:50 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "Why Page Industries’ optimism needs a reality check",
-      "url": "https://www.livemint.com/market/mark-to-market/page-industries-jockey-speedo-volume-growth-h1fy27-h2fy27-festive-demand-disney-marvel-collection-11794548577245.html",
-      "published": "Fri, 13 Nov 2026 12:07:16 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "Anthropic IPO how to apply from India: Can Indian investors apply online? Check eligibility and step by step bid guide",
-      "url": "https://www.livemint.com/market/stock-market-news/anthropic-ipo-how-to-apply-from-india-can-indian-investors-apply-online-check-eligibility-and-step-by-step-bid-guide-11794547459945.html",
-      "published": "Fri, 13 Nov 2026 11:57:04 +0530",
-      "source": "Mint Markets"
     }
   ],
   "matched_news": {
@@ -478,14 +473,6 @@
         "source": "Economic Times Markets"
       }
     ],
-    "APOLLO": [
-      {
-        "title": "Apollo Micro Systems shares: Why experts bet high on this multibagger defence stock after MSCI rejig? Target, stop-loss",
-        "url": "https://www.livemint.com/market/stock-market-news/apollo-micro-systems-shares-why-experts-bet-high-on-this-multibagger-defence-stock-after-msci-rejig-target-stoploss-11794555639681.html",
-        "published": "Fri, 13 Nov 2026 13:41:20 +0530",
-        "source": "Mint Markets"
-      }
-    ],
     "RELIANCE": [
       {
         "title": "Reliance Industries shares rebound 15% in November, add  ₹2.38 lakh crore in market value; what's changed?",
@@ -494,23 +481,13 @@
         "source": "Mint Markets"
       }
     ],
-    "APOLLOHOSP": [
-      {
-        "title": "Apollo Micro Systems shares: Why experts bet high on this multibagger defence stock after MSCI rejig? Target, stop-loss",
-        "url": "https://www.livemint.com/market/stock-market-news/apollo-micro-systems-shares-why-experts-bet-high-on-this-multibagger-defence-stock-after-msci-rejig-target-stoploss-11794555639681.html",
-        "published": "Fri, 13 Nov 2026 13:41:20 +0530",
-        "source": "Mint Markets"
-      }
-    ],
-    "GRASIM": [
-      {
-        "title": "Grasim Inds Share Price Highlights: Grasim Inds. Stock Price History",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/grasim-inds-share-price-today-live-updates-13-nov-2026/liveblog/135787538.cms",
-        "published": "Fri, 13 Nov 2026 08:40:07 +0530",
-        "source": "Economic Times Markets"
-      }
-    ],
     "HAL": [
+      {
+        "title": "OpenAI, Google, Anthropic hit with lawsuit to halt AI development",
+        "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/openai-google-anthropic-hit-with-lawsuit-to-halt-ai-development/articleshow/135820787.cms",
+        "published": "Sat, 14 Nov 2026 08:14:47 +0530",
+        "source": "Economic Times Markets"
+      },
       {
         "title": "India 10-year bond yield reverses half of last week's drop on elevated inflation",
         "url": "https://economictimes.indiatimes.com/markets/bonds/india-10-year-bond-yield-reverses-half-of-last-weeks-drop-on-elevated-inflation/articleshow/135804127.cms",
@@ -518,23 +495,9 @@
         "source": "Economic Times Markets"
       },
       {
-        "title": "Warships, aircraft or missiles? GRSE vs HAL vs BDL: Which defence PSU wins the post-Q2 results race? Technical outlook",
-        "url": "https://www.livemint.com/market/stock-market-news/warships-aircraft-or-missiles-grse-vs-hal-vs-bdl-which-defence-psu-wins-the-post-q2-results-race-technical-outlook-11794571751718.html",
-        "published": "Fri, 13 Nov 2026 19:35:17 +0530",
-        "source": "Mint Markets"
-      },
-      {
-        "title": "Haldiram IPO in making: Namkeen to D-Street, snack giant eyes stock market debut - Check listing timeline, valuation",
-        "url": "https://www.livemint.com/market/ipo/haldiram-ipo-in-making-namkeen-to-d-street-snack-giant-eyes-stock-market-debut-check-listing-timeline-valuation-11794562224305.html",
-        "published": "Fri, 13 Nov 2026 17:26:12 +0530",
-        "source": "Mint Markets"
-      }
-    ],
-    "ZEEL": [
-      {
-        "title": "Zee Entertainment buyback: What happened with ZEEL stock after  ₹600 cr announcement? Check record date, price",
-        "url": "https://www.livemint.com/market/stock-market-news/zee-entertainment-announces-rs-600-cr-share-buyback-stock-down-3-check-record-date-price-other-key-things-to-know-11794549332632.html",
-        "published": "Fri, 13 Nov 2026 12:20:50 +0530",
+        "title": "Around 600% jump in 5 years: Citi maintains 'buy' on Maharatna defence PSU HAL for up to 28% - Check target, rationale",
+        "url": "https://www.livemint.com/market/stock-market-news/around-600-jump-in-5-years-citi-maintains-buy-on-maharatna-defence-psu-hal-for-up-to-28-check-target-rationale-11794630844431.html",
+        "published": "Sat, 14 Nov 2026 10:28:42 +0530",
         "source": "Mint Markets"
       }
     ],
@@ -544,12 +507,6 @@
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/eicher-motors-stock-price-livestock-price-today-live-updates-13-nov-2026/liveblog/135788075.cms",
         "published": "Fri, 13 Nov 2026 09:01:24 +0530",
         "source": "Economic Times Markets"
-      },
-      {
-        "title": "Tata Motors PV Share Price Highlights: Tata Motors PV Stock Price History",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-motors-pv-share-price-live-13-nov-2026/liveblog/135787967.cms",
-        "published": "Fri, 13 Nov 2026 08:55:50 +0530",
-        "source": "Economic Times Markets"
       }
     ],
     "TMCV": [
@@ -557,12 +514,6 @@
         "title": "Eicher Motors Share Price Highlights: Eicher Motors Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/eicher-motors-stock-price-livestock-price-today-live-updates-13-nov-2026/liveblog/135788075.cms",
         "published": "Fri, 13 Nov 2026 09:01:24 +0530",
-        "source": "Economic Times Markets"
-      },
-      {
-        "title": "Tata Motors PV Share Price Highlights: Tata Motors PV Stock Price History",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-motors-pv-share-price-live-13-nov-2026/liveblog/135787967.cms",
-        "published": "Fri, 13 Nov 2026 08:55:50 +0530",
         "source": "Economic Times Markets"
       }
     ],
@@ -572,20 +523,6 @@
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/eicher-motors-stock-price-livestock-price-today-live-updates-13-nov-2026/liveblog/135788075.cms",
         "published": "Fri, 13 Nov 2026 09:01:24 +0530",
         "source": "Economic Times Markets"
-      },
-      {
-        "title": "Tata Motors PV Share Price Highlights: Tata Motors PV Stock Price History",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-motors-pv-share-price-live-13-nov-2026/liveblog/135787967.cms",
-        "published": "Fri, 13 Nov 2026 08:55:50 +0530",
-        "source": "Economic Times Markets"
-      }
-    ],
-    "WELCORP": [
-      {
-        "title": "23% return in 3 months: PL Capital sees 12.6% upside potential in Welspun Enterprises - Check target price, rationale",
-        "url": "https://www.livemint.com/market/stock-market-news/23-return-in-3-months-pl-capital-sees-12-6-upside-potential-in-welspun-enterprises-check-target-price-rationale-11794556377827.html",
-        "published": "Fri, 13 Nov 2026 13:57:05 +0530",
-        "source": "Mint Markets"
       }
     ],
     "COCHINSHIP": [
@@ -604,14 +541,6 @@
         "source": "Mint Markets"
       }
     ],
-    "CGPOWER": [
-      {
-        "title": "Power Grid Share Price Highlights: Power Grid Stock Price History",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/power-grid-share-price-today-live-13-nov-2026/liveblog/135787691.cms",
-        "published": "Fri, 13 Nov 2026 08:45:47 +0530",
-        "source": "Economic Times Markets"
-      }
-    ],
     "ASIANPAINT": [
       {
         "title": "Asian Paints Share Price Highlights: Asian Paints Stock Price History",
@@ -620,19 +549,11 @@
         "source": "Economic Times Markets"
       }
     ],
-    "RVNL": [
+    "WABAG": [
       {
-        "title": "IRCTC, RVNL, IRFC, RailTel to IRCON: Railway stocks fall up to 3%; opportunity to buy on dip? Experts' views, target, SL",
-        "url": "https://www.livemint.com/market/stock-market-news/irctc-rvnl-irfc-railtel-to-ircon-railway-stocks-fall-up-to-3-opportunity-to-buy-on-dip-experts-views-target-sl-11794553579136.html",
-        "published": "Fri, 13 Nov 2026 13:04:08 +0530",
-        "source": "Mint Markets"
-      }
-    ],
-    "APLAPOLLO": [
-      {
-        "title": "Apollo Micro Systems shares: Why experts bet high on this multibagger defence stock after MSCI rejig? Target, stop-loss",
-        "url": "https://www.livemint.com/market/stock-market-news/apollo-micro-systems-shares-why-experts-bet-high-on-this-multibagger-defence-stock-after-msci-rejig-target-stoploss-11794555639681.html",
-        "published": "Fri, 13 Nov 2026 13:41:20 +0530",
+        "title": "Rekha Jhunjhunwala stock VA Tech Wabag:  ₹2,400 cr Saudi project cancelled - Should you buy after 18% rise in 6 months?",
+        "url": "https://www.livemint.com/market/stock-market-news/rekha-jhunjhunwala-stock-va-tech-wabag-rs-2-400-cr-saudi-project-cancelled-should-you-buy-after-18-rise-in-6-months-11794636173819.html",
+        "published": "Sat, 14 Nov 2026 11:53:18 +0530",
         "source": "Mint Markets"
       }
     ],
@@ -647,28 +568,6 @@
         "title": "Dividend stocks Shipping Corporation vs Cochin Shipyard: Record date on Nov 16 - what to buy? Amount, yield, returns",
         "url": "https://www.livemint.com/market/stock-market-news/dividend-stocks-shipping-corporation-vs-cochin-shipyard-record-date-on-nov-16-what-to-buy-amount-yield-returns-11794567075247.html",
         "published": "Fri, 13 Nov 2026 17:10:03 +0530",
-        "source": "Mint Markets"
-      },
-      {
-        "title": "Apollo Micro Systems shares: Why experts bet high on this multibagger defence stock after MSCI rejig? Target, stop-loss",
-        "url": "https://www.livemint.com/market/stock-market-news/apollo-micro-systems-shares-why-experts-bet-high-on-this-multibagger-defence-stock-after-msci-rejig-target-stoploss-11794555639681.html",
-        "published": "Fri, 13 Nov 2026 13:41:20 +0530",
-        "source": "Mint Markets"
-      }
-    ],
-    "DCXINDIA": [
-      {
-        "title": "Apollo Micro Systems shares: Why experts bet high on this multibagger defence stock after MSCI rejig? Target, stop-loss",
-        "url": "https://www.livemint.com/market/stock-market-news/apollo-micro-systems-shares-why-experts-bet-high-on-this-multibagger-defence-stock-after-msci-rejig-target-stoploss-11794555639681.html",
-        "published": "Fri, 13 Nov 2026 13:41:20 +0530",
-        "source": "Mint Markets"
-      }
-    ],
-    "WELSPUNLIV": [
-      {
-        "title": "23% return in 3 months: PL Capital sees 12.6% upside potential in Welspun Enterprises - Check target price, rationale",
-        "url": "https://www.livemint.com/market/stock-market-news/23-return-in-3-months-pl-capital-sees-12-6-upside-potential-in-welspun-enterprises-check-target-price-rationale-11794556377827.html",
-        "published": "Fri, 13 Nov 2026 13:57:05 +0530",
         "source": "Mint Markets"
       }
     ],
@@ -704,19 +603,11 @@
         "source": "Mint Markets"
       }
     ],
-    "GVPIL": [
-      {
-        "title": "Power Grid Share Price Highlights: Power Grid Stock Price History",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/power-grid-share-price-today-live-13-nov-2026/liveblog/135787691.cms",
-        "published": "Fri, 13 Nov 2026 08:45:47 +0530",
-        "source": "Economic Times Markets"
-      }
-    ],
     "HDBFS": [
       {
-        "title": "Jio Financial Services Share Price Highlights: Jio Financial Services Stock Price History",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/jio-financial-services-stock-price-today-live-13-nov-2026/liveblog/135787655.cms",
-        "published": "Fri, 13 Nov 2026 08:45:26 +0530",
+        "title": "AI rockets to top of worries about financial system in latest Fed survey",
+        "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/ai-rockets-to-top-of-worries-about-financial-system-in-latest-fed-survey/articleshow/135821841.cms",
+        "published": "Sat, 14 Nov 2026 09:25:22 +0530",
         "source": "Economic Times Markets"
       }
     ],
@@ -725,14 +616,6 @@
         "title": "Adani Ports SEZ Share Price Highlights: Adani Ports SEZ Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/adani-ports-sez-share-price-live-updates-13-nov-2026/liveblog/135788172.cms",
         "published": "Fri, 13 Nov 2026 09:05:32 +0530",
-        "source": "Economic Times Markets"
-      }
-    ],
-    "BLS": [
-      {
-        "title": "Jio Financial Services Share Price Highlights: Jio Financial Services Stock Price History",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/jio-financial-services-stock-price-today-live-13-nov-2026/liveblog/135787655.cms",
-        "published": "Fri, 13 Nov 2026 08:45:26 +0530",
         "source": "Economic Times Markets"
       }
     ]
@@ -3233,6 +3116,39 @@
         "beta": 0.44
       },
       "fundamentals_asof": "2026-11-13T13:42:54+05:30"
+    },
+    {
+      "symbol": "ZYDUSLIFE",
+      "company": "Zydus Lifesciences Limited",
+      "close": 1189.9,
+      "daily_change_pct": -1.335,
+      "return_20d_pct": 5.7971,
+      "alpha_20d_pct": -5.3492,
+      "rsi14": 52.5835,
+      "atr14": 33.2016,
+      "ema20": 1186.1397,
+      "ema50": 1164.3637,
+      "ema200": 1078.5927,
+      "relative_volume": 0.456,
+      "turnover_crore": 95.8043,
+      "trend_score": 83,
+      "direction": "red",
+      "last_price_bar": "2026-11-13 00:00:00",
+      "entry_reference": 1215.426,
+      "stop_reference": 1165.6236,
+      "target_1_reference": 1290.1296,
+      "last_checked_at_ist": "2026-11-14T13:12:39+05:30",
+      "fundamentals": {
+        "pe": 28.4325,
+        "forward_pe": 24.0295,
+        "pb": 4.266,
+        "roe": 0.1472,
+        "debt_to_equity": 46.059,
+        "revenue_growth": 0.292,
+        "free_cashflow": 13829624832.0,
+        "beta": 0.308
+      },
+      "fundamentals_asof": "2026-11-14T13:12:39+05:30"
     },
     {
       "symbol": "WIPRO",
@@ -10027,6 +9943,39 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "ZYDUSWELL",
+      "company": "Zydus Wellness Limited",
+      "close": 469.95,
+      "daily_change_pct": -0.2229,
+      "return_20d_pct": -9.1182,
+      "alpha_20d_pct": -20.2645,
+      "rsi14": 42.9093,
+      "atr14": 19.4652,
+      "ema20": 480.6026,
+      "ema50": 497.8829,
+      "ema200": 497.8708,
+      "relative_volume": 0.3626,
+      "turnover_crore": 5.018,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-13 00:00:00",
+      "entry_reference": 475.0482,
+      "stop_reference": 445.8503,
+      "target_1_reference": 518.845,
+      "last_checked_at_ist": "2026-11-14T13:12:39+05:30",
+      "fundamentals": {
+        "pe": 60.9819,
+        "forward_pe": 29.3395,
+        "pb": 2.5467,
+        "roe": 0.0424,
+        "debt_to_equity": 53.613,
+        "revenue_growth": 0.732,
+        "free_cashflow": 2673625088.0,
+        "beta": -0.056
+      },
+      "fundamentals_asof": "2026-11-14T13:12:39+05:30"
+    },
+    {
       "symbol": "RITES",
       "company": "RITES Limited",
       "close": 195.3,
@@ -11659,6 +11608,39 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "ZOTA",
+      "company": "Zota Health Care LImited",
+      "close": 1302.7,
+      "daily_change_pct": -1.6088,
+      "return_20d_pct": 0.1153,
+      "alpha_20d_pct": -11.0311,
+      "rsi14": 53.2254,
+      "atr14": 66.0272,
+      "ema20": 1275.5956,
+      "ema50": 1262.3044,
+      "ema200": 1288.7501,
+      "relative_volume": 0.2474,
+      "turnover_crore": 2.513,
+      "trend_score": 83,
+      "direction": "red",
+      "last_price_bar": "2026-11-12 00:00:00",
+      "entry_reference": 1339.7742,
+      "stop_reference": 1240.7334,
+      "target_1_reference": 1488.3353,
+      "last_checked_at_ist": "2026-11-14T13:12:39+05:30",
+      "fundamentals": {
+        "pe": null,
+        "forward_pe": null,
+        "pb": 7.1801,
+        "roe": -0.2409,
+        "debt_to_equity": 43.21,
+        "revenue_growth": 0.546,
+        "free_cashflow": -1942240640.0,
+        "beta": 0.349
+      },
+      "fundamentals_asof": "2026-11-14T13:12:39+05:30"
+    },
+    {
       "symbol": "SEPC",
       "company": "SEPC Limited",
       "close": 4.99,
@@ -13195,6 +13177,39 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "ZIMLAB",
+      "company": "Zim Laboratories Limited",
+      "close": 141.02,
+      "daily_change_pct": 4.723,
+      "return_20d_pct": -3.9177,
+      "alpha_20d_pct": -15.064,
+      "rsi14": 54.0868,
+      "atr14": 8.6167,
+      "ema20": 136.7146,
+      "ema50": 133.9415,
+      "ema200": 111.8968,
+      "relative_volume": 1.0382,
+      "turnover_crore": 1.5313,
+      "trend_score": 66,
+      "direction": "green",
+      "last_price_bar": "2026-11-12 00:00:00",
+      "entry_reference": 143.7369,
+      "stop_reference": 130.8118,
+      "target_1_reference": 163.1245,
+      "last_checked_at_ist": "2026-11-14T13:12:39+05:30",
+      "fundamentals": {
+        "pe": 170.1829,
+        "forward_pe": null,
+        "pb": 2.5739,
+        "roe": 0.0076,
+        "debt_to_equity": 51.682,
+        "revenue_growth": 0.189,
+        "free_cashflow": -307371008.0,
+        "beta": 0.792
+      },
+      "fundamentals_asof": "2026-11-14T13:12:39+05:30"
+    },
+    {
       "symbol": "CONTROLPR",
       "company": "Control Print Limited",
       "close": 608.8,
@@ -14275,6 +14290,39 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "ZUARIIND",
+      "company": "ZUARI INDUSTRIES LIMITED",
+      "close": 252.78,
+      "daily_change_pct": 0.3016,
+      "return_20d_pct": -7.6434,
+      "alpha_20d_pct": -18.7897,
+      "rsi14": 51.05,
+      "atr14": 8.9622,
+      "ema20": 248.8172,
+      "ema50": 257.185,
+      "ema200": 269.7772,
+      "relative_volume": 0.8234,
+      "turnover_crore": 0.9305,
+      "trend_score": 33,
+      "direction": "green",
+      "last_price_bar": "2026-11-12 00:00:00",
+      "entry_reference": 256.8126,
+      "stop_reference": 243.3692,
+      "target_1_reference": 276.9776,
+      "last_checked_at_ist": "2026-11-14T13:12:39+05:30",
+      "fundamentals": {
+        "pe": 6.8719,
+        "forward_pe": null,
+        "pb": 0.2099,
+        "roe": null,
+        "debt_to_equity": 72.104,
+        "revenue_growth": 0.212,
+        "free_cashflow": null,
+        "beta": 0.391
+      },
+      "fundamentals_asof": "2026-11-14T13:12:39+05:30"
+    },
+    {
       "symbol": "ULTRAMAR",
       "company": "Ultramarine & Pigments Limited",
       "close": 408.25,
@@ -14345,6 +14393,39 @@
       "last_checked_at_ist": "2026-11-13T22:11:29+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
+    },
+    {
+      "symbol": "ZUARI",
+      "company": "Zuari Agro Chemicals Limited",
+      "close": 194.9,
+      "daily_change_pct": -1.6402,
+      "return_20d_pct": -5.5854,
+      "alpha_20d_pct": -16.7318,
+      "rsi14": 46.2987,
+      "atr14": 7.3076,
+      "ema20": 195.5637,
+      "ema50": 205.571,
+      "ema200": 228.7302,
+      "relative_volume": 0.4957,
+      "turnover_crore": 0.8923,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-12 00:00:00",
+      "entry_reference": 198.5864,
+      "stop_reference": 187.625,
+      "target_1_reference": 215.0284,
+      "last_checked_at_ist": "2026-11-14T13:12:39+05:30",
+      "fundamentals": {
+        "pe": 4.6581,
+        "forward_pe": 44.5442,
+        "pb": 0.3208,
+        "roe": 0.0677,
+        "debt_to_equity": 27.537,
+        "revenue_growth": -0.72,
+        "free_cashflow": 2464427520.0,
+        "beta": 0.002
+      },
+      "fundamentals_asof": "2026-11-14T13:12:39+05:30"
     },
     {
       "symbol": "GRAUWEIL",
@@ -17635,6 +17716,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "ZODIAC",
+      "company": "Zodiac Energy Limited",
+      "close": 214.91,
+      "daily_change_pct": -1.3224,
+      "return_20d_pct": 4.2089,
+      "alpha_20d_pct": -6.9374,
+      "rsi14": 54.0385,
+      "atr14": 13.9689,
+      "ema20": 208.4275,
+      "ema50": 216.6354,
+      "ema200": 257.3138,
+      "relative_volume": 0.3661,
+      "turnover_crore": 0.1613,
+      "trend_score": 50,
+      "direction": "red",
+      "last_price_bar": "2026-11-13 00:00:00",
+      "entry_reference": 218.927,
+      "stop_reference": 197.9736,
+      "target_1_reference": 250.357,
+      "last_checked_at_ist": "2026-11-14T13:12:39+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "TRF",
       "company": "TRF Limited",
       "close": 211.13,
@@ -18303,6 +18408,30 @@
       "stop_reference": 809.5182,
       "target_1_reference": 1052.4973,
       "last_checked_at_ist": "2026-11-13T23:58:36+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "ZFSTEERING",
+      "company": "ZF Steering Gear (India) Limited",
+      "close": 777.25,
+      "daily_change_pct": -0.8357,
+      "return_20d_pct": 14.4951,
+      "alpha_20d_pct": 3.3488,
+      "rsi14": 62.8791,
+      "atr14": 35.4264,
+      "ema20": 727.8233,
+      "ema50": 707.2353,
+      "ema200": null,
+      "relative_volume": 0.2984,
+      "turnover_crore": 0.122,
+      "trend_score": 83,
+      "direction": "red",
+      "last_price_bar": "2026-11-12 00:00:00",
+      "entry_reference": 801.6,
+      "stop_reference": 748.4604,
+      "target_1_reference": 881.3094,
+      "last_checked_at_ist": "2026-11-14T13:12:39+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -20155,6 +20284,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "ZSARACOM",
+      "company": "Saraswati Commercial India Limited",
+      "close": 9900.0,
+      "daily_change_pct": -0.9406,
+      "return_20d_pct": -1.6198,
+      "alpha_20d_pct": -12.7661,
+      "rsi14": 50.0294,
+      "atr14": 421.4256,
+      "ema20": 9700.4619,
+      "ema50": 10222.6494,
+      "ema200": null,
+      "relative_volume": 2.3678,
+      "turnover_crore": 0.0465,
+      "trend_score": 50,
+      "direction": "red",
+      "last_price_bar": "2026-11-12 00:00:00",
+      "entry_reference": 10270.5,
+      "stop_reference": 9638.3616,
+      "target_1_reference": 11218.7076,
+      "last_checked_at_ist": "2026-11-14T13:12:39+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "VISHAL",
       "company": "Vishal Fabrics Limited",
       "close": 16.94,
@@ -21375,6 +21528,30 @@
       "stop_reference": 159.3766,
       "target_1_reference": 189.2901,
       "last_checked_at_ist": "2026-11-13T21:04:19+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "ZODIACLOTH",
+      "company": "Zodiac Clothing Company Limited",
+      "close": 66.0,
+      "daily_change_pct": -1.3453,
+      "return_20d_pct": -0.7071,
+      "alpha_20d_pct": -11.8534,
+      "rsi14": 48.5272,
+      "atr14": 2.8347,
+      "ema20": 66.0663,
+      "ema50": 67.9274,
+      "ema200": 75.0663,
+      "relative_volume": 1.0614,
+      "turnover_crore": 0.0244,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-12 00:00:00",
+      "entry_reference": 68.136,
+      "stop_reference": 63.8839,
+      "target_1_reference": 74.5141,
+      "last_checked_at_ist": "2026-11-14T13:12:39+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -24573,114 +24750,32 @@
   ],
   "intraday_timeline": [
     {
-      "snapshot_at_ist": "2026-11-13T13:42:54+05:30",
-      "fresh_green": 46,
-      "fresh_red": 77,
-      "uptrend_count": 47,
-      "indices": {
-        "^NSEI": 25108.0996,
-        "^GSPC": 7592.3999,
-        "BZ=F": 95.97,
-        "GC=F": 3903.5,
-        "SI=F": 50.02,
-        "INR=X": 94.25
-      }
-    },
-    {
-      "snapshot_at_ist": "2026-11-13T17:19:56+05:30",
-      "fresh_green": 46,
-      "fresh_red": 75,
-      "uptrend_count": 51,
+      "snapshot_at_ist": "2026-11-14T13:12:39+05:30",
+      "fresh_green": 2,
+      "fresh_red": 8,
+      "uptrend_count": 4,
       "indices": {
         "^NSEI": 25144.3008,
-        "^GSPC": 7592.3999,
-        "BZ=F": 95.91,
-        "GC=F": 3893.8999,
-        "SI=F": 49.865
-      }
-    },
-    {
-      "snapshot_at_ist": "2026-11-13T18:01:38+05:30",
-      "fresh_green": 46,
-      "fresh_red": 75,
-      "uptrend_count": 52,
-      "indices": {
-        "^NSEI": 25144.3008,
-        "^GSPC": 7592.3999,
-        "BZ=F": 96.18,
-        "GC=F": 3898.5,
-        "SI=F": 49.965,
-        "INR=X": 94.22
-      }
-    },
-    {
-      "snapshot_at_ist": "2026-11-13T21:04:19+05:30",
-      "fresh_green": 50,
-      "fresh_red": 69,
-      "uptrend_count": 54,
-      "indices": {
-        "^NSEI": 25144.3008,
-        "^GSPC": 7533.23,
-        "BZ=F": 96.68,
-        "GC=F": 3885.6001,
-        "INR=X": 94.23
-      }
-    },
-    {
-      "snapshot_at_ist": "2026-11-13T22:11:29+05:30",
-      "fresh_green": 40,
-      "fresh_red": 80,
-      "uptrend_count": 54,
-      "indices": {
-        "^NSEI": 25144.3008,
-        "^GSPC": 7523.6001,
-        "BZ=F": 95.73,
-        "GC=F": 3885.8,
-        "SI=F": 49.125,
-        "INR=X": 94.23
-      }
-    },
-    {
-      "snapshot_at_ist": "2026-11-13T22:56:51+05:30",
-      "fresh_green": 39,
-      "fresh_red": 82,
-      "uptrend_count": 45,
-      "indices": {
-        "^NSEI": 25144.3008,
-        "^GSPC": 7537.3198,
-        "BZ=F": 95.69,
-        "GC=F": 3885.6001,
-        "INR=X": 94.23
-      }
-    },
-    {
-      "snapshot_at_ist": "2026-11-13T23:58:36+05:30",
-      "fresh_green": 51,
-      "fresh_red": 67,
-      "uptrend_count": 49,
-      "indices": {
-        "^NSEI": 25144.3008,
-        "^GSPC": 7544.7402,
-        "BZ=F": 95.86,
-        "GC=F": 3888.8,
-        "SI=F": 49.095,
-        "INR=X": 94.23
+        "^GSPC": 7561.6699,
+        "BZ=F": 95.84,
+        "SI=F": 49.031,
+        "INR=X": 94.24
       }
     }
   ],
   "day_review": {
-    "first_observation_ist": "2026-11-13T13:42:54+05:30",
-    "last_observation_ist": "2026-11-13T23:58:36+05:30",
-    "nifty_change_since_first_snapshot_pct": 0.1442,
+    "first_observation_ist": "2026-11-14T13:12:39+05:30",
+    "last_observation_ist": "2026-11-14T13:12:39+05:30",
+    "nifty_change_since_first_snapshot_pct": 0.0,
     "first_snapshot_breadth": {
-      "green": 46,
-      "red": 77
+      "green": 2,
+      "red": 8
     },
     "last_snapshot_breadth": {
-      "green": 51,
-      "red": 67
+      "green": 2,
+      "red": 8
     },
-    "interpretation": "Mixed breadth: look for confirmation rather than a directional bet.",
+    "interpretation": "Uncertain: insufficient fresh breadth data.",
     "warning": "Breadth totals reflect rotating stock batches; changes across batches are NOT an apples-to-apples measure of NSE market breadth."
   }
 }
