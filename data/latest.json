@@ -1,10 +1,10 @@
 {
-  "generated_at_ist": "2026-11-18T18:07:16+05:30",
+  "generated_at_ist": "2026-11-18T18:50:27+05:30",
   "market_date_ist": "2026-11-18",
   "source": "Yahoo Finance unofficial feed; may be delayed, rate-limited or unavailable",
   "universe_source": "https://archives.nseindia.com/content/equities/EQUITY_L.csv",
   "directory_count": 2632,
-  "run_symbol_count": 125,
+  "run_symbol_count": 7,
   "symbols_with_record": 1842,
   "quote_freshness_note": "Daily candle bar may be partial during market hours; no guaranteed 1-minute or live update.",
   "indices": {
@@ -19,18 +19,18 @@
       "last_price_bar": "2026-11-17 00:00:00"
     },
     "BZ=F": {
-      "close": 90.3,
-      "daily_change_pct": -3.0492,
+      "close": 90.27,
+      "daily_change_pct": -3.0814,
       "last_price_bar": "2026-11-18 00:00:00"
     },
     "GC=F": {
-      "close": 3770.3,
-      "daily_change_pct": -2.43,
+      "close": 3765.7,
+      "daily_change_pct": -2.549,
       "last_price_bar": "2026-11-18 00:00:00"
     },
     "SI=F": {
-      "close": 45.685,
-      "daily_change_pct": -3.3899,
+      "close": 45.595,
+      "daily_change_pct": -3.5802,
       "last_price_bar": "2026-11-18 00:00:00"
     },
     "INR=X": {
@@ -40,11 +40,11 @@
     }
   },
   "summary": {
-    "fresh_green": 36,
-    "fresh_red": 84,
-    "fresh_flat_or_unavailable": 5,
-    "uptrend_count": 34,
-    "next_session_scenario": "Conditional defensive bias: more fresh stocks falling than rising. Watch for volatility next session.",
+    "fresh_green": 3,
+    "fresh_red": 4,
+    "fresh_flat_or_unavailable": 0,
+    "uptrend_count": 3,
+    "next_session_scenario": "Uncertain: insufficient fresh breadth data.",
     "warning": "Scenario derived from available daily returns, not trained news prediction."
   },
   "news": [
@@ -121,19 +121,19 @@
       "source": "Economic Times Markets"
     },
     {
-      "title": "Bajaj Finance Share Price Live Updates: Market Update: Bajaj Finance",
+      "title": "Bajaj Finance Share Price Highlights: Bajaj Finance Stock Price History",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-finance-stock-price-live-updates-18-nov-2026/liveblog/135949129.cms",
       "published": "Wed, 18 Nov 2026 10:02:54 +0530",
       "source": "Economic Times Markets"
     },
     {
-      "title": "Bharti Airtel Share Price Live Updates: Bharti Airtel's Stock Price Analysis",
+      "title": "Bharti Airtel Share Price Highlights: Bharti Airtel Stock Price History",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bharti-airtel-share-price-live-updates-18-nov-2026/liveblog/135949072.cms",
       "published": "Wed, 18 Nov 2026 10:01:47 +0530",
       "source": "Economic Times Markets"
     },
     {
-      "title": "Eicher Motors Share Price Live Updates: Eicher Motors sees a price adjustment",
+      "title": "Eicher Motors Share Price Highlights: Eicher Motors Stock Price History",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/eicher-motors-share-price-today-live-updates-18-nov-2026/liveblog/135948917.cms",
       "published": "Wed, 18 Nov 2026 09:56:12 +0530",
       "source": "Economic Times Markets"
@@ -157,7 +157,7 @@
       "source": "Economic Times Markets"
     },
     {
-      "title": "HUL Share Price Live Updates: HUL's Market Update",
+      "title": "HUL Share Price Highlights: HUL Stock Price History",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hul-share-price-live-18-nov-2026/liveblog/135947703.cms",
       "published": "Wed, 18 Nov 2026 09:16:41 +0530",
       "source": "Economic Times Markets"
@@ -169,124 +169,130 @@
       "source": "Economic Times Markets"
     },
     {
-      "title": "HDFC Bank Share Price Live Updates: HDFC Bank's Current Trading Price",
+      "title": "HDFC Bank Share Price Highlights: HDFC Bank Stock Price History",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hdfc-bank-stock-price-today-live-18-nov-2026/liveblog/135947577.cms",
       "published": "Wed, 18 Nov 2026 09:10:05 +0530",
       "source": "Economic Times Markets"
     },
     {
-      "title": "Bajaj Auto Share Price Live Updates: Bajaj Auto's Price Movement Today",
+      "title": "Bajaj Auto Share Price Highlights: Bajaj Auto Stock Price History",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-auto-stock-price-today-live-18-nov-2026/liveblog/135947342.cms",
       "published": "Wed, 18 Nov 2026 08:56:48 +0530",
       "source": "Economic Times Markets"
     },
     {
-      "title": "IndusInd Bank Share Price Live Updates: Market Update: IndusInd Bank's Current Trading Status",
+      "title": "IndusInd Bank Share Price Highlights: IndusInd Bank Stock Price History",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/indusind-bank-stock-price-live-updates-18-nov-2026/liveblog/135947265.cms",
       "published": "Wed, 18 Nov 2026 08:55:21 +0530",
       "source": "Economic Times Markets"
     },
     {
-      "title": "TCS Share Price Live Updates: TCS Experiences a Minor Decline in Today's Market",
+      "title": "TCS Share Price Highlights: TCS Stock Price History",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tcs-share-price-live-18-nov-2026/liveblog/135947257.cms",
       "published": "Wed, 18 Nov 2026 08:55:04 +0530",
       "source": "Economic Times Markets"
     },
     {
-      "title": "Coal India Share Price Live Updates: Coal India  Price Update: Market Decline",
+      "title": "Coal India Share Price Highlights: Coal India Ltd Stock Price History",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/coal-india-ltd-share-price-today-live-18-nov-2026/liveblog/135947027.cms",
       "published": "Wed, 18 Nov 2026 08:41:25 +0530",
       "source": "Economic Times Markets"
     },
     {
-      "title": "Adani Ports SEZ Share Price Live Updates: Adani Ports SEZ sees a price decline",
+      "title": "Adani Ports SEZ Share Price Highlights: Adani Ports SEZ Stock Price History",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/adani-ports-sez-stock-price-live-updates-18-nov-2026/liveblog/135947016.cms",
       "published": "Wed, 18 Nov 2026 08:41:01 +0530",
       "source": "Economic Times Markets"
     },
     {
-      "title": "Grasim Inds Share Price Live Updates: Grasim Industries Current Market Status",
+      "title": "Grasim Inds Share Price Highlights: Grasim Inds. Stock Price History",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/grasim-inds-stock-price-today-live-18-nov-2026/liveblog/135947014.cms",
       "published": "Wed, 18 Nov 2026 08:40:56 +0530",
       "source": "Economic Times Markets"
     },
     {
-      "title": "Infosys Share Price Live Updates: Infosys ends the day at Rs 1108.8",
+      "title": "Infosys Share Price Highlights: Infosys Stock Price History",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/infosys-share-price-live-18-nov-2026/liveblog/135947008.cms",
       "published": "Wed, 18 Nov 2026 08:40:41 +0530",
       "source": "Economic Times Markets"
     },
     {
-      "title": "Maruti Suzuki Share Price Live Updates: Maruti Suzuki's Price and EMA3 Analysis",
+      "title": "Maruti Suzuki Share Price Highlights: Maruti Suzuki Stock Price History",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/maruti-suzuki-share-price-today-live-18-nov-2026/liveblog/135947001.cms",
       "published": "Wed, 18 Nov 2026 08:40:24 +0530",
       "source": "Economic Times Markets"
     },
     {
-      "title": "M&amp;M Share Price Live Updates: M&amp;M's Market Update: Price and Volatility",
+      "title": "M&amp;M Share Price Highlights: M&amp;M Stock Price History",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/mm-stock-price-today-live-18-nov-2026/liveblog/135946993.cms",
       "published": "Wed, 18 Nov 2026 08:40:05 +0530",
       "source": "Economic Times Markets"
     },
     {
-      "title": "Adani Ent Share Price Live Updates: Adani Enterprises  Current Trading Status",
+      "title": "Adani Ent Share Price Highlights: Adani Ent. Stock Price History",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/adani-ent-share-price-live-updates-18-nov-2026/liveblog/135946890.cms",
       "published": "Wed, 18 Nov 2026 08:35:05 +0530",
       "source": "Economic Times Markets"
     },
     {
-      "title": "Bajaj Finserv Share Price Live Updates: Bajaj Finserv Market Update",
+      "title": "Bajaj Finserv Share Price Highlights: Bajaj Finserv Stock Price History",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-finserv-share-price-live-18-nov-2026/liveblog/135946814.cms",
       "published": "Wed, 18 Nov 2026 08:31:05 +0530",
       "source": "Economic Times Markets"
     },
     {
-      "title": "Cipla Share Price Live Updates: Cipla's Current Market Position",
+      "title": "Cipla Share Price Highlights: Cipla Stock Price History",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/cipla-share-price-today-live-18-nov-2026/liveblog/135946796.cms",
       "published": "Wed, 18 Nov 2026 08:30:30 +0530",
       "source": "Economic Times Markets"
     },
     {
-      "title": "HDFC Life Share Price Live Updates: HDFC Life's Financial Snapshot",
+      "title": "HDFC Life Share Price Highlights: HDFC Life Stock Price History",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hdfc-life-share-price-live-updates-18-nov-2026/liveblog/135946792.cms",
       "published": "Wed, 18 Nov 2026 08:30:26 +0530",
       "source": "Economic Times Markets"
     },
     {
-      "title": "ICICI Bank Share Price Live Updates: ICICI Bank's Price and Volatility Insights",
+      "title": "ICICI Bank Share Price Highlights: ICICI Bank Stock Price History",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/icici-bank-share-price-today-live-18-nov-2026/liveblog/135946776.cms",
       "published": "Wed, 18 Nov 2026 08:30:06 +0530",
       "source": "Economic Times Markets"
     },
     {
-      "title": "Tech Mahindra Share Price Live Updates: Tech Mahindra's Current Market Position",
+      "title": "Tech Mahindra Share Price Highlights: Tech Mahindra Stock Price History",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tech-mahindra-stock-price-today-live-18-nov-2026/liveblog/135946775.cms",
       "published": "Wed, 18 Nov 2026 08:30:06 +0530",
       "source": "Economic Times Markets"
     },
     {
-      "title": "ONGC Share Price Live Updates: ONGC's Price Movement Today",
+      "title": "ONGC Share Price Highlights: ONGC Stock Price History",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ongc-share-price-today-live-updates-18-nov-2026/liveblog/135946681.cms",
       "published": "Wed, 18 Nov 2026 08:26:45 +0530",
       "source": "Economic Times Markets"
     },
     {
-      "title": "JSW Steel Share Price Live Updates: JSW Steel Trading Insights",
+      "title": "JSW Steel Share Price Highlights: JSW Steel Stock Price History",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/jsw-steel-share-price-live-18-nov-2026/liveblog/135946675.cms",
       "published": "Wed, 18 Nov 2026 08:26:27 +0530",
       "source": "Economic Times Markets"
     },
     {
-      "title": "Britannia Share Price Live Updates: Today's Trading Update for Britannia",
+      "title": "Britannia Share Price Highlights: Britannia Stock Price History",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/britannia-share-price-today-live-updates-18-nov-2026/liveblog/135946667.cms",
       "published": "Wed, 18 Nov 2026 08:26:05 +0530",
       "source": "Economic Times Markets"
     },
     {
-      "title": "Titan Company Share Price Live Updates: Titan Company Falls Below Key Moving Average",
+      "title": "Titan Company Share Price Highlights: Titan Company Stock Price History",
       "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/titan-company-share-price-today-live-updates-18-nov-2026/liveblog/135946662.cms",
       "published": "Wed, 18 Nov 2026 08:25:45 +0530",
       "source": "Economic Times Markets"
+    },
+    {
+      "title": "Nvidia shares gain 3% in premarket after Q3 results, upbeat forecast top estimates: Is the AI rally back on track?",
+      "url": "https://www.livemint.com/market/stock-market-news/nvidia-shares-gain-3-in-premarket-after-q3-results-upbeat-forecast-top-estimates-is-the-ai-rally-back-on-track-11795005376675.html",
+      "published": "Wed, 18 Nov 2026 18:15:48 +0530",
+      "source": "Mint Markets"
     },
     {
       "title": "Crystal Crop Protection IPO 1-lot profit calculator basis GMP: What will the listing gains be if you get an allotment",
@@ -461,12 +467,6 @@
       "url": "https://www.livemint.com/market/emergingmarket-currencies-halt-three-day-slump-stocks-slide-11794955884837.html",
       "published": "Wed, 18 Nov 2026 04:21:24 +0530",
       "source": "Mint Markets"
-    },
-    {
-      "title": "JPMorgan Warns Leveraged-Loan Defaults Set to Double in 2027",
-      "url": "https://www.livemint.com/market/jpmorgan-warns-leveraged-loan-defaults-set-to-double-in-2027-11794949833068.html",
-      "published": "Wed, 18 Nov 2026 02:40:32 +0530",
-      "source": "Mint Markets"
     }
   ],
   "matched_news": {
@@ -480,7 +480,7 @@
     ],
     "IIFL": [
       {
-        "title": "Bajaj Finance Share Price Live Updates: Market Update: Bajaj Finance",
+        "title": "Bajaj Finance Share Price Highlights: Bajaj Finance Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-finance-stock-price-live-updates-18-nov-2026/liveblog/135949129.cms",
         "published": "Wed, 18 Nov 2026 10:02:54 +0530",
         "source": "Economic Times Markets"
@@ -532,7 +532,7 @@
     ],
     "ICICIBANK": [
       {
-        "title": "ICICI Bank Share Price Live Updates: ICICI Bank's Price and Volatility Insights",
+        "title": "ICICI Bank Share Price Highlights: ICICI Bank Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/icici-bank-share-price-today-live-18-nov-2026/liveblog/135946776.cms",
         "published": "Wed, 18 Nov 2026 08:30:06 +0530",
         "source": "Economic Times Markets"
@@ -548,7 +548,7 @@
     ],
     "TMPV": [
       {
-        "title": "Eicher Motors Share Price Live Updates: Eicher Motors sees a price adjustment",
+        "title": "Eicher Motors Share Price Highlights: Eicher Motors Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/eicher-motors-share-price-today-live-updates-18-nov-2026/liveblog/135948917.cms",
         "published": "Wed, 18 Nov 2026 09:56:12 +0530",
         "source": "Economic Times Markets"
@@ -562,7 +562,7 @@
     ],
     "BHARTIARTL": [
       {
-        "title": "Bharti Airtel Share Price Live Updates: Bharti Airtel's Stock Price Analysis",
+        "title": "Bharti Airtel Share Price Highlights: Bharti Airtel Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bharti-airtel-share-price-live-updates-18-nov-2026/liveblog/135949072.cms",
         "published": "Wed, 18 Nov 2026 10:01:47 +0530",
         "source": "Economic Times Markets"
@@ -594,7 +594,7 @@
     ],
     "INFY": [
       {
-        "title": "Infosys Share Price Live Updates: Infosys ends the day at Rs 1108.8",
+        "title": "Infosys Share Price Highlights: Infosys Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/infosys-share-price-live-18-nov-2026/liveblog/135947008.cms",
         "published": "Wed, 18 Nov 2026 08:40:41 +0530",
         "source": "Economic Times Markets"
@@ -628,27 +628,27 @@
         "source": "Economic Times Markets"
       },
       {
-        "title": "Infosys share price: Lost 1/4th investor wealth in 1 year, should you still buy the IT major? Check target, stop loss",
-        "url": "https://www.livemint.com/market/stock-market-news/infosys-share-price-lost-1-4th-investor-wealth-in-1-year-should-you-still-buy-the-it-major-check-target-stop-loss-11794991373495.html",
-        "published": "Wed, 18 Nov 2026 15:11:06 +0530",
-        "source": "Mint Markets"
+        "title": "Coal India Share Price Highlights: Coal India Ltd Stock Price History",
+        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/coal-india-ltd-share-price-today-live-18-nov-2026/liveblog/135947027.cms",
+        "published": "Wed, 18 Nov 2026 08:41:25 +0530",
+        "source": "Economic Times Markets"
       }
     ],
     "BAJFINANCE": [
       {
-        "title": "Bajaj Finance Share Price Live Updates: Market Update: Bajaj Finance",
+        "title": "Bajaj Finance Share Price Highlights: Bajaj Finance Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-finance-stock-price-live-updates-18-nov-2026/liveblog/135949129.cms",
         "published": "Wed, 18 Nov 2026 10:02:54 +0530",
         "source": "Economic Times Markets"
       },
       {
-        "title": "Bajaj Auto Share Price Live Updates: Bajaj Auto's Price Movement Today",
+        "title": "Bajaj Auto Share Price Highlights: Bajaj Auto Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-auto-stock-price-today-live-18-nov-2026/liveblog/135947342.cms",
         "published": "Wed, 18 Nov 2026 08:56:48 +0530",
         "source": "Economic Times Markets"
       },
       {
-        "title": "Bajaj Finserv Share Price Live Updates: Bajaj Finserv Market Update",
+        "title": "Bajaj Finserv Share Price Highlights: Bajaj Finserv Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-finserv-share-price-live-18-nov-2026/liveblog/135946814.cms",
         "published": "Wed, 18 Nov 2026 08:31:05 +0530",
         "source": "Economic Times Markets"
@@ -664,7 +664,7 @@
     ],
     "TITAN": [
       {
-        "title": "Titan Company Share Price Live Updates: Titan Company Falls Below Key Moving Average",
+        "title": "Titan Company Share Price Highlights: Titan Company Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/titan-company-share-price-today-live-updates-18-nov-2026/liveblog/135946662.cms",
         "published": "Wed, 18 Nov 2026 08:25:45 +0530",
         "source": "Economic Times Markets"
@@ -716,7 +716,7 @@
     ],
     "TVSMOTOR": [
       {
-        "title": "Eicher Motors Share Price Live Updates: Eicher Motors sees a price adjustment",
+        "title": "Eicher Motors Share Price Highlights: Eicher Motors Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/eicher-motors-share-price-today-live-updates-18-nov-2026/liveblog/135948917.cms",
         "published": "Wed, 18 Nov 2026 09:56:12 +0530",
         "source": "Economic Times Markets"
@@ -736,7 +736,7 @@
     ],
     "GRASIM": [
       {
-        "title": "Grasim Inds Share Price Live Updates: Grasim Industries Current Market Status",
+        "title": "Grasim Inds Share Price Highlights: Grasim Inds. Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/grasim-inds-stock-price-today-live-18-nov-2026/liveblog/135947014.cms",
         "published": "Wed, 18 Nov 2026 08:40:56 +0530",
         "source": "Economic Times Markets"
@@ -744,19 +744,19 @@
     ],
     "BAJAJ-AUTO": [
       {
-        "title": "Bajaj Finance Share Price Live Updates: Market Update: Bajaj Finance",
+        "title": "Bajaj Finance Share Price Highlights: Bajaj Finance Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-finance-stock-price-live-updates-18-nov-2026/liveblog/135949129.cms",
         "published": "Wed, 18 Nov 2026 10:02:54 +0530",
         "source": "Economic Times Markets"
       },
       {
-        "title": "Bajaj Auto Share Price Live Updates: Bajaj Auto's Price Movement Today",
+        "title": "Bajaj Auto Share Price Highlights: Bajaj Auto Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-auto-stock-price-today-live-18-nov-2026/liveblog/135947342.cms",
         "published": "Wed, 18 Nov 2026 08:56:48 +0530",
         "source": "Economic Times Markets"
       },
       {
-        "title": "Bajaj Finserv Share Price Live Updates: Bajaj Finserv Market Update",
+        "title": "Bajaj Finserv Share Price Highlights: Bajaj Finserv Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-finserv-share-price-live-18-nov-2026/liveblog/135946814.cms",
         "published": "Wed, 18 Nov 2026 08:31:05 +0530",
         "source": "Economic Times Markets"
@@ -764,7 +764,7 @@
     ],
     "ONGC": [
       {
-        "title": "ONGC Share Price Live Updates: ONGC's Price Movement Today",
+        "title": "ONGC Share Price Highlights: ONGC Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ongc-share-price-today-live-updates-18-nov-2026/liveblog/135946681.cms",
         "published": "Wed, 18 Nov 2026 08:26:45 +0530",
         "source": "Economic Times Markets"
@@ -786,7 +786,7 @@
     ],
     "JSWSTEEL": [
       {
-        "title": "JSW Steel Share Price Live Updates: JSW Steel Trading Insights",
+        "title": "JSW Steel Share Price Highlights: JSW Steel Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/jsw-steel-share-price-live-18-nov-2026/liveblog/135946675.cms",
         "published": "Wed, 18 Nov 2026 08:26:27 +0530",
         "source": "Economic Times Markets"
@@ -802,7 +802,7 @@
     ],
     "TMCV": [
       {
-        "title": "Eicher Motors Share Price Live Updates: Eicher Motors sees a price adjustment",
+        "title": "Eicher Motors Share Price Highlights: Eicher Motors Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/eicher-motors-share-price-today-live-updates-18-nov-2026/liveblog/135948917.cms",
         "published": "Wed, 18 Nov 2026 09:56:12 +0530",
         "source": "Economic Times Markets"
@@ -836,14 +836,6 @@
         "source": "Mint Markets"
       }
     ],
-    "BEL": [
-      {
-        "title": "Titan Company Share Price Live Updates: Titan Company Falls Below Key Moving Average",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/titan-company-share-price-today-live-updates-18-nov-2026/liveblog/135946662.cms",
-        "published": "Wed, 18 Nov 2026 08:25:45 +0530",
-        "source": "Economic Times Markets"
-      }
-    ],
     "INDHOTEL": [
       {
         "title": "Global money rushes back into Indian stocks at record pace",
@@ -872,14 +864,6 @@
         "source": "Mint Markets"
       }
     ],
-    "JIOFIN": [
-      {
-        "title": "HDFC Life Share Price Live Updates: HDFC Life's Financial Snapshot",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hdfc-life-share-price-live-updates-18-nov-2026/liveblog/135946792.cms",
-        "published": "Wed, 18 Nov 2026 08:30:26 +0530",
-        "source": "Economic Times Markets"
-      }
-    ],
     "AUBANK": [
       {
         "title": "Small-cap stock under  ₹10 Salasar Techno Engineering shares jump 12% today, soars 42% in 3 days- What's driving gains?",
@@ -890,7 +874,7 @@
     ],
     "INDUSINDBK": [
       {
-        "title": "IndusInd Bank Share Price Live Updates: Market Update: IndusInd Bank's Current Trading Status",
+        "title": "IndusInd Bank Share Price Highlights: IndusInd Bank Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/indusind-bank-stock-price-live-updates-18-nov-2026/liveblog/135947265.cms",
         "published": "Wed, 18 Nov 2026 08:55:21 +0530",
         "source": "Economic Times Markets"
@@ -898,7 +882,7 @@
     ],
     "SAIL": [
       {
-        "title": "JSW Steel Share Price Live Updates: JSW Steel Trading Insights",
+        "title": "JSW Steel Share Price Highlights: JSW Steel Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/jsw-steel-share-price-live-18-nov-2026/liveblog/135946675.cms",
         "published": "Wed, 18 Nov 2026 08:26:27 +0530",
         "source": "Economic Times Markets"
@@ -906,7 +890,7 @@
     ],
     "CIPLA": [
       {
-        "title": "Cipla Share Price Live Updates: Cipla's Current Market Position",
+        "title": "Cipla Share Price Highlights: Cipla Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/cipla-share-price-today-live-18-nov-2026/liveblog/135946796.cms",
         "published": "Wed, 18 Nov 2026 08:30:30 +0530",
         "source": "Economic Times Markets"
@@ -930,7 +914,7 @@
     ],
     "BRITANNIA": [
       {
-        "title": "Britannia Share Price Live Updates: Today's Trading Update for Britannia",
+        "title": "Britannia Share Price Highlights: Britannia Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/britannia-share-price-today-live-updates-18-nov-2026/liveblog/135946667.cms",
         "published": "Wed, 18 Nov 2026 08:26:05 +0530",
         "source": "Economic Times Markets"
@@ -952,19 +936,19 @@
     ],
     "BAJAJFINSV": [
       {
-        "title": "Bajaj Finance Share Price Live Updates: Market Update: Bajaj Finance",
+        "title": "Bajaj Finance Share Price Highlights: Bajaj Finance Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-finance-stock-price-live-updates-18-nov-2026/liveblog/135949129.cms",
         "published": "Wed, 18 Nov 2026 10:02:54 +0530",
         "source": "Economic Times Markets"
       },
       {
-        "title": "Bajaj Auto Share Price Live Updates: Bajaj Auto's Price Movement Today",
+        "title": "Bajaj Auto Share Price Highlights: Bajaj Auto Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-auto-stock-price-today-live-18-nov-2026/liveblog/135947342.cms",
         "published": "Wed, 18 Nov 2026 08:56:48 +0530",
         "source": "Economic Times Markets"
       },
       {
-        "title": "Bajaj Finserv Share Price Live Updates: Bajaj Finserv Market Update",
+        "title": "Bajaj Finserv Share Price Highlights: Bajaj Finserv Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-finserv-share-price-live-18-nov-2026/liveblog/135946814.cms",
         "published": "Wed, 18 Nov 2026 08:31:05 +0530",
         "source": "Economic Times Markets"
@@ -972,7 +956,7 @@
     ],
     "LTF": [
       {
-        "title": "Bajaj Finance Share Price Live Updates: Market Update: Bajaj Finance",
+        "title": "Bajaj Finance Share Price Highlights: Bajaj Finance Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-finance-stock-price-live-updates-18-nov-2026/liveblog/135949129.cms",
         "published": "Wed, 18 Nov 2026 10:02:54 +0530",
         "source": "Economic Times Markets"
@@ -1036,15 +1020,9 @@
         "source": "Economic Times Markets"
       },
       {
-        "title": "IndusInd Bank Share Price Live Updates: Market Update: IndusInd Bank's Current Trading Status",
+        "title": "IndusInd Bank Share Price Highlights: IndusInd Bank Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/indusind-bank-stock-price-live-updates-18-nov-2026/liveblog/135947265.cms",
         "published": "Wed, 18 Nov 2026 08:55:21 +0530",
-        "source": "Economic Times Markets"
-      },
-      {
-        "title": "Grasim Inds Share Price Live Updates: Grasim Industries Current Market Status",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/grasim-inds-stock-price-today-live-18-nov-2026/liveblog/135947014.cms",
-        "published": "Wed, 18 Nov 2026 08:40:56 +0530",
         "source": "Economic Times Markets"
       }
     ],
@@ -1058,7 +1036,7 @@
     ],
     "ICICIAMC": [
       {
-        "title": "ICICI Bank Share Price Live Updates: ICICI Bank's Price and Volatility Insights",
+        "title": "ICICI Bank Share Price Highlights: ICICI Bank Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/icici-bank-share-price-today-live-18-nov-2026/liveblog/135946776.cms",
         "published": "Wed, 18 Nov 2026 08:30:06 +0530",
         "source": "Economic Times Markets"
@@ -5999,35 +5977,35 @@
     {
       "symbol": "ZYDUSLIFE",
       "company": "Zydus Lifesciences Limited",
-      "close": 1189.9,
-      "daily_change_pct": -1.335,
-      "return_20d_pct": 5.7971,
-      "alpha_20d_pct": -5.3492,
-      "rsi14": 52.5835,
-      "atr14": 33.2016,
-      "ema20": 1186.1397,
-      "ema50": 1164.3637,
-      "ema200": 1078.5927,
-      "relative_volume": 0.456,
-      "turnover_crore": 95.8043,
+      "close": 1202.0,
+      "daily_change_pct": -0.1827,
+      "return_20d_pct": 7.9091,
+      "alpha_20d_pct": -2.3098,
+      "rsi14": 55.2956,
+      "atr14": 30.9691,
+      "ema20": 1189.6633,
+      "ema50": 1168.3403,
+      "ema200": 1080.854,
+      "relative_volume": 0.4816,
+      "turnover_crore": 95.7901,
       "trend_score": 83,
       "direction": "red",
-      "last_price_bar": "2026-11-13 00:00:00",
-      "entry_reference": 1215.426,
-      "stop_reference": 1165.6236,
-      "target_1_reference": 1290.1296,
-      "last_checked_at_ist": "2026-11-14T13:12:39+05:30",
+      "last_price_bar": "2026-11-18 00:00:00",
+      "entry_reference": 1215.927,
+      "stop_reference": 1169.4734,
+      "target_1_reference": 1285.6074,
+      "last_checked_at_ist": "2026-11-18T18:50:27+05:30",
       "fundamentals": {
-        "pe": 28.4325,
-        "forward_pe": 24.0295,
-        "pb": 4.266,
+        "pe": 28.7216,
+        "forward_pe": 24.3412,
+        "pb": 4.3094,
         "roe": 0.1472,
         "debt_to_equity": 46.059,
         "revenue_growth": 0.292,
         "free_cashflow": 13829624832.0,
         "beta": 0.308
       },
-      "fundamentals_asof": "2026-11-14T13:12:39+05:30"
+      "fundamentals_asof": "2026-11-18T18:50:27+05:30"
     },
     {
       "symbol": "CMLL",
@@ -18969,39 +18947,6 @@
       "fundamentals_asof": null
     },
     {
-      "symbol": "ZYDUSWELL",
-      "company": "Zydus Wellness Limited",
-      "close": 469.95,
-      "daily_change_pct": -0.2229,
-      "return_20d_pct": -9.1182,
-      "alpha_20d_pct": -20.2645,
-      "rsi14": 42.9093,
-      "atr14": 19.4652,
-      "ema20": 480.6026,
-      "ema50": 497.8829,
-      "ema200": 497.8708,
-      "relative_volume": 0.3626,
-      "turnover_crore": 5.018,
-      "trend_score": 0,
-      "direction": "red",
-      "last_price_bar": "2026-11-13 00:00:00",
-      "entry_reference": 475.0482,
-      "stop_reference": 445.8503,
-      "target_1_reference": 518.845,
-      "last_checked_at_ist": "2026-11-14T13:12:39+05:30",
-      "fundamentals": {
-        "pe": 60.9819,
-        "forward_pe": 29.3395,
-        "pb": 2.5467,
-        "roe": 0.0424,
-        "debt_to_equity": 53.613,
-        "revenue_growth": 0.732,
-        "free_cashflow": 2673625088.0,
-        "beta": -0.056
-      },
-      "fundamentals_asof": "2026-11-14T13:12:39+05:30"
-    },
-    {
       "symbol": "JINDALPOLY",
       "company": "Jindal Poly Films Limited",
       "close": 701.0,
@@ -21819,6 +21764,39 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "ZOTA",
+      "company": "Zota Health Care LImited",
+      "close": 1314.5,
+      "daily_change_pct": 1.8519,
+      "return_20d_pct": -3.3385,
+      "alpha_20d_pct": -13.5574,
+      "rsi14": 54.6505,
+      "atr14": 58.6998,
+      "ema20": 1283.0464,
+      "ema50": 1267.5449,
+      "ema200": 1291.9546,
+      "relative_volume": 0.3971,
+      "turnover_crore": 3.0679,
+      "trend_score": 66,
+      "direction": "green",
+      "last_price_bar": "2026-11-18 00:00:00",
+      "entry_reference": 1321.0368,
+      "stop_reference": 1232.9871,
+      "target_1_reference": 1453.1114,
+      "last_checked_at_ist": "2026-11-18T18:50:27+05:30",
+      "fundamentals": {
+        "pe": null,
+        "forward_pe": null,
+        "pb": 7.277,
+        "roe": -0.2409,
+        "debt_to_equity": 43.21,
+        "revenue_growth": 0.546,
+        "free_cashflow": -1942240640.0,
+        "beta": 0.349
+      },
+      "fundamentals_asof": "2026-11-18T18:50:27+05:30"
+    },
+    {
       "symbol": "ITDC",
       "company": "India Tourism Development Corporation Limited",
       "close": 654.95,
@@ -22716,37 +22694,37 @@
       "fundamentals_asof": null
     },
     {
-      "symbol": "ZOTA",
-      "company": "Zota Health Care LImited",
-      "close": 1302.7,
-      "daily_change_pct": -1.6088,
-      "return_20d_pct": 0.1153,
-      "alpha_20d_pct": -11.0311,
-      "rsi14": 53.2254,
-      "atr14": 66.0272,
-      "ema20": 1275.5956,
-      "ema50": 1262.3044,
-      "ema200": 1288.7501,
-      "relative_volume": 0.2474,
-      "turnover_crore": 2.513,
-      "trend_score": 83,
+      "symbol": "ZYDUSWELL",
+      "company": "Zydus Wellness Limited",
+      "close": 456.6,
+      "daily_change_pct": -0.8146,
+      "return_20d_pct": -11.4086,
+      "alpha_20d_pct": -21.6275,
+      "rsi14": 37.9221,
+      "atr14": 17.626,
+      "ema20": 475.4448,
+      "ema50": 493.7008,
+      "ema200": 496.3376,
+      "relative_volume": 0.1913,
+      "turnover_crore": 2.5318,
+      "trend_score": 0,
       "direction": "red",
-      "last_price_bar": "2026-11-12 00:00:00",
-      "entry_reference": 1339.7742,
-      "stop_reference": 1240.7334,
-      "target_1_reference": 1488.3353,
-      "last_checked_at_ist": "2026-11-14T13:12:39+05:30",
+      "last_price_bar": "2026-11-18 00:00:00",
+      "entry_reference": 465.1284,
+      "stop_reference": 438.6894,
+      "target_1_reference": 504.787,
+      "last_checked_at_ist": "2026-11-18T18:50:27+05:30",
       "fundamentals": {
-        "pe": null,
-        "forward_pe": null,
-        "pb": 7.1801,
-        "roe": -0.2409,
-        "debt_to_equity": 43.21,
-        "revenue_growth": 0.546,
-        "free_cashflow": -1942240640.0,
-        "beta": 0.349
+        "pe": 58.9923,
+        "forward_pe": 28.3823,
+        "pb": 2.4636,
+        "roe": 0.0424,
+        "debt_to_equity": 53.613,
+        "revenue_growth": 0.732,
+        "free_cashflow": 2673625088.0,
+        "beta": -0.056
       },
-      "fundamentals_asof": "2026-11-14T13:12:39+05:30"
+      "fundamentals_asof": "2026-11-18T18:50:27+05:30"
     },
     {
       "symbol": "SALSTEEL",
@@ -26325,6 +26303,39 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "ZUARI",
+      "company": "Zuari Agro Chemicals Limited",
+      "close": 183.93,
+      "daily_change_pct": -2.3674,
+      "return_20d_pct": -9.2734,
+      "alpha_20d_pct": -19.4923,
+      "rsi14": 36.3562,
+      "atr14": 7.0032,
+      "ema20": 193.0956,
+      "ema50": 203.0127,
+      "ema200": 226.4305,
+      "relative_volume": 0.7288,
+      "turnover_crore": 1.1532,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-18 00:00:00",
+      "entry_reference": 190.38,
+      "stop_reference": 179.8752,
+      "target_1_reference": 206.1372,
+      "last_checked_at_ist": "2026-11-18T18:50:27+05:30",
+      "fundamentals": {
+        "pe": 4.5381,
+        "forward_pe": 42.7744,
+        "pb": 0.3081,
+        "roe": 0.0677,
+        "debt_to_equity": 27.537,
+        "revenue_growth": -0.72,
+        "free_cashflow": 2464427520.0,
+        "beta": 0.002
+      },
+      "fundamentals_asof": "2026-11-18T18:50:27+05:30"
+    },
+    {
       "symbol": "ATALREAL",
       "company": "Atal Realtech Limited",
       "close": 14.39,
@@ -26539,6 +26550,39 @@
       "last_checked_at_ist": "2026-11-17T19:15:00+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
+    },
+    {
+      "symbol": "ZUARIIND",
+      "company": "ZUARI INDUSTRIES LIMITED",
+      "close": 233.87,
+      "daily_change_pct": -2.9505,
+      "return_20d_pct": -9.7376,
+      "alpha_20d_pct": -19.9565,
+      "rsi14": 36.5762,
+      "atr14": 9.2545,
+      "ema20": 246.5676,
+      "ema50": 255.0015,
+      "ema200": 266.6662,
+      "relative_volume": 1.1226,
+      "turnover_crore": 1.128,
+      "trend_score": 16,
+      "direction": "red",
+      "last_price_bar": "2026-11-18 00:00:00",
+      "entry_reference": 242.8748,
+      "stop_reference": 228.9931,
+      "target_1_reference": 263.6973,
+      "last_checked_at_ist": "2026-11-18T18:50:27+05:30",
+      "fundamentals": {
+        "pe": 6.4179,
+        "forward_pe": null,
+        "pb": 0.1645,
+        "roe": 0.0286,
+        "debt_to_equity": 39.675,
+        "revenue_growth": 0.363,
+        "free_cashflow": -2910891520.0,
+        "beta": null
+      },
+      "fundamentals_asof": "2026-11-18T18:50:27+05:30"
     },
     {
       "symbol": "BANSALWIRE",
@@ -27381,39 +27425,6 @@
       "fundamentals_asof": null
     },
     {
-      "symbol": "ZUARIIND",
-      "company": "ZUARI INDUSTRIES LIMITED",
-      "close": 252.78,
-      "daily_change_pct": 0.3016,
-      "return_20d_pct": -7.6434,
-      "alpha_20d_pct": -18.7897,
-      "rsi14": 51.05,
-      "atr14": 8.9622,
-      "ema20": 248.8172,
-      "ema50": 257.185,
-      "ema200": 269.7772,
-      "relative_volume": 0.8234,
-      "turnover_crore": 0.9305,
-      "trend_score": 33,
-      "direction": "green",
-      "last_price_bar": "2026-11-12 00:00:00",
-      "entry_reference": 256.8126,
-      "stop_reference": 243.3692,
-      "target_1_reference": 276.9776,
-      "last_checked_at_ist": "2026-11-14T13:12:39+05:30",
-      "fundamentals": {
-        "pe": 6.8719,
-        "forward_pe": null,
-        "pb": 0.2099,
-        "roe": null,
-        "debt_to_equity": 72.104,
-        "revenue_growth": 0.212,
-        "free_cashflow": null,
-        "beta": 0.391
-      },
-      "fundamentals_asof": "2026-11-14T13:12:39+05:30"
-    },
-    {
       "symbol": "CSM",
       "company": "CSM Technologies Limited",
       "close": 79.65,
@@ -27532,39 +27543,6 @@
       "last_checked_at_ist": "2026-11-17T22:29:27+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
-    },
-    {
-      "symbol": "ZUARI",
-      "company": "Zuari Agro Chemicals Limited",
-      "close": 194.9,
-      "daily_change_pct": -1.6402,
-      "return_20d_pct": -5.5854,
-      "alpha_20d_pct": -16.7318,
-      "rsi14": 46.2987,
-      "atr14": 7.3076,
-      "ema20": 195.5637,
-      "ema50": 205.571,
-      "ema200": 228.7302,
-      "relative_volume": 0.4957,
-      "turnover_crore": 0.8923,
-      "trend_score": 0,
-      "direction": "red",
-      "last_price_bar": "2026-11-12 00:00:00",
-      "entry_reference": 198.5864,
-      "stop_reference": 187.625,
-      "target_1_reference": 215.0284,
-      "last_checked_at_ist": "2026-11-14T13:12:39+05:30",
-      "fundamentals": {
-        "pe": 4.6581,
-        "forward_pe": 44.5442,
-        "pb": 0.3208,
-        "roe": 0.0677,
-        "debt_to_equity": 27.537,
-        "revenue_growth": -0.72,
-        "free_cashflow": 2464427520.0,
-        "beta": 0.002
-      },
-      "fundamentals_asof": "2026-11-14T13:12:39+05:30"
     },
     {
       "symbol": "PARKHOTELS",
@@ -38616,30 +38594,6 @@
       "fundamentals_asof": null
     },
     {
-      "symbol": "ZSARACOM",
-      "company": "Saraswati Commercial India Limited",
-      "close": 9900.0,
-      "daily_change_pct": -0.9406,
-      "return_20d_pct": -1.6198,
-      "alpha_20d_pct": -12.7661,
-      "rsi14": 50.0294,
-      "atr14": 421.4256,
-      "ema20": 9700.4619,
-      "ema50": 10222.6494,
-      "ema200": null,
-      "relative_volume": 2.3678,
-      "turnover_crore": 0.0465,
-      "trend_score": 50,
-      "direction": "red",
-      "last_price_bar": "2026-11-12 00:00:00",
-      "entry_reference": 10270.5,
-      "stop_reference": 9638.3616,
-      "target_1_reference": 11218.7076,
-      "last_checked_at_ist": "2026-11-14T13:12:39+05:30",
-      "fundamentals": {},
-      "fundamentals_asof": null
-    },
-    {
       "symbol": "ZEELEARN",
       "company": "Zee Learn Limited",
       "close": 6.0,
@@ -38878,6 +38832,39 @@
       "last_checked_at_ist": "2026-11-18T18:07:16+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
+    },
+    {
+      "symbol": "ZSARACOM",
+      "company": "Saraswati Commercial India Limited",
+      "close": 10054.0,
+      "daily_change_pct": 0.54,
+      "return_20d_pct": 2.6966,
+      "alpha_20d_pct": -7.5223,
+      "rsi14": 52.9289,
+      "atr14": 416.6512,
+      "ema20": 9763.1782,
+      "ema50": 10172.2877,
+      "ema200": null,
+      "relative_volume": 1.9196,
+      "turnover_crore": 0.0432,
+      "trend_score": 66,
+      "direction": "green",
+      "last_price_bar": "2026-11-18 00:00:00",
+      "entry_reference": 10220.4,
+      "stop_reference": 9595.4231,
+      "target_1_reference": 11157.8653,
+      "last_checked_at_ist": "2026-11-18T18:50:27+05:30",
+      "fundamentals": {
+        "pe": 8.7555,
+        "forward_pe": null,
+        "pb": 0.8967,
+        "roe": 0.1081,
+        "debt_to_equity": 0.002,
+        "revenue_growth": -0.122,
+        "free_cashflow": 752889728.0,
+        "beta": 0.05
+      },
+      "fundamentals_asof": "2026-11-18T18:50:27+05:30"
     },
     {
       "symbol": "VELJAN",
@@ -40868,30 +40855,6 @@
       "stop_reference": 11.7827,
       "target_1_reference": 13.8638,
       "last_checked_at_ist": "2026-11-18T01:14:00+05:30",
-      "fundamentals": {},
-      "fundamentals_asof": null
-    },
-    {
-      "symbol": "ZODIACLOTH",
-      "company": "Zodiac Clothing Company Limited",
-      "close": 66.0,
-      "daily_change_pct": -1.3453,
-      "return_20d_pct": -0.7071,
-      "alpha_20d_pct": -11.8534,
-      "rsi14": 48.5272,
-      "atr14": 2.8347,
-      "ema20": 66.0663,
-      "ema50": 67.9274,
-      "ema200": 75.0663,
-      "relative_volume": 1.0614,
-      "turnover_crore": 0.0244,
-      "trend_score": 0,
-      "direction": "red",
-      "last_price_bar": "2026-11-12 00:00:00",
-      "entry_reference": 68.136,
-      "stop_reference": 63.8839,
-      "target_1_reference": 74.5141,
-      "last_checked_at_ist": "2026-11-14T13:12:39+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -43508,6 +43471,30 @@
       "stop_reference": 71.8273,
       "target_1_reference": 91.1059,
       "last_checked_at_ist": "2026-11-17T14:51:31+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "ZODIACLOTH",
+      "company": "Zodiac Clothing Company Limited",
+      "close": 63.19,
+      "daily_change_pct": 0.1585,
+      "return_20d_pct": -2.3489,
+      "alpha_20d_pct": -12.5678,
+      "rsi14": 39.4224,
+      "atr14": 2.658,
+      "ema20": 65.3003,
+      "ema50": 67.3166,
+      "ema200": 74.6677,
+      "relative_volume": 0.3874,
+      "turnover_crore": 0.0083,
+      "trend_score": 0,
+      "direction": "green",
+      "last_price_bar": "2026-11-18 00:00:00",
+      "entry_reference": 64.0278,
+      "stop_reference": 60.0408,
+      "target_1_reference": 70.0083,
+      "last_checked_at_ist": "2026-11-18T18:50:27+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -46398,21 +46385,35 @@
         "SI=F": 45.685,
         "INR=X": 93.43
       }
+    },
+    {
+      "snapshot_at_ist": "2026-11-18T18:50:27+05:30",
+      "fresh_green": 3,
+      "fresh_red": 4,
+      "uptrend_count": 3,
+      "indices": {
+        "^NSEI": 25227.9492,
+        "^GSPC": 7340.5298,
+        "BZ=F": 90.27,
+        "GC=F": 3765.7,
+        "SI=F": 45.595,
+        "INR=X": 93.43
+      }
     }
   ],
   "day_review": {
     "first_observation_ist": "2026-11-18T00:23:32+05:30",
-    "last_observation_ist": "2026-11-18T18:07:16+05:30",
+    "last_observation_ist": "2026-11-18T18:50:27+05:30",
     "nifty_change_since_first_snapshot_pct": -0.2497,
     "first_snapshot_breadth": {
       "green": 32,
       "red": 90
     },
     "last_snapshot_breadth": {
-      "green": 36,
-      "red": 84
+      "green": 3,
+      "red": 4
     },
-    "interpretation": "Conditional defensive bias: more fresh stocks falling than rising. Watch for volatility next session.",
+    "interpretation": "Uncertain: insufficient fresh breadth data.",
     "warning": "Breadth totals reflect rotating stock batches; changes across batches are NOT an apples-to-apples measure of NSE market breadth."
   }
 }
