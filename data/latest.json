@@ -1,26 +1,21 @@
 {
-  "generated_at_ist": "2026-11-21T13:54:36+05:30",
-  "market_date_ist": "2026-11-21",
+  "generated_at_ist": "2026-11-22T13:46:54+05:30",
+  "market_date_ist": "2026-11-22",
   "source": "Yahoo Finance unofficial feed; may be delayed, rate-limited or unavailable",
   "universe_source": "https://archives.nseindia.com/content/equities/EQUITY_L.csv",
   "directory_count": 2631,
   "run_symbol_count": 125,
-  "symbols_with_record": 2431,
+  "symbols_with_record": 2551,
   "quote_freshness_note": "Daily candle bar may be partial during market hours; no guaranteed 1-minute or live update.",
   "indices": {
-    "^NSEI": {
-      "close": 25800.5996,
-      "daily_change_pct": 1.1221,
-      "last_price_bar": "2026-11-20 00:00:00"
-    },
     "^GSPC": {
       "close": 6910.3901,
       "daily_change_pct": -3.6991,
       "last_price_bar": "2026-11-20 00:00:00"
     },
     "BZ=F": {
-      "close": 92.57,
-      "daily_change_pct": 0.6414,
+      "close": 89.95,
+      "daily_change_pct": -2.207,
       "last_price_bar": "2026-11-20 00:00:00"
     },
     "GC=F": {
@@ -29,25 +24,50 @@
       "last_price_bar": "2026-11-20 00:00:00"
     },
     "SI=F": {
-      "close": 41.035,
-      "daily_change_pct": -7.4078,
+      "close": 41.07,
+      "daily_change_pct": -7.3289,
       "last_price_bar": "2026-11-20 00:00:00"
-    },
-    "INR=X": {
-      "close": 92.67,
-      "daily_change_pct": -0.6699,
-      "last_price_bar": "2026-11-21 00:00:00"
     }
   },
   "summary": {
-    "fresh_green": 52,
-    "fresh_red": 65,
-    "fresh_flat_or_unavailable": 8,
+    "fresh_green": 41,
+    "fresh_red": 78,
+    "fresh_flat_or_unavailable": 6,
     "uptrend_count": 42,
-    "next_session_scenario": "Mixed breadth: look for confirmation rather than a directional bet.",
+    "next_session_scenario": "Conditional defensive bias: more fresh stocks falling than rising. Watch for volatility next session.",
     "warning": "Scenario derived from available daily returns, not trained news prediction."
   },
   "news": [
+    {
+      "title": "InvIT IPO rush gathers pace; 4-5 private trusts likely to go public by Mar 2027",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/invit-ipo-rush-gathers-pace-4-5-private-trusts-likely-to-go-public-by-mar-2027/articleshow/136069094.cms",
+      "published": "Sun, 22 Nov 2026 12:15:10 +0530",
+      "source": "Economic Times Markets"
+    },
+    {
+      "title": "5 penny stocks plunge up to 68% in six months. Do you own any?",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/5-penny-stocks-plunge-up-to-68-in-six-months-do-you-own-any/slideshow/136069072.cms",
+      "published": "Sun, 22 Nov 2026 12:03:45 +0530",
+      "source": "Economic Times Markets"
+    },
+    {
+      "title": "Reliance Brands FY26 revenue up 3.8% to Rs 3,390.9 crore; loss narrows to Rs 137 crore",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-brands-fy26-revenue-up-3-8-to-rs-3390-9-crore-loss-narrows-to-rs-137-crore/articleshow/136068185.cms",
+      "published": "Sun, 22 Nov 2026 11:14:52 +0530",
+      "source": "Economic Times Markets"
+    },
+    {
+      "title": "Anthropic's post-debut stumble delivers reality check for AI trade",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropics-post-debut-stumble-delivers-reality-check-for-ai-trade/articleshow/136066633.cms",
+      "published": "Sun, 22 Nov 2026 09:00:15 +0530",
+      "source": "Economic Times Markets"
+    },
+    {
+      "title": "Nifty eyes 26,200 as rally strengthens; 6 sectors signal outperformance",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/nifty-eyes-26200-as-rally-strengthens-6-sectors-signal-outperformance/articleshow/136050218.cms",
+      "published": "Sat, 21 Nov 2026 15:09:05 +0530",
+      "source": "Economic Times Markets"
+    },
     {
       "title": "Stocks to buy: HSBC lists 19 Indian stocks that saw FY27 earnings upgrades, check target prices",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-to-buy-hsbc-lists-19-indian-stocks-that-saw-fy27-earnings-upgrades-check-target-prices/slideshow/136048231.cms",
@@ -259,34 +279,112 @@
       "source": "Economic Times Markets"
     },
     {
-      "title": "Tata Motors PV Share Price Highlights: Tata Motors PV Stock Price History",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-motors-pv-share-price-today-live-20-nov-2026/liveblog/136013458.cms",
-      "published": "Fri, 20 Nov 2026 10:04:07 +0530",
-      "source": "Economic Times Markets"
+      "title": "WeWork India share price jumps 40% in 6 months; ICICI Direct sees 37% more gains ahead - Buy? Check Target",
+      "url": "https://www.livemint.com/market/stock-market-news/wework-india-share-price-jumps-40-in-6-months-icici-direct-sees-37-more-gains-ahead-buy-check-target-11795334473941.html",
+      "published": "Sun, 22 Nov 2026 13:36:42 +0530",
+      "source": "Mint Markets"
     },
     {
-      "title": "LTIMindtree Share Price Highlights: LTIMindtree Stock Price History",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ltimindtree-share-price-live-20-nov-2026/liveblog/136013457.cms",
-      "published": "Fri, 20 Nov 2026 10:04:04 +0530",
-      "source": "Economic Times Markets"
+      "title": "What is future of gold rates? Price crash continues as AI selloff, Fed rate-hike concerns weigh on investors' sentiment",
+      "url": "https://www.livemint.com/market/commodities/what-is-future-of-gold-rates-price-crash-continues-as-ai-selloff-fed-rate-hike-concerns-weigh-on-investors-sentiment-11795325490076.html",
+      "published": "Sun, 22 Nov 2026 12:24:55 +0530",
+      "source": "Mint Markets"
     },
     {
-      "title": "Grasim Inds Share Price Highlights: Grasim Inds. Stock Price History",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/grasim-inds-stock-price-today-live-20-nov-2026/liveblog/136013447.cms",
-      "published": "Fri, 20 Nov 2026 10:03:53 +0530",
-      "source": "Economic Times Markets"
+      "title": "Top 3 stocks to buy: Swiggy, Tata Chemicals, Amber Enterprises by Ganesh Dongre of Anand Rathi | Targets, stop-loss",
+      "url": "https://www.livemint.com/market/stock-market-news/top-3-stocks-to-buy-swiggy-tata-chemicals-amber-enterprises-by-ganesh-dongre-of-anand-rathi-targets-stoploss-11795312924053.html",
+      "published": "Sun, 22 Nov 2026 10:44:39 +0530",
+      "source": "Mint Markets"
     },
     {
-      "title": "Bajaj Auto Share Price Highlights: Bajaj Auto Stock Price History",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-auto-share-price-live-updates-20-nov-2026/liveblog/136013446.cms",
-      "published": "Fri, 20 Nov 2026 10:03:52 +0530",
-      "source": "Economic Times Markets"
+      "title": "31% returns in 2026 so far! This stock is giving 4 shares on every share - you too can get it; check record date",
+      "url": "https://www.livemint.com/market/stock-market-news/31-return-in-2026-so-far-smallcap-textile-stock-is-giving-4-shares-for-every-1-held-record-date-ahead-do-you-own-11795275604076.html",
+      "published": "Sun, 22 Nov 2026 10:13:16 +0530",
+      "source": "Mint Markets"
     },
     {
-      "title": "Apollo Hospital Share Price Highlights: Apollo Hospital Stock Price History",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/apollo-hospital-share-price-live-updates-20-nov-2026/liveblog/136013439.cms",
-      "published": "Fri, 20 Nov 2026 10:03:34 +0530",
-      "source": "Economic Times Markets"
+      "title": "Penny stock under  ₹10 with strong fundamentals, high book value; do you own this Reliance Group share? Target, SL",
+      "url": "https://www.livemint.com/market/stock-market-news/penny-stock-under-rs-10-with-strong-fundamentals-high-book-value-do-you-own-this-reliance-group-share-target-sl-11795316117383.html",
+      "published": "Sun, 22 Nov 2026 09:20:25 +0530",
+      "source": "Mint Markets"
+    },
+    {
+      "title": "Wall Street sell-off: Is the worst over? Goldman Sachs warns of fresh selling wave, flags 3 recovery triggers",
+      "url": "https://www.livemint.com/market/stock-market-news/wall-street-sell-off-is-the-worst-over-goldman-sachs-warns-of-fresh-selling-wave-flags-3-recovery-triggers-11795316021375.html",
+      "published": "Sun, 22 Nov 2026 09:03:53 +0530",
+      "source": "Mint Markets"
+    },
+    {
+      "title": "Best 3 stocks to buy under  ₹100: IDFC First Bank, Jayaswal Neco Industries, Sagility by Sumeet Bagadia | Targets, SL",
+      "url": "https://www.livemint.com/market/stock-market-news/best-3-stocks-to-buy-under-rs-100-idfc-first-bank-jayaswal-neco-industries-sagility-by-sumeet-bagadia-targets-sl-11795278599364.html",
+      "published": "Sun, 22 Nov 2026 06:30:13 +0530",
+      "source": "Mint Markets"
+    },
+    {
+      "title": "Gold rate today in India at 14-month low; will it hit  ₹1 lakh? Experts list out 3 reasons for gold price drop in 2026",
+      "url": "https://www.livemint.com/market/commodities/gold-rate-today-in-india-at-14-month-low-will-it-hit-rs-1-lakh-experts-list-out-3-reasons-for-gold-price-drop-in-2026-11795283484060.html",
+      "published": "Sun, 22 Nov 2026 05:04:51 +0530",
+      "source": "Mint Markets"
+    },
+    {
+      "title": "Dividend jackpot in chemicals: Indo Borax, GOCL and Bayer CropScience offer yields of up to 10% | Check details",
+      "url": "https://www.livemint.com/market/stock-market-news/dividend-jackpot-in-chemicals-indo-borax-gocl-and-bayer-cropscience-offer-yields-of-up-to-10-check-details-11795277367660.html",
+      "published": "Sat, 21 Nov 2026 21:43:09 +0530",
+      "source": "Mint Markets"
+    },
+    {
+      "title": "Max Healthcare, Fortis, Apollo, Aster: Hospital stocks steal show on D-Street with up to 14% rally - Buy now or wait?",
+      "url": "https://www.livemint.com/market/stock-market-news/max-healthcare-fortis-apollo-aster-hospital-stocks-steal-show-on-d-street-with-up-to-14-rally-buy-now-or-wait-11795262811423.html",
+      "published": "Sat, 21 Nov 2026 20:26:47 +0530",
+      "source": "Mint Markets"
+    },
+    {
+      "title": "Bitcoin price crash: ​Falls to lowest level in two years - What’s behind plunge of world’s largest cryptocurrency",
+      "url": "https://www.livemint.com/market/cryptocurrency/bitcoin-price-crash-falls-to-lowest-level-in-two-years-what-s-behind-plunge-of-world-s-largest-cryptocurrency-11795267687216.html",
+      "published": "Sat, 21 Nov 2026 20:16:56 +0530",
+      "source": "Mint Markets"
+    },
+    {
+      "title": "Stock split reset: SanDisk stock crashes 87.5% overnight? Here's what investors need to know about its 8-for-1 split",
+      "url": "https://www.livemint.com/market/stock-market-news/stock-split-reset-sandisk-stock-crashes-87-5-overnight-heres-what-investors-need-to-know-about-its-8-for-1-split-11795267376660.html",
+      "published": "Sat, 21 Nov 2026 18:57:12 +0530",
+      "source": "Mint Markets"
+    },
+    {
+      "title": "PSU vs Private banks: Who is powering Nifty Bank's record-high rally after 5% surge? SBI, HDFC, AU, Canara target price",
+      "url": "https://www.livemint.com/market/stock-market-news/psu-vs-private-banks-who-is-powering-nifty-banks-record-high-rally-after-5-surge-sbi-hdfc-au-canara-target-price-11795255387777.html",
+      "published": "Sat, 21 Nov 2026 17:00:51 +0530",
+      "source": "Mint Markets"
+    },
+    {
+      "title": "Gold, silver price crash: DSP Mutual Fund turns bullish on bullion, reveals new buying strategy; check price levels",
+      "url": "https://www.livemint.com/market/commodities/gold-silver-price-crash-dsp-mutual-fund-turns-bullish-on-bullion-reveals-new-buying-strategy-check-price-levels-11795252615511.html",
+      "published": "Sat, 21 Nov 2026 16:50:08 +0530",
+      "source": "Mint Markets"
+    },
+    {
+      "title": "Mahanadi CoalFields IPO GMP Check: Down 92% from  ₹9.25 to  ₹0.7, issue struggles to attract bids- Subscribe or avoid?",
+      "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-gmp-check-down-92-from-rs-9-25-to-rs-0-7-issue-struggles-to-attract-bids-subscribe-or-avoid-11795252154826.html",
+      "published": "Sat, 21 Nov 2026 15:56:10 +0530",
+      "source": "Mint Markets"
+    },
+    {
+      "title": "Taiwan Widens Short Sale Curbs After Shares Plunge on AI Concern",
+      "url": "https://www.livemint.com/market/taiwan-widens-short-sale-curbs-after-shares-plunge-on-ai-concern-11795255471195.html",
+      "published": "Sat, 21 Nov 2026 15:34:30 +0530",
+      "source": "Mint Markets"
+    },
+    {
+      "title": "Hindalco vs NALCO vs Vedanta Aluminium vs Hindustan Zinc: Which metal stocks to buy for good returns? Target, SL",
+      "url": "https://www.livemint.com/market/stock-market-news/hindalco-vs-nalco-vs-vedanta-aluminium-vs-hindustan-zinc-which-metal-stocks-to-buy-for-good-returns-target-sl-11795248944730.html",
+      "published": "Sat, 21 Nov 2026 15:17:13 +0530",
+      "source": "Mint Markets"
+    },
+    {
+      "title": "Patanjali Foods dividend 2026 announcement news: Board to consider 2nd interim dividend on Nov 26 - Check history, yield",
+      "url": "https://www.livemint.com/market/stock-market-news/patanjali-foods-dividend-2026-announcement-news-board-to-consider-2nd-interim-dividend-on-nov-26-check-history-yield-11795248708675.html",
+      "published": "Sat, 21 Nov 2026 14:31:26 +0530",
+      "source": "Mint Markets"
     },
     {
       "title": "GREED &amp; fear Report: Jefferies Chris Wood hikes India exposure for 2nd time in 3 weeks, cuts Taiwan| New Allocations",
@@ -359,117 +457,25 @@
       "url": "https://www.livemint.com/market/assetbacked-debt-sales-top-post-gfc-record-on-ai-strength-11795205853665.html",
       "published": "Sat, 21 Nov 2026 01:47:33 +0530",
       "source": "Mint Markets"
-    },
-    {
-      "title": "Dollar weaker as Fed-fueled rally stalls; lower US yields help yen",
-      "url": "https://www.livemint.com/market/dollar-weaker-as-fed-fueled-rally-stalls-lower-us-yields-help-yen-11795205355081.html",
-      "published": "Sat, 21 Nov 2026 01:39:14 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "AI tech rout prompts US investors to rush into value stocks",
-      "url": "https://www.livemint.com/market/ai-tech-rout-prompts-us-investors-to-rush-into-value-stocks-11795205292642.html",
-      "published": "Sat, 21 Nov 2026 01:38:12 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "Wall Street banks set for banner year as Anthropic, SpaceX IPOs generate $1 billion in fees",
-      "url": "https://www.livemint.com/market/wall-street-banks-set-for-banner-year-as-anthropic-spacex-ipos-generate-1-billion-in-fees-11795201100809.html",
-      "published": "Sat, 21 Nov 2026 00:28:20 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "Smallcap dividend stars: 5 stocks under  ₹100 with high dividend yield - Jagran Prakashan, Radiant Cash, and more",
-      "url": "https://www.livemint.com/market/stock-market-news/smallcap-dividend-stars-5-stocks-under-rs-100-with-high-dividend-yield-jagran-prakashan-radiant-cash-and-more-11795193828075.html",
-      "published": "Fri, 20 Nov 2026 22:32:19 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "Pulse of the Street: Dalal Street extends winning run as global markets slide",
-      "url": "https://www.livemint.com/market/pulse-of-the-street-dalal-street-extends-winning-run-as-global-markets-slide-11795181421343.html",
-      "published": "Fri, 20 Nov 2026 21:56:49 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "SEBI proposes big relief for FPIs: Additional disclosure rules may go - What it means for NSE and BSE",
-      "url": "https://www.livemint.com/market/stock-market-news/gold-prices-near-14-month-low-what-does-sharp-price-crash-mean-for-titan-kalyan-pc-jeweller-other-jewellery-stocksg-11795184261882.html",
-      "published": "Fri, 20 Nov 2026 21:28:10 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "Anthropic shares tumble 10% after blockbuster IPO, erase debut gains; why are investors turning cautious on AI?",
-      "url": "https://www.livemint.com/market/stock-market-news/anthropic-shares-tumble-10-after-blockbuster-ipo-erase-debut-gains-why-are-investors-turning-cautious-on-ai-11795184887970.html",
-      "published": "Fri, 20 Nov 2026 20:32:38 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "StockGro expert explains: WeWork India share price target - should investors buy, sell or hold?",
-      "url": "https://www.livemint.com/market/stock-market-news/stockgro-expert-explains-wework-india-share-price-target-should-investors-buy-sell-or-hold-11795184993421.html",
-      "published": "Fri, 20 Nov 2026 20:26:35 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "Sebi proposes easing disclosure rules for foreign funds",
-      "url": "https://www.livemint.com/market/sebi-proposes-easing-disclosure-rules-for-foreign-funds-11795183389431.html",
-      "published": "Fri, 20 Nov 2026 20:15:39 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "HDFC Bank shares recover 22% in Nov, adds  ₹2.38 lakh crore in market value. What's fuelling the rebound?",
-      "url": "https://www.livemint.com/market/stock-market-news/hdfc-bank-shares-recover-22-in-nov-adds-rs-2-38-lakh-crore-in-market-value-whats-fuelling-the-rebound-11795182150085.html",
-      "published": "Fri, 20 Nov 2026 19:26:40 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "BSE Sensex rejig: Shriram Finance to replace Trent; Which stocks are entering and exiting other BSE indices? Check list",
-      "url": "https://www.livemint.com/market/stock-market-news/bse-sensex-rejig-shriram-finance-to-replace-trent-which-stocks-are-entering-and-exiting-other-bse-indices-check-full-11795179927182.html",
-      "published": "Fri, 20 Nov 2026 18:44:55 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "SoftBank shares crash 14.5%, biggest 1-day fall in 2 years: Why Anthropic's strong IPO debut failed to revive AI trade",
-      "url": "https://www.livemint.com/market/stock-market-news/softbank-shares-crash-14-5-biggest-1-day-fall-in-2-years-why-anthropics-strong-ipo-debut-failed-to-revive-ai-trade-11795173623939.html",
-      "published": "Fri, 20 Nov 2026 18:24:13 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "Missed Anthropic's record IPO? Shares cool off after Nasdaq debut - Here's how Indians can invest",
-      "url": "https://www.livemint.com/market/stock-market-news/missed-anthropics-record-ipo-shares-cool-off-after-nasdaq-debut-heres-how-indians-can-invest-11795176413482.html",
-      "published": "Fri, 20 Nov 2026 17:41:57 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "Adani Green Energy, Adani Power to Adani Ports: Jefferies bullish on 5 Adani shares; sees up to 43% rally | Target price",
-      "url": "https://www.livemint.com/market/stock-market-news/adani-green-energy-adani-power-to-adani-ports-jefferies-bullish-on-5-adani-shares-sees-up-to-43-rally-target-price-11795173332667.html",
-      "published": "Fri, 20 Nov 2026 17:40:10 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "Nifty set to test record high in a month after toppling key hurdle",
-      "url": "https://www.livemint.com/market/nifty-set-to-test-record-high-in-a-month-after-toppling-key-hurdle-11795164473722.html",
-      "published": "Fri, 20 Nov 2026 17:05:20 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "Power stocks to buy: Why Axis Sec is betting on NTPC and JSW Energy shares post Q2 results? Check targets, rationale",
-      "url": "https://www.livemint.com/market/stock-market-news/power-stocks-to-buy-why-axis-sec-is-betting-on-ntpc-and-jsw-energy-shares-post-q2-results-check-targets-rationale-11795169287632.html",
-      "published": "Fri, 20 Nov 2026 16:38:34 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "NSE record: With  ₹5.6 lakh cr mcap, overtakes HKEX, Nasdaq to become world's 5th-largest listed exchange ​- top 5 list",
-      "url": "https://www.livemint.com/market/stock-market-news/nse-record-with-rs-5-6-lakh-cr-mcap-overtakes-hkex-nasdaq-to-become-worlds-5th-largest-listed-exchange-top-5-list-11795168082205.html",
-      "published": "Fri, 20 Nov 2026 16:17:15 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "NSE share price target: Up 37% from low, stock hits record high! Anand Rathi sees further upside, initiates with 'buy'",
-      "url": "https://www.livemint.com/market/stock-market-news/nse-share-price-target-up-37-from-low-stock-hits-record-high-anand-rathi-sees-further-upside-initiates-with-buy-11795166679623.html",
-      "published": "Fri, 20 Nov 2026 15:23:05 +0530",
-      "source": "Mint Markets"
     }
   ],
   "matched_news": {
+    "AMBER": [
+      {
+        "title": "Top 3 stocks to buy: Swiggy, Tata Chemicals, Amber Enterprises by Ganesh Dongre of Anand Rathi | Targets, stop-loss",
+        "url": "https://www.livemint.com/market/stock-market-news/top-3-stocks-to-buy-swiggy-tata-chemicals-amber-enterprises-by-ganesh-dongre-of-anand-rathi-targets-stoploss-11795312924053.html",
+        "published": "Sun, 22 Nov 2026 10:44:39 +0530",
+        "source": "Mint Markets"
+      }
+    ],
+    "ICICIBANK": [
+      {
+        "title": "WeWork India share price jumps 40% in 6 months; ICICI Direct sees 37% more gains ahead - Buy? Check Target",
+        "url": "https://www.livemint.com/market/stock-market-news/wework-india-share-price-jumps-40-in-6-months-icici-direct-sees-37-more-gains-ahead-buy-check-target-11795334473941.html",
+        "published": "Sun, 22 Nov 2026 13:36:42 +0530",
+        "source": "Mint Markets"
+      }
+    ],
     "IREDA": [
       {
         "title": "Stocks to buy: HSBC lists 19 Indian stocks that saw FY27 earnings upgrades, check target prices",
@@ -492,10 +498,24 @@
     ],
     "APOLLO": [
       {
-        "title": "Apollo Hospital Share Price Highlights: Apollo Hospital Stock Price History",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/apollo-hospital-share-price-live-updates-20-nov-2026/liveblog/136013439.cms",
-        "published": "Fri, 20 Nov 2026 10:03:34 +0530",
+        "title": "Max Healthcare, Fortis, Apollo, Aster: Hospital stocks steal show on D-Street with up to 14% rally - Buy now or wait?",
+        "url": "https://www.livemint.com/market/stock-market-news/max-healthcare-fortis-apollo-aster-hospital-stocks-steal-show-on-d-street-with-up-to-14-rally-buy-now-or-wait-11795262811423.html",
+        "published": "Sat, 21 Nov 2026 20:26:47 +0530",
+        "source": "Mint Markets"
+      }
+    ],
+    "RELIANCE": [
+      {
+        "title": "Reliance Brands FY26 revenue up 3.8% to Rs 3,390.9 crore; loss narrows to Rs 137 crore",
+        "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-brands-fy26-revenue-up-3-8-to-rs-3390-9-crore-loss-narrows-to-rs-137-crore/articleshow/136068185.cms",
+        "published": "Sun, 22 Nov 2026 11:14:52 +0530",
         "source": "Economic Times Markets"
+      },
+      {
+        "title": "Penny stock under  ₹10 with strong fundamentals, high book value; do you own this Reliance Group share? Target, SL",
+        "url": "https://www.livemint.com/market/stock-market-news/penny-stock-under-rs-10-with-strong-fundamentals-high-book-value-do-you-own-this-reliance-group-share-target-sl-11795316117383.html",
+        "published": "Sun, 22 Nov 2026 09:20:25 +0530",
+        "source": "Mint Markets"
       }
     ],
     "BSE": [
@@ -504,17 +524,13 @@
         "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-plans-consultation-paper-to-remove-fpi-constraints-absent-in-other-markets/articleshow/136020808.cms",
         "published": "Fri, 20 Nov 2026 14:49:53 +0530",
         "source": "Economic Times Markets"
-      },
+      }
+    ],
+    "LTFOODS": [
       {
-        "title": "SEBI proposes big relief for FPIs: Additional disclosure rules may go - What it means for NSE and BSE",
-        "url": "https://www.livemint.com/market/stock-market-news/gold-prices-near-14-month-low-what-does-sharp-price-crash-mean-for-titan-kalyan-pc-jeweller-other-jewellery-stocksg-11795184261882.html",
-        "published": "Fri, 20 Nov 2026 21:28:10 +0530",
-        "source": "Mint Markets"
-      },
-      {
-        "title": "BSE Sensex rejig: Shriram Finance to replace Trent; Which stocks are entering and exiting other BSE indices? Check list",
-        "url": "https://www.livemint.com/market/stock-market-news/bse-sensex-rejig-shriram-finance-to-replace-trent-which-stocks-are-entering-and-exiting-other-bse-indices-check-full-11795179927182.html",
-        "published": "Fri, 20 Nov 2026 18:44:55 +0530",
+        "title": "Patanjali Foods dividend 2026 announcement news: Board to consider 2nd interim dividend on Nov 26 - Check history, yield",
+        "url": "https://www.livemint.com/market/stock-market-news/patanjali-foods-dividend-2026-announcement-news-board-to-consider-2nd-interim-dividend-on-nov-26-check-history-yield-11795248708675.html",
+        "published": "Sat, 21 Nov 2026 14:31:26 +0530",
         "source": "Mint Markets"
       }
     ],
@@ -532,21 +548,9 @@
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/eicher-motors-share-price-live-20-nov-2026/liveblog/136016875.cms",
         "published": "Fri, 20 Nov 2026 12:17:28 +0530",
         "source": "Economic Times Markets"
-      },
-      {
-        "title": "Tata Motors PV Share Price Highlights: Tata Motors PV Stock Price History",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-motors-pv-share-price-today-live-20-nov-2026/liveblog/136013458.cms",
-        "published": "Fri, 20 Nov 2026 10:04:07 +0530",
-        "source": "Economic Times Markets"
       }
     ],
     "BAJFINANCE": [
-      {
-        "title": "Bajaj Auto Share Price Highlights: Bajaj Auto Stock Price History",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-auto-share-price-live-updates-20-nov-2026/liveblog/136013446.cms",
-        "published": "Fri, 20 Nov 2026 10:03:52 +0530",
-        "source": "Economic Times Markets"
-      },
       {
         "title": "Top 3 stocks to buy: Axis Bank, Bajaj Finance, HDFC Life by Sumeet Bagadia | Targets, stop-loss, stock market prediction",
         "url": "https://www.livemint.com/market/stock-market-news/top-3-stocks-to-buy-axis-bank-bajaj-finance-hdfc-life-by-sumeet-bagadia-targets-stop-loss-stock-market-prediction-11795228228586.html",
@@ -574,7 +578,35 @@
         "source": "Economic Times Markets"
       }
     ],
+    "TATACHEM": [
+      {
+        "title": "Top 3 stocks to buy: Swiggy, Tata Chemicals, Amber Enterprises by Ganesh Dongre of Anand Rathi | Targets, stop-loss",
+        "url": "https://www.livemint.com/market/stock-market-news/top-3-stocks-to-buy-swiggy-tata-chemicals-amber-enterprises-by-ganesh-dongre-of-anand-rathi-targets-stoploss-11795312924053.html",
+        "published": "Sun, 22 Nov 2026 10:44:39 +0530",
+        "source": "Mint Markets"
+      },
+      {
+        "title": "Dividend jackpot in chemicals: Indo Borax, GOCL and Bayer CropScience offer yields of up to 10% | Check details",
+        "url": "https://www.livemint.com/market/stock-market-news/dividend-jackpot-in-chemicals-indo-borax-gocl-and-bayer-cropscience-offer-yields-of-up-to-10-check-details-11795277367660.html",
+        "published": "Sat, 21 Nov 2026 21:43:09 +0530",
+        "source": "Mint Markets"
+      }
+    ],
+    "HINDALCO": [
+      {
+        "title": "Hindalco vs NALCO vs Vedanta Aluminium vs Hindustan Zinc: Which metal stocks to buy for good returns? Target, SL",
+        "url": "https://www.livemint.com/market/stock-market-news/hindalco-vs-nalco-vs-vedanta-aluminium-vs-hindustan-zinc-which-metal-stocks-to-buy-for-good-returns-target-sl-11795248944730.html",
+        "published": "Sat, 21 Nov 2026 15:17:13 +0530",
+        "source": "Mint Markets"
+      }
+    ],
     "ITC": [
+      {
+        "title": "Bitcoin price crash: ​Falls to lowest level in two years - What’s behind plunge of world’s largest cryptocurrency",
+        "url": "https://www.livemint.com/market/cryptocurrency/bitcoin-price-crash-falls-to-lowest-level-in-two-years-what-s-behind-plunge-of-world-s-largest-cryptocurrency-11795267687216.html",
+        "published": "Sat, 21 Nov 2026 20:16:56 +0530",
+        "source": "Mint Markets"
+      },
       {
         "title": "Bitcoin crashes to over two-year low below $60,000 level: What do experts expect from crypto markets going ahead?",
         "url": "https://www.livemint.com/market/cryptocurrency/bitcoin-crashes-to-over-two-year-low-below-60-000-level-what-do-experts-expect-from-crypto-markets-going-ahead-11795234024656.html",
@@ -594,12 +626,6 @@
         "url": "https://www.livemint.com/market/stock-market-news/top-3-stocks-to-buy-axis-bank-bajaj-finance-hdfc-life-by-sumeet-bagadia-targets-stop-loss-stock-market-prediction-11795228228586.html",
         "published": "Sat, 21 Nov 2026 10:45:33 +0530",
         "source": "Mint Markets"
-      },
-      {
-        "title": "BSE Sensex rejig: Shriram Finance to replace Trent; Which stocks are entering and exiting other BSE indices? Check list",
-        "url": "https://www.livemint.com/market/stock-market-news/bse-sensex-rejig-shriram-finance-to-replace-trent-which-stocks-are-entering-and-exiting-other-bse-indices-check-full-11795179927182.html",
-        "published": "Fri, 20 Nov 2026 18:44:55 +0530",
-        "source": "Mint Markets"
       }
     ],
     "ADANIPOWER": [
@@ -614,15 +640,15 @@
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/adani-ports-sez-share-price-today-live-20-nov-2026/liveblog/136013481.cms",
         "published": "Fri, 20 Nov 2026 10:04:32 +0530",
         "source": "Economic Times Markets"
-      },
-      {
-        "title": "Adani Green Energy, Adani Power to Adani Ports: Jefferies bullish on 5 Adani shares; sees up to 43% rally | Target price",
-        "url": "https://www.livemint.com/market/stock-market-news/adani-green-energy-adani-power-to-adani-ports-jefferies-bullish-on-5-adani-shares-sees-up-to-43-rally-target-price-11795173332667.html",
-        "published": "Fri, 20 Nov 2026 17:40:10 +0530",
-        "source": "Mint Markets"
       }
     ],
     "CANBK": [
+      {
+        "title": "PSU vs Private banks: Who is powering Nifty Bank's record-high rally after 5% surge? SBI, HDFC, AU, Canara target price",
+        "url": "https://www.livemint.com/market/stock-market-news/psu-vs-private-banks-who-is-powering-nifty-banks-record-high-rally-after-5-surge-sbi-hdfc-au-canara-target-price-11795255387777.html",
+        "published": "Sat, 21 Nov 2026 17:00:51 +0530",
+        "source": "Mint Markets"
+      },
       {
         "title": "Best 3 stocks to buy under  ₹200: Jammu and Kashmir Bank, Canara Bank, Bank of India by Mehul Kothari of Anand Rathi",
         "url": "https://www.livemint.com/market/stock-market-news/best-3-stocks-to-buy-under-rs-200-jammu-and-kashmir-bank-canara-bank-bank-of-india-by-mehul-kothari-of-anand-rathi-11795191036501.html",
@@ -648,10 +674,10 @@
     ],
     "APOLLOHOSP": [
       {
-        "title": "Apollo Hospital Share Price Highlights: Apollo Hospital Stock Price History",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/apollo-hospital-share-price-live-updates-20-nov-2026/liveblog/136013439.cms",
-        "published": "Fri, 20 Nov 2026 10:03:34 +0530",
-        "source": "Economic Times Markets"
+        "title": "Max Healthcare, Fortis, Apollo, Aster: Hospital stocks steal show on D-Street with up to 14% rally - Buy now or wait?",
+        "url": "https://www.livemint.com/market/stock-market-news/max-healthcare-fortis-apollo-aster-hospital-stocks-steal-show-on-d-street-with-up-to-14-rally-buy-now-or-wait-11795262811423.html",
+        "published": "Sat, 21 Nov 2026 20:26:47 +0530",
+        "source": "Mint Markets"
       }
     ],
     "ADANIPORTS": [
@@ -666,11 +692,21 @@
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/adani-ports-sez-share-price-today-live-20-nov-2026/liveblog/136013481.cms",
         "published": "Fri, 20 Nov 2026 10:04:32 +0530",
         "source": "Economic Times Markets"
-      },
+      }
+    ],
+    "ATHERENERG": [
       {
-        "title": "Adani Green Energy, Adani Power to Adani Ports: Jefferies bullish on 5 Adani shares; sees up to 43% rally | Target price",
-        "url": "https://www.livemint.com/market/stock-market-news/adani-green-energy-adani-power-to-adani-ports-jefferies-bullish-on-5-adani-shares-sees-up-to-43-rally-target-price-11795173332667.html",
-        "published": "Fri, 20 Nov 2026 17:40:10 +0530",
+        "title": "InvIT IPO rush gathers pace; 4-5 private trusts likely to go public by Mar 2027",
+        "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/invit-ipo-rush-gathers-pace-4-5-private-trusts-likely-to-go-public-by-mar-2027/articleshow/136069094.cms",
+        "published": "Sun, 22 Nov 2026 12:15:10 +0530",
+        "source": "Economic Times Markets"
+      }
+    ],
+    "HINDOILEXP": [
+      {
+        "title": "Hindalco vs NALCO vs Vedanta Aluminium vs Hindustan Zinc: Which metal stocks to buy for good returns? Target, SL",
+        "url": "https://www.livemint.com/market/stock-market-news/hindalco-vs-nalco-vs-vedanta-aluminium-vs-hindustan-zinc-which-metal-stocks-to-buy-for-good-returns-target-sl-11795248944730.html",
+        "published": "Sat, 21 Nov 2026 15:17:13 +0530",
         "source": "Mint Markets"
       }
     ],
@@ -688,15 +724,15 @@
         "url": "https://economictimes.indiatimes.com/markets/stocks/news/anthropic-shares-close-17-higher-on-first-day-of-trading-amid-protest-arrests-outside-nasdaq/videoshow/136013757.cms",
         "published": "Fri, 20 Nov 2026 10:18:04 +0530",
         "source": "Economic Times Markets"
+      },
+      {
+        "title": "Best 3 stocks to buy under  ₹100: IDFC First Bank, Jayaswal Neco Industries, Sagility by Sumeet Bagadia | Targets, SL",
+        "url": "https://www.livemint.com/market/stock-market-news/best-3-stocks-to-buy-under-rs-100-idfc-first-bank-jayaswal-neco-industries-sagility-by-sumeet-bagadia-targets-sl-11795278599364.html",
+        "published": "Sun, 22 Nov 2026 06:30:13 +0530",
+        "source": "Mint Markets"
       }
     ],
     "BAJAJ-AUTO": [
-      {
-        "title": "Bajaj Auto Share Price Highlights: Bajaj Auto Stock Price History",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-auto-share-price-live-updates-20-nov-2026/liveblog/136013446.cms",
-        "published": "Fri, 20 Nov 2026 10:03:52 +0530",
-        "source": "Economic Times Markets"
-      },
       {
         "title": "Top 3 stocks to buy: Axis Bank, Bajaj Finance, HDFC Life by Sumeet Bagadia | Targets, stop-loss, stock market prediction",
         "url": "https://www.livemint.com/market/stock-market-news/top-3-stocks-to-buy-axis-bank-bajaj-finance-hdfc-life-by-sumeet-bagadia-targets-stop-loss-stock-market-prediction-11795228228586.html",
@@ -704,25 +740,11 @@
         "source": "Mint Markets"
       }
     ],
-    "SHRIRAMFIN": [
-      {
-        "title": "BSE Sensex rejig: Shriram Finance to replace Trent; Which stocks are entering and exiting other BSE indices? Check list",
-        "url": "https://www.livemint.com/market/stock-market-news/bse-sensex-rejig-shriram-finance-to-replace-trent-which-stocks-are-entering-and-exiting-other-bse-indices-check-full-11795179927182.html",
-        "published": "Fri, 20 Nov 2026 18:44:55 +0530",
-        "source": "Mint Markets"
-      }
-    ],
     "CGPOWER": [
       {
-        "title": "Adani Green Energy, Adani Power to Adani Ports: Jefferies bullish on 5 Adani shares; sees up to 43% rally | Target price",
-        "url": "https://www.livemint.com/market/stock-market-news/adani-green-energy-adani-power-to-adani-ports-jefferies-bullish-on-5-adani-shares-sees-up-to-43-rally-target-price-11795173332667.html",
-        "published": "Fri, 20 Nov 2026 17:40:10 +0530",
-        "source": "Mint Markets"
-      },
-      {
-        "title": "Power stocks to buy: Why Axis Sec is betting on NTPC and JSW Energy shares post Q2 results? Check targets, rationale",
-        "url": "https://www.livemint.com/market/stock-market-news/power-stocks-to-buy-why-axis-sec-is-betting-on-ntpc-and-jsw-energy-shares-post-q2-results-check-targets-rationale-11795169287632.html",
-        "published": "Fri, 20 Nov 2026 16:38:34 +0530",
+        "title": "PSU vs Private banks: Who is powering Nifty Bank's record-high rally after 5% surge? SBI, HDFC, AU, Canara target price",
+        "url": "https://www.livemint.com/market/stock-market-news/psu-vs-private-banks-who-is-powering-nifty-banks-record-high-rally-after-5-surge-sbi-hdfc-au-canara-target-price-11795255387777.html",
+        "published": "Sat, 21 Nov 2026 17:00:51 +0530",
         "source": "Mint Markets"
       }
     ],
@@ -738,12 +760,6 @@
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/adani-ports-sez-share-price-today-live-20-nov-2026/liveblog/136013481.cms",
         "published": "Fri, 20 Nov 2026 10:04:32 +0530",
         "source": "Economic Times Markets"
-      },
-      {
-        "title": "Adani Green Energy, Adani Power to Adani Ports: Jefferies bullish on 5 Adani shares; sees up to 43% rally | Target price",
-        "url": "https://www.livemint.com/market/stock-market-news/adani-green-energy-adani-power-to-adani-ports-jefferies-bullish-on-5-adani-shares-sees-up-to-43-rally-target-price-11795173332667.html",
-        "published": "Fri, 20 Nov 2026 17:40:10 +0530",
-        "source": "Mint Markets"
       }
     ],
     "NTPC": [
@@ -752,11 +768,21 @@
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ntpc-stock-price-today-live-20-nov-2026/liveblog/136016873.cms",
         "published": "Fri, 20 Nov 2026 12:17:28 +0530",
         "source": "Economic Times Markets"
-      },
+      }
+    ],
+    "MOTHERSON": [
       {
-        "title": "Power stocks to buy: Why Axis Sec is betting on NTPC and JSW Energy shares post Q2 results? Check targets, rationale",
-        "url": "https://www.livemint.com/market/stock-market-news/power-stocks-to-buy-why-axis-sec-is-betting-on-ntpc-and-jsw-energy-shares-post-q2-results-check-targets-rationale-11795169287632.html",
-        "published": "Fri, 20 Nov 2026 16:38:34 +0530",
+        "title": "Missed 50% rally in Samvardhana Motherson? Choice's Sumeet Bagadia spots another buying opportunity | Target, stop loss",
+        "url": "https://www.livemint.com/market/stock-market-news/missed-50-rally-in-samvardhana-motherson-choices-sumeet-bagadia-spots-another-buying-opportunity-target-stop-loss-11795233784659.html",
+        "published": "Sat, 21 Nov 2026 09:53:27 +0530",
+        "source": "Mint Markets"
+      }
+    ],
+    "OAL": [
+      {
+        "title": "Mahanadi CoalFields IPO GMP Check: Down 92% from  ₹9.25 to  ₹0.7, issue struggles to attract bids- Subscribe or avoid?",
+        "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-gmp-check-down-92-from-rs-9-25-to-rs-0-7-issue-struggles-to-attract-bids-subscribe-or-avoid-11795252154826.html",
+        "published": "Sat, 21 Nov 2026 15:56:10 +0530",
         "source": "Mint Markets"
       }
     ],
@@ -766,12 +792,6 @@
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/eicher-motors-share-price-live-20-nov-2026/liveblog/136016875.cms",
         "published": "Fri, 20 Nov 2026 12:17:28 +0530",
         "source": "Economic Times Markets"
-      },
-      {
-        "title": "Tata Motors PV Share Price Highlights: Tata Motors PV Stock Price History",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-motors-pv-share-price-today-live-20-nov-2026/liveblog/136013458.cms",
-        "published": "Fri, 20 Nov 2026 10:04:07 +0530",
-        "source": "Economic Times Markets"
       }
     ],
     "BEL": [
@@ -780,14 +800,6 @@
         "url": "https://www.livemint.com/market/cryptocurrency/bitcoin-crashes-to-over-two-year-low-below-60-000-level-what-do-experts-expect-from-crypto-markets-going-ahead-11795234024656.html",
         "published": "Sat, 21 Nov 2026 11:11:57 +0530",
         "source": "Mint Markets"
-      }
-    ],
-    "GRASIM": [
-      {
-        "title": "Grasim Inds Share Price Highlights: Grasim Inds. Stock Price History",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/grasim-inds-stock-price-today-live-20-nov-2026/liveblog/136013447.cms",
-        "published": "Fri, 20 Nov 2026 10:03:53 +0530",
-        "source": "Economic Times Markets"
       }
     ],
     "ADANIENSOL": [
@@ -802,12 +814,6 @@
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/adani-ports-sez-share-price-today-live-20-nov-2026/liveblog/136013481.cms",
         "published": "Fri, 20 Nov 2026 10:04:32 +0530",
         "source": "Economic Times Markets"
-      },
-      {
-        "title": "Adani Green Energy, Adani Power to Adani Ports: Jefferies bullish on 5 Adani shares; sees up to 43% rally | Target price",
-        "url": "https://www.livemint.com/market/stock-market-news/adani-green-energy-adani-power-to-adani-ports-jefferies-bullish-on-5-adani-shares-sees-up-to-43-rally-target-price-11795173332667.html",
-        "published": "Fri, 20 Nov 2026 17:40:10 +0530",
-        "source": "Mint Markets"
       }
     ],
     "ADANIENT": [
@@ -822,39 +828,21 @@
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/adani-ports-sez-share-price-today-live-20-nov-2026/liveblog/136013481.cms",
         "published": "Fri, 20 Nov 2026 10:04:32 +0530",
         "source": "Economic Times Markets"
-      },
-      {
-        "title": "Adani Green Energy, Adani Power to Adani Ports: Jefferies bullish on 5 Adani shares; sees up to 43% rally | Target price",
-        "url": "https://www.livemint.com/market/stock-market-news/adani-green-energy-adani-power-to-adani-ports-jefferies-bullish-on-5-adani-shares-sees-up-to-43-rally-target-price-11795173332667.html",
-        "published": "Fri, 20 Nov 2026 17:40:10 +0530",
-        "source": "Mint Markets"
       }
     ],
     "TATAPOWER": [
       {
-        "title": "Adani Green Energy, Adani Power to Adani Ports: Jefferies bullish on 5 Adani shares; sees up to 43% rally | Target price",
-        "url": "https://www.livemint.com/market/stock-market-news/adani-green-energy-adani-power-to-adani-ports-jefferies-bullish-on-5-adani-shares-sees-up-to-43-rally-target-price-11795173332667.html",
-        "published": "Fri, 20 Nov 2026 17:40:10 +0530",
-        "source": "Mint Markets"
-      },
-      {
-        "title": "Power stocks to buy: Why Axis Sec is betting on NTPC and JSW Energy shares post Q2 results? Check targets, rationale",
-        "url": "https://www.livemint.com/market/stock-market-news/power-stocks-to-buy-why-axis-sec-is-betting-on-ntpc-and-jsw-energy-shares-post-q2-results-check-targets-rationale-11795169287632.html",
-        "published": "Fri, 20 Nov 2026 16:38:34 +0530",
+        "title": "PSU vs Private banks: Who is powering Nifty Bank's record-high rally after 5% surge? SBI, HDFC, AU, Canara target price",
+        "url": "https://www.livemint.com/market/stock-market-news/psu-vs-private-banks-who-is-powering-nifty-banks-record-high-rally-after-5-surge-sbi-hdfc-au-canara-target-price-11795255387777.html",
+        "published": "Sat, 21 Nov 2026 17:00:51 +0530",
         "source": "Mint Markets"
       }
     ],
     "PFC": [
       {
-        "title": "Adani Green Energy, Adani Power to Adani Ports: Jefferies bullish on 5 Adani shares; sees up to 43% rally | Target price",
-        "url": "https://www.livemint.com/market/stock-market-news/adani-green-energy-adani-power-to-adani-ports-jefferies-bullish-on-5-adani-shares-sees-up-to-43-rally-target-price-11795173332667.html",
-        "published": "Fri, 20 Nov 2026 17:40:10 +0530",
-        "source": "Mint Markets"
-      },
-      {
-        "title": "Power stocks to buy: Why Axis Sec is betting on NTPC and JSW Energy shares post Q2 results? Check targets, rationale",
-        "url": "https://www.livemint.com/market/stock-market-news/power-stocks-to-buy-why-axis-sec-is-betting-on-ntpc-and-jsw-energy-shares-post-q2-results-check-targets-rationale-11795169287632.html",
-        "published": "Fri, 20 Nov 2026 16:38:34 +0530",
+        "title": "PSU vs Private banks: Who is powering Nifty Bank's record-high rally after 5% surge? SBI, HDFC, AU, Canara target price",
+        "url": "https://www.livemint.com/market/stock-market-news/psu-vs-private-banks-who-is-powering-nifty-banks-record-high-rally-after-5-surge-sbi-hdfc-au-canara-target-price-11795255387777.html",
+        "published": "Sat, 21 Nov 2026 17:00:51 +0530",
         "source": "Mint Markets"
       }
     ],
@@ -878,18 +866,28 @@
         "source": "Economic Times Markets"
       }
     ],
+    "HINDUNILVR": [
+      {
+        "title": "Hindalco vs NALCO vs Vedanta Aluminium vs Hindustan Zinc: Which metal stocks to buy for good returns? Target, SL",
+        "url": "https://www.livemint.com/market/stock-market-news/hindalco-vs-nalco-vs-vedanta-aluminium-vs-hindustan-zinc-which-metal-stocks-to-buy-for-good-returns-target-sl-11795248944730.html",
+        "published": "Sat, 21 Nov 2026 15:17:13 +0530",
+        "source": "Mint Markets"
+      }
+    ],
     "TMCV": [
       {
         "title": "Eicher Motors Share Price Live Updates: Eicher Motors Stock Price History",
         "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/eicher-motors-share-price-live-20-nov-2026/liveblog/136016875.cms",
         "published": "Fri, 20 Nov 2026 12:17:28 +0530",
         "source": "Economic Times Markets"
-      },
+      }
+    ],
+    "HAL": [
       {
-        "title": "Tata Motors PV Share Price Highlights: Tata Motors PV Stock Price History",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-motors-pv-share-price-today-live-20-nov-2026/liveblog/136013458.cms",
-        "published": "Fri, 20 Nov 2026 10:04:07 +0530",
-        "source": "Economic Times Markets"
+        "title": "Hindalco vs NALCO vs Vedanta Aluminium vs Hindustan Zinc: Which metal stocks to buy for good returns? Target, SL",
+        "url": "https://www.livemint.com/market/stock-market-news/hindalco-vs-nalco-vs-vedanta-aluminium-vs-hindustan-zinc-which-metal-stocks-to-buy-for-good-returns-target-sl-11795248944730.html",
+        "published": "Sat, 21 Nov 2026 15:17:13 +0530",
+        "source": "Mint Markets"
       }
     ],
     "MAXHEALTH": [
@@ -898,15 +896,15 @@
         "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-winners-max-healthcare-deepak-fertilisers-among-10-stocks-that-surged-up-to-14-in-last-week/slideshow/136046616.cms",
         "published": "Sat, 21 Nov 2026 11:21:22 +0530",
         "source": "Economic Times Markets"
+      },
+      {
+        "title": "Max Healthcare, Fortis, Apollo, Aster: Hospital stocks steal show on D-Street with up to 14% rally - Buy now or wait?",
+        "url": "https://www.livemint.com/market/stock-market-news/max-healthcare-fortis-apollo-aster-hospital-stocks-steal-show-on-d-street-with-up-to-14-rally-buy-now-or-wait-11795262811423.html",
+        "published": "Sat, 21 Nov 2026 20:26:47 +0530",
+        "source": "Mint Markets"
       }
     ],
     "BAJAJFINSV": [
-      {
-        "title": "Bajaj Auto Share Price Highlights: Bajaj Auto Stock Price History",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-auto-share-price-live-updates-20-nov-2026/liveblog/136013446.cms",
-        "published": "Fri, 20 Nov 2026 10:03:52 +0530",
-        "source": "Economic Times Markets"
-      },
       {
         "title": "Top 3 stocks to buy: Axis Bank, Bajaj Finance, HDFC Life by Sumeet Bagadia | Targets, stop-loss, stock market prediction",
         "url": "https://www.livemint.com/market/stock-market-news/top-3-stocks-to-buy-axis-bank-bajaj-finance-hdfc-life-by-sumeet-bagadia-targets-stop-loss-stock-market-prediction-11795228228586.html",
@@ -916,15 +914,9 @@
     ],
     "TDPOWERSYS": [
       {
-        "title": "Adani Green Energy, Adani Power to Adani Ports: Jefferies bullish on 5 Adani shares; sees up to 43% rally | Target price",
-        "url": "https://www.livemint.com/market/stock-market-news/adani-green-energy-adani-power-to-adani-ports-jefferies-bullish-on-5-adani-shares-sees-up-to-43-rally-target-price-11795173332667.html",
-        "published": "Fri, 20 Nov 2026 17:40:10 +0530",
-        "source": "Mint Markets"
-      },
-      {
-        "title": "Power stocks to buy: Why Axis Sec is betting on NTPC and JSW Energy shares post Q2 results? Check targets, rationale",
-        "url": "https://www.livemint.com/market/stock-market-news/power-stocks-to-buy-why-axis-sec-is-betting-on-ntpc-and-jsw-energy-shares-post-q2-results-check-targets-rationale-11795169287632.html",
-        "published": "Fri, 20 Nov 2026 16:38:34 +0530",
+        "title": "PSU vs Private banks: Who is powering Nifty Bank's record-high rally after 5% surge? SBI, HDFC, AU, Canara target price",
+        "url": "https://www.livemint.com/market/stock-market-news/psu-vs-private-banks-who-is-powering-nifty-banks-record-high-rally-after-5-surge-sbi-hdfc-au-canara-target-price-11795255387777.html",
+        "published": "Sat, 21 Nov 2026 17:00:51 +0530",
         "source": "Mint Markets"
       }
     ],
@@ -933,6 +925,22 @@
         "title": "Best 3 stocks to buy under  ₹200: Jammu and Kashmir Bank, Canara Bank, Bank of India by Mehul Kothari of Anand Rathi",
         "url": "https://www.livemint.com/market/stock-market-news/best-3-stocks-to-buy-under-rs-200-jammu-and-kashmir-bank-canara-bank-bank-of-india-by-mehul-kothari-of-anand-rathi-11795191036501.html",
         "published": "Sat, 21 Nov 2026 06:30:07 +0530",
+        "source": "Mint Markets"
+      }
+    ],
+    "HINDCOPPER": [
+      {
+        "title": "Hindalco vs NALCO vs Vedanta Aluminium vs Hindustan Zinc: Which metal stocks to buy for good returns? Target, SL",
+        "url": "https://www.livemint.com/market/stock-market-news/hindalco-vs-nalco-vs-vedanta-aluminium-vs-hindustan-zinc-which-metal-stocks-to-buy-for-good-returns-target-sl-11795248944730.html",
+        "published": "Sat, 21 Nov 2026 15:17:13 +0530",
+        "source": "Mint Markets"
+      }
+    ],
+    "FORTIS": [
+      {
+        "title": "Max Healthcare, Fortis, Apollo, Aster: Hospital stocks steal show on D-Street with up to 14% rally - Buy now or wait?",
+        "url": "https://www.livemint.com/market/stock-market-news/max-healthcare-fortis-apollo-aster-hospital-stocks-steal-show-on-d-street-with-up-to-14-rally-buy-now-or-wait-11795262811423.html",
+        "published": "Sat, 21 Nov 2026 20:26:47 +0530",
         "source": "Mint Markets"
       }
     ],
@@ -954,6 +962,30 @@
         "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-finance-hub-eyes-dual-share-model-to-kickstart-public-offers-report/articleshow/136017941.cms",
         "published": "Fri, 20 Nov 2026 13:02:59 +0530",
         "source": "Economic Times Markets"
+      }
+    ],
+    "SWIGGY": [
+      {
+        "title": "Top 3 stocks to buy: Swiggy, Tata Chemicals, Amber Enterprises by Ganesh Dongre of Anand Rathi | Targets, stop-loss",
+        "url": "https://www.livemint.com/market/stock-market-news/top-3-stocks-to-buy-swiggy-tata-chemicals-amber-enterprises-by-ganesh-dongre-of-anand-rathi-targets-stoploss-11795312924053.html",
+        "published": "Sun, 22 Nov 2026 10:44:39 +0530",
+        "source": "Mint Markets"
+      }
+    ],
+    "VEDL": [
+      {
+        "title": "Hindalco vs NALCO vs Vedanta Aluminium vs Hindustan Zinc: Which metal stocks to buy for good returns? Target, SL",
+        "url": "https://www.livemint.com/market/stock-market-news/hindalco-vs-nalco-vs-vedanta-aluminium-vs-hindustan-zinc-which-metal-stocks-to-buy-for-good-returns-target-sl-11795248944730.html",
+        "published": "Sat, 21 Nov 2026 15:17:13 +0530",
+        "source": "Mint Markets"
+      }
+    ],
+    "HINDZINC": [
+      {
+        "title": "Hindalco vs NALCO vs Vedanta Aluminium vs Hindustan Zinc: Which metal stocks to buy for good returns? Target, SL",
+        "url": "https://www.livemint.com/market/stock-market-news/hindalco-vs-nalco-vs-vedanta-aluminium-vs-hindustan-zinc-which-metal-stocks-to-buy-for-good-returns-target-sl-11795248944730.html",
+        "published": "Sat, 21 Nov 2026 15:17:13 +0530",
+        "source": "Mint Markets"
       }
     ],
     "IRFC": [
@@ -984,19 +1016,19 @@
         "source": "Economic Times Markets"
       }
     ],
-    "AUBANK": [
+    "VAML": [
       {
-        "title": "Smallcap dividend stars: 5 stocks under  ₹100 with high dividend yield - Jagran Prakashan, Radiant Cash, and more",
-        "url": "https://www.livemint.com/market/stock-market-news/smallcap-dividend-stars-5-stocks-under-rs-100-with-high-dividend-yield-jagran-prakashan-radiant-cash-and-more-11795193828075.html",
-        "published": "Fri, 20 Nov 2026 22:32:19 +0530",
+        "title": "Hindalco vs NALCO vs Vedanta Aluminium vs Hindustan Zinc: Which metal stocks to buy for good returns? Target, SL",
+        "url": "https://www.livemint.com/market/stock-market-news/hindalco-vs-nalco-vs-vedanta-aluminium-vs-hindustan-zinc-which-metal-stocks-to-buy-for-good-returns-target-sl-11795248944730.html",
+        "published": "Sat, 21 Nov 2026 15:17:13 +0530",
         "source": "Mint Markets"
       }
     ],
-    "TRENT": [
+    "ICICIAMC": [
       {
-        "title": "BSE Sensex rejig: Shriram Finance to replace Trent; Which stocks are entering and exiting other BSE indices? Check list",
-        "url": "https://www.livemint.com/market/stock-market-news/bse-sensex-rejig-shriram-finance-to-replace-trent-which-stocks-are-entering-and-exiting-other-bse-indices-check-full-11795179927182.html",
-        "published": "Fri, 20 Nov 2026 18:44:55 +0530",
+        "title": "WeWork India share price jumps 40% in 6 months; ICICI Direct sees 37% more gains ahead - Buy? Check Target",
+        "url": "https://www.livemint.com/market/stock-market-news/wework-india-share-price-jumps-40-in-6-months-icici-direct-sees-37-more-gains-ahead-buy-check-target-11795334473941.html",
+        "published": "Sun, 22 Nov 2026 13:36:42 +0530",
         "source": "Mint Markets"
       }
     ],
@@ -1042,23 +1074,39 @@
     ],
     "APLAPOLLO": [
       {
-        "title": "Apollo Hospital Share Price Highlights: Apollo Hospital Stock Price History",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/apollo-hospital-share-price-live-updates-20-nov-2026/liveblog/136013439.cms",
-        "published": "Fri, 20 Nov 2026 10:03:34 +0530",
-        "source": "Economic Times Markets"
+        "title": "Max Healthcare, Fortis, Apollo, Aster: Hospital stocks steal show on D-Street with up to 14% rally - Buy now or wait?",
+        "url": "https://www.livemint.com/market/stock-market-news/max-healthcare-fortis-apollo-aster-hospital-stocks-steal-show-on-d-street-with-up-to-14-rally-buy-now-or-wait-11795262811423.html",
+        "published": "Sat, 21 Nov 2026 20:26:47 +0530",
+        "source": "Mint Markets"
       }
     ],
     "POWERGRID": [
       {
-        "title": "Adani Green Energy, Adani Power to Adani Ports: Jefferies bullish on 5 Adani shares; sees up to 43% rally | Target price",
-        "url": "https://www.livemint.com/market/stock-market-news/adani-green-energy-adani-power-to-adani-ports-jefferies-bullish-on-5-adani-shares-sees-up-to-43-rally-target-price-11795173332667.html",
-        "published": "Fri, 20 Nov 2026 17:40:10 +0530",
+        "title": "PSU vs Private banks: Who is powering Nifty Bank's record-high rally after 5% surge? SBI, HDFC, AU, Canara target price",
+        "url": "https://www.livemint.com/market/stock-market-news/psu-vs-private-banks-who-is-powering-nifty-banks-record-high-rally-after-5-surge-sbi-hdfc-au-canara-target-price-11795255387777.html",
+        "published": "Sat, 21 Nov 2026 17:00:51 +0530",
+        "source": "Mint Markets"
+      }
+    ],
+    "INDUSTOWER": [
+      {
+        "title": "Best 3 stocks to buy under  ₹100: IDFC First Bank, Jayaswal Neco Industries, Sagility by Sumeet Bagadia | Targets, SL",
+        "url": "https://www.livemint.com/market/stock-market-news/best-3-stocks-to-buy-under-rs-100-idfc-first-bank-jayaswal-neco-industries-sagility-by-sumeet-bagadia-targets-sl-11795278599364.html",
+        "published": "Sun, 22 Nov 2026 06:30:13 +0530",
         "source": "Mint Markets"
       },
       {
-        "title": "Power stocks to buy: Why Axis Sec is betting on NTPC and JSW Energy shares post Q2 results? Check targets, rationale",
-        "url": "https://www.livemint.com/market/stock-market-news/power-stocks-to-buy-why-axis-sec-is-betting-on-ntpc-and-jsw-energy-shares-post-q2-results-check-targets-rationale-11795169287632.html",
-        "published": "Fri, 20 Nov 2026 16:38:34 +0530",
+        "title": "Hindalco vs NALCO vs Vedanta Aluminium vs Hindustan Zinc: Which metal stocks to buy for good returns? Target, SL",
+        "url": "https://www.livemint.com/market/stock-market-news/hindalco-vs-nalco-vs-vedanta-aluminium-vs-hindustan-zinc-which-metal-stocks-to-buy-for-good-returns-target-sl-11795248944730.html",
+        "published": "Sat, 21 Nov 2026 15:17:13 +0530",
+        "source": "Mint Markets"
+      }
+    ],
+    "HINDPETRO": [
+      {
+        "title": "Hindalco vs NALCO vs Vedanta Aluminium vs Hindustan Zinc: Which metal stocks to buy for good returns? Target, SL",
+        "url": "https://www.livemint.com/market/stock-market-news/hindalco-vs-nalco-vs-vedanta-aluminium-vs-hindustan-zinc-which-metal-stocks-to-buy-for-good-returns-target-sl-11795248944730.html",
+        "published": "Sat, 21 Nov 2026 15:17:13 +0530",
         "source": "Mint Markets"
       }
     ],
@@ -1078,11 +1126,11 @@
         "source": "Mint Markets"
       }
     ],
-    "SBIFUNDS": [
+    "MSUMI": [
       {
-        "title": "Sebi proposes easing disclosure rules for foreign funds",
-        "url": "https://www.livemint.com/market/sebi-proposes-easing-disclosure-rules-for-foreign-funds-11795183389431.html",
-        "published": "Fri, 20 Nov 2026 20:15:39 +0530",
+        "title": "Missed 50% rally in Samvardhana Motherson? Choice's Sumeet Bagadia spots another buying opportunity | Target, stop loss",
+        "url": "https://www.livemint.com/market/stock-market-news/missed-50-rally-in-samvardhana-motherson-choices-sumeet-bagadia-spots-another-buying-opportunity-target-stop-loss-11795233784659.html",
+        "published": "Sat, 21 Nov 2026 09:53:27 +0530",
         "source": "Mint Markets"
       }
     ],
@@ -1091,34 +1139,6 @@
         "title": "Crude prices may normalise to USD 70 by end-2027 as global oil market moves into surplus: Report",
         "url": "https://economictimes.indiatimes.com/markets/commodities/news/crude-prices-may-normalise-to-usd-70-by-end-2027-as-global-oil-market-moves-into-surplus-report/articleshow/136045576.cms",
         "published": "Sat, 21 Nov 2026 10:46:52 +0530",
-        "source": "Economic Times Markets"
-      }
-    ],
-    "KPIGREEN": [
-      {
-        "title": "Adani Green Energy, Adani Power to Adani Ports: Jefferies bullish on 5 Adani shares; sees up to 43% rally | Target price",
-        "url": "https://www.livemint.com/market/stock-market-news/adani-green-energy-adani-power-to-adani-ports-jefferies-bullish-on-5-adani-shares-sees-up-to-43-rally-target-price-11795173332667.html",
-        "published": "Fri, 20 Nov 2026 17:40:10 +0530",
-        "source": "Mint Markets"
-      }
-    ],
-    "TI": [
-      {
-        "title": "Market winners: Max Healthcare, Deepak Fertilisers among 10 stocks that surged up to 14% in last week",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-winners-max-healthcare-deepak-fertilisers-among-10-stocks-that-surged-up-to-14-in-last-week/slideshow/136046616.cms",
-        "published": "Sat, 21 Nov 2026 11:21:22 +0530",
-        "source": "Economic Times Markets"
-      },
-      {
-        "title": "Sebi proposes limiting tenure of chief executives, independent directors of stock exchanges, market infrastruction institutions",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-proposes-limiting-tenure-of-chief-executives-independent-directors-at-exchanges/articleshow/136031465.cms",
-        "published": "Fri, 20 Nov 2026 20:39:36 +0530",
-        "source": "Economic Times Markets"
-      },
-      {
-        "title": "Nasdaq crashes 5% at close, erasing 2026 gains; S&amp;P 500, Dow in correction: Stock Market Highlights",
-        "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-meta-tesla-anthropic-claude-nvidia-micron-meta-ai-stocks-fed-rate-hike-inflation-treasury-yield-news-20th-november-2026/liveblog/136028991.cms",
-        "published": "Fri, 20 Nov 2026 18:39:00 +0530",
         "source": "Economic Times Markets"
       }
     ]
@@ -2676,6 +2696,39 @@
       "fundamentals_asof": "2026-11-16T22:43:50+05:30"
     },
     {
+      "symbol": "MUTHOOTFIN",
+      "company": "Muthoot Finance Limited",
+      "close": 2550.5,
+      "daily_change_pct": -2.5783,
+      "return_20d_pct": 5.6108,
+      "alpha_20d_pct": null,
+      "rsi14": 41.0599,
+      "atr14": 96.5076,
+      "ema20": 2683.6252,
+      "ema50": 2716.8116,
+      "ema200": 3044.9704,
+      "relative_volume": 1.7817,
+      "turnover_crore": 439.9707,
+      "trend_score": 33,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 2581.5527,
+      "stop_reference": 2436.7913,
+      "target_1_reference": 2798.6949,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {
+        "pe": 8.3937,
+        "forward_pe": 7.6996,
+        "pb": 2.3309,
+        "roe": 0.3159,
+        "debt_to_equity": 401.441,
+        "revenue_growth": 0.288,
+        "free_cashflow": null,
+        "beta": 0.557
+      },
+      "fundamentals_asof": "2026-11-22T13:46:54+05:30"
+    },
+    {
       "symbol": "ADANIPORTS",
       "company": "Adani Ports and Special Economic Zone Limited",
       "close": 1917.0,
@@ -3267,6 +3320,39 @@
       "fundamentals_asof": "2026-11-20T18:58:27+05:30"
     },
     {
+      "symbol": "NATIONALUM",
+      "company": "National Aluminium Company Limited",
+      "close": 303.2,
+      "daily_change_pct": -1.2378,
+      "return_20d_pct": -1.1326,
+      "alpha_20d_pct": null,
+      "rsi14": 38.8622,
+      "atr14": 11.225,
+      "ema20": 318.264,
+      "ema50": 328.588,
+      "ema200": 341.0175,
+      "relative_volume": 1.9445,
+      "turnover_crore": 349.3056,
+      "trend_score": 16,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 308.1651,
+      "stop_reference": 291.3276,
+      "target_1_reference": 333.4213,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {
+        "pe": 7.7823,
+        "forward_pe": 7.6474,
+        "pb": 2.2373,
+        "roe": 0.32,
+        "debt_to_equity": 0.233,
+        "revenue_growth": 0.263,
+        "free_cashflow": 47578087424.0,
+        "beta": 0.735
+      },
+      "fundamentals_asof": "2026-11-22T13:46:54+05:30"
+    },
+    {
       "symbol": "LENSKART",
       "company": "Lenskart Solutions Limited",
       "close": 741.65,
@@ -3663,6 +3749,39 @@
       "fundamentals_asof": "2026-11-13T17:19:56+05:30"
     },
     {
+      "symbol": "NAVINFLUOR",
+      "company": "Navin Fluorine International Limited",
+      "close": 10077.0,
+      "daily_change_pct": -1.2349,
+      "return_20d_pct": 26.9261,
+      "alpha_20d_pct": null,
+      "rsi14": 69.0936,
+      "atr14": 314.9478,
+      "ema20": 9339.9864,
+      "ema50": 8801.3708,
+      "ema200": 7712.8293,
+      "relative_volume": 1.1844,
+      "turnover_crore": 302.1981,
+      "trend_score": 100,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 10328.616,
+      "stop_reference": 9856.1943,
+      "target_1_reference": 11037.2486,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {
+        "pe": 56.8166,
+        "forward_pe": 46.3949,
+        "pb": 11.585,
+        "roe": 0.2258,
+        "debt_to_equity": 27.964,
+        "revenue_growth": 0.57,
+        "free_cashflow": 1614099968.0,
+        "beta": 0.244
+      },
+      "fundamentals_asof": "2026-11-22T13:46:54+05:30"
+    },
+    {
       "symbol": "HCLTECH",
       "company": "HCL Technologies Limited",
       "close": 1384.6,
@@ -3784,6 +3903,39 @@
       "last_checked_at_ist": "2026-11-19T19:15:14+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
+    },
+    {
+      "symbol": "MOTHERSON",
+      "company": "Samvardhana Motherson International Limited",
+      "close": 166.53,
+      "daily_change_pct": 0.6588,
+      "return_20d_pct": 7.6888,
+      "alpha_20d_pct": null,
+      "rsi14": 55.3353,
+      "atr14": 5.8308,
+      "ema20": 162.1976,
+      "ema50": 160.4687,
+      "ema200": 146.142,
+      "relative_volume": 0.9226,
+      "turnover_crore": 279.2346,
+      "trend_score": 83,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 167.5544,
+      "stop_reference": 158.8083,
+      "target_1_reference": 180.6737,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {
+        "pe": 37.1719,
+        "forward_pe": 23.4355,
+        "pb": 3.8857,
+        "roe": 0.112,
+        "debt_to_equity": 47.731,
+        "revenue_growth": 0.268,
+        "free_cashflow": 15704099840.0,
+        "beta": 1.041
+      },
+      "fundamentals_asof": "2026-11-22T13:46:54+05:30"
     },
     {
       "symbol": "OFSS",
@@ -4056,6 +4208,39 @@
       "fundamentals_asof": "2026-11-17T14:51:31+05:30"
     },
     {
+      "symbol": "MPHASIS",
+      "company": "MphasiS Limited",
+      "close": 2420.0,
+      "daily_change_pct": 2.7165,
+      "return_20d_pct": -3.1806,
+      "alpha_20d_pct": null,
+      "rsi14": 48.0573,
+      "atr14": 87.5626,
+      "ema20": 2443.4603,
+      "ema50": 2422.7531,
+      "ema200": 2399.9915,
+      "relative_volume": 1.3909,
+      "turnover_crore": 253.3549,
+      "trend_score": 33,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 2463.918,
+      "stop_reference": 2332.5741,
+      "target_1_reference": 2660.9338,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {
+        "pe": 23.1004,
+        "forward_pe": 18.7871,
+        "pb": 4.2796,
+        "roe": 0.1961,
+        "debt_to_equity": 29.582,
+        "revenue_growth": 0.174,
+        "free_cashflow": -5613890048.0,
+        "beta": 0.394
+      },
+      "fundamentals_asof": "2026-11-22T13:46:54+05:30"
+    },
+    {
       "symbol": "DIXON",
       "company": "Dixon Technologies (India) Limited",
       "close": 12798.0,
@@ -4078,6 +4263,39 @@
       "last_checked_at_ist": "2026-11-13T17:19:56+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
+    },
+    {
+      "symbol": "NETWEB",
+      "company": "Netweb Technologies India Limited",
+      "close": 4095.5,
+      "daily_change_pct": -2.6133,
+      "return_20d_pct": -10.8298,
+      "alpha_20d_pct": null,
+      "rsi14": 42.8186,
+      "atr14": 189.5964,
+      "ema20": 4199.2613,
+      "ema50": 4417.9026,
+      "ema200": 4269.5195,
+      "relative_volume": 0.4094,
+      "turnover_crore": 248.4977,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 4166.1154,
+      "stop_reference": 3881.7208,
+      "target_1_reference": 4592.7072,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {
+        "pe": 63.7799,
+        "forward_pe": 45.7324,
+        "pb": 11.2566,
+        "roe": 0.2728,
+        "debt_to_equity": 15.817,
+        "revenue_growth": 3.357,
+        "free_cashflow": -6930687488.0,
+        "beta": 1.75
+      },
+      "fundamentals_asof": "2026-11-22T13:46:54+05:30"
     },
     {
       "symbol": "ADANIENSOL",
@@ -4111,6 +4329,30 @@
         "beta": 0.632
       },
       "fundamentals_asof": "2026-11-20T21:47:43+05:30"
+    },
+    {
+      "symbol": "NESTLEIND",
+      "company": "Nestle India Limited",
+      "close": 1325.0,
+      "daily_change_pct": 1.6572,
+      "return_20d_pct": 11.3539,
+      "alpha_20d_pct": null,
+      "rsi14": 59.7323,
+      "atr14": 32.6829,
+      "ema20": 1274.7841,
+      "ema50": 1302.6315,
+      "ema200": 1342.5431,
+      "relative_volume": 1.0885,
+      "turnover_crore": 238.6663,
+      "trend_score": 66,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 1327.65,
+      "stop_reference": 1278.6256,
+      "target_1_reference": 1401.1865,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
     },
     {
       "symbol": "HDFCLIFE",
@@ -5091,6 +5333,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "MTARTECH",
+      "company": "Mtar Technologies Limited",
+      "close": 5614.5,
+      "daily_change_pct": -5.702,
+      "return_20d_pct": -17.4338,
+      "alpha_20d_pct": null,
+      "rsi14": 36.2981,
+      "atr14": 311.5276,
+      "ema20": 6158.9153,
+      "ema50": 6579.6603,
+      "ema200": 5966.6893,
+      "relative_volume": 1.1552,
+      "turnover_crore": 179.9874,
+      "trend_score": 16,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 5854.185,
+      "stop_reference": 5386.8936,
+      "target_1_reference": 6555.1221,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "JIOFIN",
       "company": "Jio Financial Services Limited",
       "close": 227.5,
@@ -5448,6 +5714,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NAM-INDIA",
+      "company": "Nippon Life India Asset Management Limited",
+      "close": 1050.0,
+      "daily_change_pct": -0.1901,
+      "return_20d_pct": 8.6768,
+      "alpha_20d_pct": null,
+      "rsi14": 51.1227,
+      "atr14": 40.473,
+      "ema20": 1044.9268,
+      "ema50": 1058.4786,
+      "ema200": 1041.5952,
+      "relative_volume": 1.1001,
+      "turnover_crore": 169.2974,
+      "trend_score": 66,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 1056.7593,
+      "stop_reference": 996.0499,
+      "target_1_reference": 1147.8235,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "SUZLON",
       "company": "Suzlon Energy Limited",
       "close": 37.19,
@@ -5691,6 +5981,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NMDC",
+      "company": "NMDC Limited",
+      "close": 68.9,
+      "daily_change_pct": 1.0264,
+      "return_20d_pct": 0.029,
+      "alpha_20d_pct": null,
+      "rsi14": 42.87,
+      "atr14": 1.6959,
+      "ema20": 69.7495,
+      "ema50": 72.8189,
+      "ema200": 78.1242,
+      "relative_volume": 1.3384,
+      "turnover_crore": 156.8478,
+      "trend_score": 33,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 69.0378,
+      "stop_reference": 66.494,
+      "target_1_reference": 72.8535,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "ASIANPAINT",
       "company": "Asian Paints Limited",
       "close": 2550.0,
@@ -5792,6 +6106,30 @@
       "stop_reference": 888.4559,
       "target_1_reference": 963.9001,
       "last_checked_at_ist": "2026-11-18T22:58:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NH",
+      "company": "Narayana Hrudayalaya Ltd.",
+      "close": 1943.7,
+      "daily_change_pct": 3.7692,
+      "return_20d_pct": 14.7945,
+      "alpha_20d_pct": null,
+      "rsi14": 64.2981,
+      "atr14": 52.1689,
+      "ema20": 1850.8444,
+      "ema50": 1831.1839,
+      "ema200": 1861.855,
+      "relative_volume": 4.6369,
+      "turnover_crore": 152.5225,
+      "trend_score": 100,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 1963.92,
+      "stop_reference": 1885.6667,
+      "target_1_reference": 2081.3,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -6783,6 +7121,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "MOTILALOFS",
+      "company": "Motilal Oswal Financial Services Limited",
+      "close": 1205.65,
+      "daily_change_pct": -0.3924,
+      "return_20d_pct": 23.4033,
+      "alpha_20d_pct": null,
+      "rsi14": 67.2215,
+      "atr14": 47.0876,
+      "ema20": 1129.2966,
+      "ema50": 1062.4966,
+      "ema200": 953.9932,
+      "relative_volume": 0.6295,
+      "turnover_crore": 124.0325,
+      "trend_score": 83,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 1217.5803,
+      "stop_reference": 1146.9489,
+      "target_1_reference": 1323.5274,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "PIDILITIND",
       "company": "Pidilite Industries Limited",
       "close": 1537.3,
@@ -6803,6 +7165,30 @@
       "stop_reference": 1511.6577,
       "target_1_reference": 1659.101,
       "last_checked_at_ist": "2026-11-16T13:36:26+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NAUKRI",
+      "company": "Info Edge (India) Limited",
+      "close": 1177.7,
+      "daily_change_pct": 1.7276,
+      "return_20d_pct": -3.0301,
+      "alpha_20d_pct": null,
+      "rsi14": 46.0379,
+      "atr14": 37.7149,
+      "ema20": 1186.6345,
+      "ema50": 1207.0693,
+      "ema200": 1191.1773,
+      "relative_volume": 0.7328,
+      "turnover_crore": 123.6018,
+      "trend_score": 0,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 1201.6986,
+      "stop_reference": 1145.1263,
+      "target_1_reference": 1286.5571,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -7022,6 +7408,30 @@
       "stop_reference": 510.5051,
       "target_1_reference": 598.3401,
       "last_checked_at_ist": "2026-11-20T00:15:34+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "MSUMI",
+      "company": "Motherson Sumi Wiring India Limited",
+      "close": 42.71,
+      "daily_change_pct": 3.5394,
+      "return_20d_pct": 22.2031,
+      "alpha_20d_pct": null,
+      "rsi14": 80.9757,
+      "atr14": 1.1588,
+      "ema20": 38.6349,
+      "ema50": 37.413,
+      "ema200": 39.2419,
+      "relative_volume": 1.4619,
+      "turnover_crore": 116.2444,
+      "trend_score": 100,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 43.0359,
+      "stop_reference": 41.2977,
+      "target_1_reference": 45.6431,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -7530,6 +7940,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "MOLBIO",
+      "company": "Molbio Diagnostics Limited",
+      "close": 1495.5,
+      "daily_change_pct": -2.0244,
+      "return_20d_pct": 18.7187,
+      "alpha_20d_pct": null,
+      "rsi14": 60.4864,
+      "atr14": 87.7348,
+      "ema20": 1416.0576,
+      "ema50": 1348.3815,
+      "ema200": null,
+      "relative_volume": 0.9252,
+      "turnover_crore": 104.8144,
+      "trend_score": 83,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 1583.16,
+      "stop_reference": 1451.5578,
+      "target_1_reference": 1780.5633,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "VENKEYS",
       "company": "Venky's (India) Limited",
       "close": 1555.7,
@@ -7975,6 +8409,30 @@
         "beta": 0.308
       },
       "fundamentals_asof": "2026-11-18T18:50:27+05:30"
+    },
+    {
+      "symbol": "NAVA",
+      "company": "NAVA LIMITED",
+      "close": 563.95,
+      "daily_change_pct": 6.2954,
+      "return_20d_pct": 12.9255,
+      "alpha_20d_pct": null,
+      "rsi14": 58.2498,
+      "atr14": 20.9649,
+      "ema20": 539.7859,
+      "ema50": 542.4938,
+      "ema200": 562.2889,
+      "relative_volume": 3.7133,
+      "turnover_crore": 95.3666,
+      "trend_score": 83,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 572.3925,
+      "stop_reference": 540.9451,
+      "target_1_reference": 619.5636,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
     },
     {
       "symbol": "ALICON",
@@ -8532,30 +8990,6 @@
       "fundamentals_asof": null
     },
     {
-      "symbol": "NMDC",
-      "company": "NMDC Limited",
-      "close": 68.92,
-      "daily_change_pct": -1.2608,
-      "return_20d_pct": -2.6829,
-      "alpha_20d_pct": -12.6568,
-      "rsi14": 41.0719,
-      "atr14": 1.7317,
-      "ema20": 70.2925,
-      "ema50": 73.5417,
-      "ema200": 78.6823,
-      "relative_volume": 0.6821,
-      "turnover_crore": 82.7443,
-      "trend_score": 0,
-      "direction": "red",
-      "last_price_bar": "2026-11-16 00:00:00",
-      "entry_reference": 69.9897,
-      "stop_reference": 67.3921,
-      "target_1_reference": 73.8861,
-      "last_checked_at_ist": "2026-11-18T01:14:00+05:30",
-      "fundamentals": {},
-      "fundamentals_asof": null
-    },
-    {
       "symbol": "SBC",
       "company": "SBC Exports Limited",
       "close": 68.99,
@@ -8720,6 +9154,30 @@
       "stop_reference": 889.8356,
       "target_1_reference": 981.7454,
       "last_checked_at_ist": "2026-11-17T19:15:00+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NEULANDLAB",
+      "company": "Neuland Laboratories Limited",
+      "close": 20642.0,
+      "daily_change_pct": -2.1799,
+      "return_20d_pct": 9.0151,
+      "alpha_20d_pct": null,
+      "rsi14": 50.9134,
+      "atr14": 754.3556,
+      "ema20": 20570.0378,
+      "ema50": 20682.2208,
+      "ema200": 18984.6306,
+      "relative_volume": 0.6108,
+      "turnover_crore": 77.0525,
+      "trend_score": 50,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 21174.264,
+      "stop_reference": 20042.7306,
+      "target_1_reference": 22871.5641,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -9255,6 +9713,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "MVELECTRO",
+      "company": "MV Electrosystems Limited",
+      "close": 801.35,
+      "daily_change_pct": -0.249,
+      "return_20d_pct": -1.9336,
+      "alpha_20d_pct": null,
+      "rsi14": 50.9786,
+      "atr14": 54.1223,
+      "ema20": 791.911,
+      "ema50": 785.8307,
+      "ema200": null,
+      "relative_volume": 0.4174,
+      "turnover_crore": 64.9389,
+      "trend_score": 66,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 816.4296,
+      "stop_reference": 735.2461,
+      "target_1_reference": 938.2048,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "ICICIGI",
       "company": "ICICI Lombard General Insurance Company Limited",
       "close": 1688.0,
@@ -9513,6 +9995,30 @@
       "fundamentals_asof": "2026-11-19T17:58:13+05:30"
     },
     {
+      "symbol": "NEOGEN",
+      "company": "Neogen Chemicals Limited",
+      "close": 2920.2,
+      "daily_change_pct": 1.0975,
+      "return_20d_pct": 30.4126,
+      "alpha_20d_pct": null,
+      "rsi14": 68.2016,
+      "atr14": 138.9325,
+      "ema20": 2610.2515,
+      "ema50": 2449.6426,
+      "ema200": 2014.5233,
+      "relative_volume": 1.1592,
+      "turnover_crore": 61.5254,
+      "trend_score": 100,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 2975.94,
+      "stop_reference": 2767.5413,
+      "target_1_reference": 3288.5381,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "SAREGAMA",
       "company": "Saregama India Limited",
       "close": 674.9,
@@ -9690,6 +10196,54 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NITINSPIN",
+      "company": "Nitin Spinners Limited",
+      "close": 704.7,
+      "daily_change_pct": 1.4249,
+      "return_20d_pct": 13.123,
+      "alpha_20d_pct": null,
+      "rsi14": 67.7858,
+      "atr14": 25.5226,
+      "ema20": 665.4634,
+      "ema50": 638.5424,
+      "ema200": 537.3159,
+      "relative_volume": 5.4636,
+      "turnover_crore": 59.8475,
+      "trend_score": 100,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 726.3999,
+      "stop_reference": 688.1161,
+      "target_1_reference": 783.8257,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NHPC",
+      "company": "NHPC Limited",
+      "close": 76.61,
+      "daily_change_pct": 0.4063,
+      "return_20d_pct": 5.8442,
+      "alpha_20d_pct": null,
+      "rsi14": 52.1693,
+      "atr14": 1.9242,
+      "ema20": 76.207,
+      "ema50": 75.7877,
+      "ema200": 76.6631,
+      "relative_volume": 0.5417,
+      "turnover_crore": 59.7572,
+      "trend_score": 83,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 76.9035,
+      "stop_reference": 74.0172,
+      "target_1_reference": 81.2329,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "VMM",
       "company": "Vishal Mega Mart Limited",
       "close": 91.99,
@@ -9782,6 +10336,30 @@
       "stop_reference": 720.8877,
       "target_1_reference": 841.757,
       "last_checked_at_ist": "2026-11-20T23:41:27+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NBCC",
+      "company": "NBCC (India) Limited",
+      "close": 79.6,
+      "daily_change_pct": 0.1258,
+      "return_20d_pct": 13.26,
+      "alpha_20d_pct": null,
+      "rsi14": 56.1505,
+      "atr14": 2.5494,
+      "ema20": 77.4271,
+      "ema50": 78.8947,
+      "ema200": 89.8488,
+      "relative_volume": 0.7538,
+      "turnover_crore": 58.2755,
+      "trend_score": 66,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 80.6209,
+      "stop_reference": 76.7967,
+      "target_1_reference": 86.3572,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -10452,6 +11030,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "MRF",
+      "company": "MRF Limited",
+      "close": 130885.0,
+      "daily_change_pct": 1.312,
+      "return_20d_pct": 10.1195,
+      "alpha_20d_pct": null,
+      "rsi14": 73.8116,
+      "atr14": 2138.6356,
+      "ema20": 125469.3373,
+      "ema50": 125063.013,
+      "ema200": 131259.7262,
+      "relative_volume": 0.9526,
+      "turnover_crore": 52.655,
+      "trend_score": 83,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 131462.4,
+      "stop_reference": 128254.4466,
+      "target_1_reference": 136274.33,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "UNITDSPR",
       "company": "United Spirits Limited",
       "close": 1446.0,
@@ -10749,6 +11351,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NLCINDIA",
+      "company": "NLC India Limited",
+      "close": 233.79,
+      "daily_change_pct": -0.481,
+      "return_20d_pct": 0.7101,
+      "alpha_20d_pct": null,
+      "rsi14": 45.9155,
+      "atr14": 8.5154,
+      "ema20": 237.4307,
+      "ema50": 247.2797,
+      "ema200": 267.783,
+      "relative_volume": 0.9936,
+      "turnover_crore": 49.3025,
+      "trend_score": 16,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 236.0912,
+      "stop_reference": 223.3181,
+      "target_1_reference": 255.2509,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "MANIPALHOS",
       "company": "Manipal Health Enterprises Limited",
       "close": 688.85,
@@ -11018,6 +11644,30 @@
       "stop_reference": 624.7378,
       "target_1_reference": 726.2132,
       "last_checked_at_ist": "2026-11-16T22:43:50+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NATCOPHARM",
+      "company": "Natco Pharma Limited",
+      "close": 814.3,
+      "daily_change_pct": -0.9307,
+      "return_20d_pct": 3.8709,
+      "alpha_20d_pct": null,
+      "rsi14": 54.7496,
+      "atr14": 23.1438,
+      "ema20": 807.1376,
+      "ema50": 817.4049,
+      "ema200": 882.2648,
+      "relative_volume": 0.6355,
+      "turnover_crore": 45.5393,
+      "trend_score": 50,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 833.2632,
+      "stop_reference": 798.5474,
+      "target_1_reference": 885.3368,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -11516,6 +12166,30 @@
       "stop_reference": 1127.2252,
       "target_1_reference": 1233.7498,
       "last_checked_at_ist": "2026-11-17T02:24:10+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "MRPL",
+      "company": "Mangalore Refinery and Petrochemicals Limited",
+      "close": 175.52,
+      "daily_change_pct": -0.3746,
+      "return_20d_pct": 5.7732,
+      "alpha_20d_pct": null,
+      "rsi14": 50.5779,
+      "atr14": 6.9848,
+      "ema20": 175.6368,
+      "ema50": 172.9152,
+      "ema200": 167.51,
+      "relative_volume": 0.1577,
+      "turnover_crore": 40.731,
+      "trend_score": 66,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 177.9151,
+      "stop_reference": 167.438,
+      "target_1_reference": 193.6309,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -12507,6 +13181,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NAZARA",
+      "company": "Nazara Technologies Limited",
+      "close": 414.55,
+      "daily_change_pct": -2.5849,
+      "return_20d_pct": 6.8565,
+      "alpha_20d_pct": null,
+      "rsi14": 53.6534,
+      "atr14": 13.8372,
+      "ema20": 412.111,
+      "ema50": 394.5244,
+      "ema200": 334.6206,
+      "relative_volume": 0.5942,
+      "turnover_crore": 33.8497,
+      "trend_score": 83,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 423.5454,
+      "stop_reference": 402.7896,
+      "target_1_reference": 454.6792,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "HSCL",
       "company": "Himadri Speciality Chemical Limited",
       "close": 554.25,
@@ -12575,6 +13273,30 @@
       "stop_reference": 551.1818,
       "target_1_reference": 628.6323,
       "last_checked_at_ist": "2026-11-20T22:40:16+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NCC",
+      "company": "NCC Limited",
+      "close": 131.69,
+      "daily_change_pct": -2.2201,
+      "return_20d_pct": 9.5864,
+      "alpha_20d_pct": null,
+      "rsi14": 55.1381,
+      "atr14": 4.1879,
+      "ema20": 128.8915,
+      "ema50": 129.9969,
+      "ema200": 142.2461,
+      "relative_volume": 1.1014,
+      "turnover_crore": 33.2216,
+      "trend_score": 83,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 134.6187,
+      "stop_reference": 128.3368,
+      "target_1_reference": 144.0415,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -13127,6 +13849,30 @@
       "stop_reference": 2057.2382,
       "target_1_reference": 2294.632,
       "last_checked_at_ist": "2026-11-21T13:54:36+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NEWGEN",
+      "company": "Newgen Software Technologies Limited",
+      "close": 413.55,
+      "daily_change_pct": -0.3014,
+      "return_20d_pct": -13.0832,
+      "alpha_20d_pct": null,
+      "rsi14": 30.4406,
+      "atr14": 16.1097,
+      "ema20": 439.6653,
+      "ema50": 462.1751,
+      "ema200": 534.793,
+      "relative_volume": 0.9327,
+      "turnover_crore": 29.1712,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 422.8941,
+      "stop_reference": 398.7295,
+      "target_1_reference": 459.141,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -14408,6 +15154,30 @@
       "stop_reference": 139.0397,
       "target_1_reference": 161.8048,
       "last_checked_at_ist": "2026-11-21T13:54:36+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NELCAST",
+      "company": "Nelcast Limited",
+      "close": 146.3,
+      "daily_change_pct": 3.1735,
+      "return_20d_pct": 19.6337,
+      "alpha_20d_pct": null,
+      "rsi14": 53.5684,
+      "atr14": 8.4407,
+      "ema20": 144.8014,
+      "ema50": 136.2889,
+      "ema200": 126.6987,
+      "relative_volume": 1.5931,
+      "turnover_crore": 23.7073,
+      "trend_score": 100,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 148.0455,
+      "stop_reference": 135.3845,
+      "target_1_reference": 167.037,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -16566,6 +17336,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "MOREPENLAB",
+      "company": "Morepen Laboratories Limited",
+      "close": 90.15,
+      "daily_change_pct": -0.683,
+      "return_20d_pct": -23.3874,
+      "alpha_20d_pct": null,
+      "rsi14": 35.3277,
+      "atr14": 6.4852,
+      "ema20": 101.7658,
+      "ema50": 106.0355,
+      "ema200": 79.5744,
+      "relative_volume": 0.39,
+      "turnover_crore": 16.9371,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 93.186,
+      "stop_reference": 83.4583,
+      "target_1_reference": 107.7776,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "NORTHARC",
       "company": "Northern Arc Capital Limited",
       "close": 278.9,
@@ -16682,6 +17476,30 @@
       "stop_reference": 304.0558,
       "target_1_reference": 342.5102,
       "last_checked_at_ist": "2026-11-16T17:54:25+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "MSTCLTD",
+      "company": "Mstc Limited",
+      "close": 656.55,
+      "daily_change_pct": -2.9705,
+      "return_20d_pct": 9.8461,
+      "alpha_20d_pct": null,
+      "rsi14": 50.6048,
+      "atr14": 40.1297,
+      "ema20": 655.1499,
+      "ema50": 653.227,
+      "ema200": 593.639,
+      "relative_volume": 0.3592,
+      "turnover_crore": 16.6785,
+      "trend_score": 83,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 675.0474,
+      "stop_reference": 614.8529,
+      "target_1_reference": 765.3391,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -17363,6 +18181,30 @@
       "stop_reference": 2231.7503,
       "target_1_reference": 2486.5195,
       "last_checked_at_ist": "2026-11-20T00:15:34+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "MWL",
+      "company": "Mangalam Worldwide Limited",
+      "close": 43.86,
+      "daily_change_pct": 3.2486,
+      "return_20d_pct": 11.038,
+      "alpha_20d_pct": null,
+      "rsi14": 68.2211,
+      "atr14": 2.0794,
+      "ema20": 40.1238,
+      "ema50": 39.9168,
+      "ema200": 36.0339,
+      "relative_volume": 2.0408,
+      "turnover_crore": 14.8461,
+      "trend_score": 100,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 44.589,
+      "stop_reference": 41.4699,
+      "target_1_reference": 49.2676,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -19364,6 +20206,30 @@
       "stop_reference": 370.3731,
       "target_1_reference": 428.1538,
       "last_checked_at_ist": "2026-11-18T22:58:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "MOTISONS",
+      "company": "Motisons Jewellers Limited",
+      "close": 12.98,
+      "daily_change_pct": -3.062,
+      "return_20d_pct": -18.262,
+      "alpha_20d_pct": null,
+      "rsi14": 27.3687,
+      "atr14": 0.7532,
+      "ema20": 14.4901,
+      "ema50": 15.3622,
+      "ema200": 15.0589,
+      "relative_volume": 0.3522,
+      "turnover_crore": 11.054,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 13.4268,
+      "stop_reference": 12.2971,
+      "target_1_reference": 15.1214,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -21672,6 +22538,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "MUFIN",
+      "company": "Mufin Green Finance Limited",
+      "close": 136.89,
+      "daily_change_pct": -0.682,
+      "return_20d_pct": 1.4977,
+      "alpha_20d_pct": null,
+      "rsi14": 49.5683,
+      "atr14": 3.5765,
+      "ema20": 137.538,
+      "ema50": 135.7965,
+      "ema200": 127.284,
+      "relative_volume": 0.4513,
+      "turnover_crore": 8.1318,
+      "trend_score": 50,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 138.3662,
+      "stop_reference": 133.0015,
+      "target_1_reference": 146.4133,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "JUSTDIAL",
       "company": "Just Dial Limited",
       "close": 690.65,
@@ -21740,6 +22630,30 @@
       "stop_reference": 447.8065,
       "target_1_reference": 550.7303,
       "last_checked_at_ist": "2026-11-19T00:01:16+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "MOSCHIP",
+      "company": "Moschip Technologies Limited",
+      "close": 161.32,
+      "daily_change_pct": -1.9152,
+      "return_20d_pct": -4.8933,
+      "alpha_20d_pct": null,
+      "rsi14": 37.5591,
+      "atr14": 6.2831,
+      "ema20": 168.9615,
+      "ema50": 180.8607,
+      "ema200": 197.9815,
+      "relative_volume": 0.4181,
+      "turnover_crore": 8.0049,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 164.1076,
+      "stop_reference": 154.6829,
+      "target_1_reference": 178.2445,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -22148,6 +23062,30 @@
       "stop_reference": 214.6299,
       "target_1_reference": 243.4588,
       "last_checked_at_ist": "2026-11-20T22:40:16+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "MUTHOOTMF",
+      "company": "Muthoot Microfin Limited",
+      "close": 165.4,
+      "daily_change_pct": -2.5913,
+      "return_20d_pct": 3.5303,
+      "alpha_20d_pct": null,
+      "rsi14": 51.6176,
+      "atr14": 8.295,
+      "ema20": 162.3227,
+      "ema50": 171.0952,
+      "ema200": 185.0678,
+      "relative_volume": 0.9491,
+      "turnover_crore": 7.6119,
+      "trend_score": 50,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 170.34,
+      "stop_reference": 157.8975,
+      "target_1_reference": 189.0037,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -22752,6 +23690,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "MOIL",
+      "company": "MOIL Limited",
+      "close": 214.53,
+      "daily_change_pct": 0.3133,
+      "return_20d_pct": -1.8306,
+      "alpha_20d_pct": null,
+      "rsi14": 43.9928,
+      "atr14": 6.4293,
+      "ema20": 217.7302,
+      "ema50": 228.1687,
+      "ema200": 266.172,
+      "relative_volume": 0.555,
+      "turnover_crore": 7.0244,
+      "trend_score": 0,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 216.933,
+      "stop_reference": 207.2891,
+      "target_1_reference": 231.3989,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "ONEPOINT",
       "company": "One Point One Solutions Limited",
       "close": 70.72,
@@ -22988,6 +23950,30 @@
       "stop_reference": 312.8302,
       "target_1_reference": 357.4046,
       "last_checked_at_ist": "2026-11-13T23:58:36+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NEPHROPLUS",
+      "company": "Nephrocare Health Services Limited",
+      "close": 655.8,
+      "daily_change_pct": 2.1575,
+      "return_20d_pct": 8.8645,
+      "alpha_20d_pct": null,
+      "rsi14": 55.9008,
+      "atr14": 25.2186,
+      "ema20": 636.7074,
+      "ema50": 646.6616,
+      "ema200": 623.127,
+      "relative_volume": 0.7558,
+      "turnover_crore": 6.8031,
+      "trend_score": 66,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 661.5705,
+      "stop_reference": 623.7426,
+      "target_1_reference": 718.3124,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -24552,6 +25538,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NELCO",
+      "company": "NELCO Limited",
+      "close": 775.85,
+      "daily_change_pct": -0.9701,
+      "return_20d_pct": 5.2856,
+      "alpha_20d_pct": null,
+      "rsi14": 47.7647,
+      "atr14": 36.9811,
+      "ema20": 777.6383,
+      "ema50": 816.6829,
+      "ema200": 819.5678,
+      "relative_volume": 0.4452,
+      "turnover_crore": 5.5071,
+      "trend_score": 16,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 795.3375,
+      "stop_reference": 739.8659,
+      "target_1_reference": 878.5449,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "SALSTEEL",
       "company": "S.A.L. Steel Limited",
       "close": 89.4,
@@ -25488,6 +26498,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NFL",
+      "company": "National Fertilizers Limited",
+      "close": 64.72,
+      "daily_change_pct": 1.4102,
+      "return_20d_pct": 9.9745,
+      "alpha_20d_pct": null,
+      "rsi14": 55.7065,
+      "atr14": 1.8428,
+      "ema20": 63.1906,
+      "ema50": 64.1164,
+      "ema200": 70.8701,
+      "relative_volume": 0.9671,
+      "turnover_crore": 4.8062,
+      "trend_score": 66,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 65.4406,
+      "stop_reference": 62.6764,
+      "target_1_reference": 69.587,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "SPAL",
       "company": "S. P. Apparels Limited",
       "close": 937.15,
@@ -25604,6 +26638,30 @@
       "stop_reference": 897.9716,
       "target_1_reference": 1019.1403,
       "last_checked_at_ist": "2026-11-20T22:40:16+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NIBE",
+      "company": "NIBE Limited",
+      "close": 1102.1,
+      "daily_change_pct": -1.7123,
+      "return_20d_pct": -8.4102,
+      "alpha_20d_pct": null,
+      "rsi14": 39.6777,
+      "atr14": 58.6982,
+      "ema20": 1176.1889,
+      "ema50": 1231.2668,
+      "ema200": 1261.4559,
+      "relative_volume": 0.5917,
+      "turnover_crore": 4.7225,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 1130.0556,
+      "stop_reference": 1042.0083,
+      "target_1_reference": 1262.1266,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -26156,6 +27214,54 @@
       "stop_reference": 53.423,
       "target_1_reference": 61.1224,
       "last_checked_at_ist": "2026-11-20T22:40:16+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NIACL",
+      "company": "The New India Assurance Company Limited",
+      "close": 152.63,
+      "daily_change_pct": -0.4435,
+      "return_20d_pct": -7.96,
+      "alpha_20d_pct": null,
+      "rsi14": 39.0469,
+      "atr14": 6.1309,
+      "ema20": 159.1969,
+      "ema50": 167.1673,
+      "ema200": 169.1139,
+      "relative_volume": 0.3137,
+      "turnover_crore": 4.3986,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 153.5465,
+      "stop_reference": 144.3502,
+      "target_1_reference": 167.341,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NETWORK18",
+      "company": "Network18 Media & Investments Limited",
+      "close": 25.44,
+      "daily_change_pct": -2.0785,
+      "return_20d_pct": 4.8208,
+      "alpha_20d_pct": null,
+      "rsi14": 45.9469,
+      "atr14": 1.0198,
+      "ema20": 26.0231,
+      "ema50": 26.3878,
+      "ema200": 30.9443,
+      "relative_volume": 0.3731,
+      "turnover_crore": 4.3984,
+      "trend_score": 16,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 25.8716,
+      "stop_reference": 24.342,
+      "target_1_reference": 28.1661,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -27005,6 +28111,30 @@
       "stop_reference": 159.6288,
       "target_1_reference": 183.8768,
       "last_checked_at_ist": "2026-11-21T13:54:36+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NGLFINE",
+      "company": "NGL Fine-Chem Limited",
+      "close": 2747.6001,
+      "daily_change_pct": -1.0587,
+      "return_20d_pct": 3.8201,
+      "alpha_20d_pct": null,
+      "rsi14": 45.9886,
+      "atr14": 141.056,
+      "ema20": 2816.3205,
+      "ema50": 2829.6692,
+      "ema200": 2607.3794,
+      "relative_volume": 1.6235,
+      "turnover_crore": 3.9857,
+      "trend_score": 33,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 2848.9866,
+      "stop_reference": 2637.4026,
+      "target_1_reference": 3166.3627,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -27921,6 +29051,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NIVABUPA",
+      "company": "Niva Bupa Health Insurance Company Limited",
+      "close": 74.36,
+      "daily_change_pct": 0.4865,
+      "return_20d_pct": 3.407,
+      "alpha_20d_pct": null,
+      "rsi14": 45.2357,
+      "atr14": 2.332,
+      "ema20": 75.4745,
+      "ema50": 76.8038,
+      "ema200": 78.9627,
+      "relative_volume": 0.326,
+      "turnover_crore": 3.54,
+      "trend_score": 16,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 74.649,
+      "stop_reference": 71.151,
+      "target_1_reference": 79.8959,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "ALOKINDS",
       "company": "Alok Industries Limited",
       "close": 8.13,
@@ -28013,6 +29167,30 @@
       "stop_reference": 6614.0241,
       "target_1_reference": 7552.5913,
       "last_checked_at_ist": "2026-11-16T22:43:50+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NILKAMAL",
+      "company": "Nilkamal Limited",
+      "close": 2102.7,
+      "daily_change_pct": -3.0835,
+      "return_20d_pct": 24.3907,
+      "alpha_20d_pct": null,
+      "rsi14": 57.0766,
+      "atr14": 92.9741,
+      "ema20": 2055.4068,
+      "ema50": 1945.4125,
+      "ema200": 1669.8778,
+      "relative_volume": 0.2211,
+      "turnover_crore": 3.4905,
+      "trend_score": 83,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 2180.0514,
+      "stop_reference": 2040.5901,
+      "target_1_reference": 2389.2432,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -28421,6 +29599,30 @@
       "stop_reference": 12.7191,
       "target_1_reference": 15.1146,
       "last_checked_at_ist": "2026-11-19T14:26:18+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "MOLDTKPAC",
+      "company": "Mold-Tek Packaging Limited",
+      "close": 351.25,
+      "daily_change_pct": 0.7746,
+      "return_20d_pct": 16.1925,
+      "alpha_20d_pct": null,
+      "rsi14": 62.075,
+      "atr14": 14.7215,
+      "ema20": 336.644,
+      "ema50": 330.8671,
+      "ema200": 322.771,
+      "relative_volume": 0.2034,
+      "turnover_crore": 3.3388,
+      "trend_score": 83,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 354.708,
+      "stop_reference": 332.6257,
+      "target_1_reference": 387.8314,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -29715,6 +30917,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NACLIND",
+      "company": "NACL Industries Limited",
+      "close": 117.34,
+      "daily_change_pct": -0.1532,
+      "return_20d_pct": -2.2655,
+      "alpha_20d_pct": null,
+      "rsi14": 43.3892,
+      "atr14": 6.0057,
+      "ema20": 120.408,
+      "ema50": 131.6967,
+      "ema200": 156.5233,
+      "relative_volume": 0.3725,
+      "turnover_crore": 2.6742,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 120.0095,
+      "stop_reference": 111.001,
+      "target_1_reference": 133.5224,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "INA",
       "company": "Insolation Energy Limited",
       "close": 69.25,
@@ -30588,6 +31814,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NITCO",
+      "company": "Nitco Limited",
+      "close": 80.69,
+      "daily_change_pct": -1.4293,
+      "return_20d_pct": 12.2565,
+      "alpha_20d_pct": null,
+      "rsi14": 48.1472,
+      "atr14": 4.043,
+      "ema20": 81.6967,
+      "ema50": 83.7613,
+      "ema200": 89.7087,
+      "relative_volume": 0.5233,
+      "turnover_crore": 2.282,
+      "trend_score": 16,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 81.7632,
+      "stop_reference": 75.6987,
+      "target_1_reference": 90.86,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "UNICHEMLAB",
       "company": "Unichem Laboratories Limited",
       "close": 484.9,
@@ -30920,6 +32170,30 @@
       "stop_reference": 149.3282,
       "target_1_reference": 179.8137,
       "last_checked_at_ist": "2026-11-19T19:15:14+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NIITMTS",
+      "company": "NIIT Learning Systems Limited",
+      "close": 168.42,
+      "daily_change_pct": 0.2261,
+      "return_20d_pct": -10.7188,
+      "alpha_20d_pct": null,
+      "rsi14": 37.4624,
+      "atr14": 8.8278,
+      "ema20": 175.8866,
+      "ema50": 191.6346,
+      "ema200": 245.6797,
+      "relative_volume": 0.637,
+      "turnover_crore": 2.2359,
+      "trend_score": 0,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 169.839,
+      "stop_reference": 156.5973,
+      "target_1_reference": 189.7015,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -31280,6 +32554,30 @@
       "stop_reference": 1410.9969,
       "target_1_reference": 1543.0593,
       "last_checked_at_ist": "2026-11-19T22:12:34+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "MTNL",
+      "company": "Mahanagar Telephone Nigam Limited",
+      "close": 24.25,
+      "daily_change_pct": -2.4537,
+      "return_20d_pct": -1.5828,
+      "alpha_20d_pct": null,
+      "rsi14": 47.5968,
+      "atr14": 1.1906,
+      "ema20": 24.7108,
+      "ema50": 24.7205,
+      "ema200": 28.0773,
+      "relative_volume": 0.0988,
+      "turnover_crore": 2.0509,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 24.6793,
+      "stop_reference": 22.8933,
+      "target_1_reference": 27.3582,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -31812,6 +33110,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "MVGJL",
+      "company": "Manoj Vaibhav Gems N Jewellers Limited",
+      "close": 162.46,
+      "daily_change_pct": -3.3551,
+      "return_20d_pct": -22.3979,
+      "alpha_20d_pct": null,
+      "rsi14": 37.3862,
+      "atr14": 11.025,
+      "ema20": 180.4214,
+      "ema50": 186.2674,
+      "ema200": 178.9416,
+      "relative_volume": 0.4911,
+      "turnover_crore": 1.9068,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 167.0534,
+      "stop_reference": 150.516,
+      "target_1_reference": 191.8597,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "ASIANTILES",
       "company": "Asian Granito India Limited",
       "close": 44.47,
@@ -32196,6 +33518,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NESCO",
+      "company": "Nesco Limited",
+      "close": 1064.45,
+      "daily_change_pct": 0.3819,
+      "return_20d_pct": 5.7051,
+      "alpha_20d_pct": null,
+      "rsi14": 57.4132,
+      "atr14": 24.6459,
+      "ema20": 1045.7931,
+      "ema50": 1046.0189,
+      "ema200": 1098.0353,
+      "relative_volume": 0.5222,
+      "turnover_crore": 1.7778,
+      "trend_score": 66,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 1072.0899,
+      "stop_reference": 1035.1211,
+      "target_1_reference": 1127.543,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "RAMRAT",
       "company": "Ram Ratna Wires Limited",
       "close": 510.6,
@@ -32388,6 +33734,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NDRAUTO",
+      "company": "Ndr Auto Components Limited",
+      "close": 744.75,
+      "daily_change_pct": -1.449,
+      "return_20d_pct": 11.8579,
+      "alpha_20d_pct": null,
+      "rsi14": 54.8244,
+      "atr14": 37.5287,
+      "ema20": 727.2663,
+      "ema50": 723.8712,
+      "ema200": 760.2913,
+      "relative_volume": 0.1993,
+      "turnover_crore": 1.7369,
+      "trend_score": 83,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 772.3917,
+      "stop_reference": 716.0986,
+      "target_1_reference": 856.8313,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "DCMSIL",
       "company": "DCM Shriram International Limited",
       "close": 59.58,
@@ -32532,6 +33902,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "MONARCH",
+      "company": "Monarch Networth Capital Limited",
+      "close": 340.05,
+      "daily_change_pct": -0.1028,
+      "return_20d_pct": 2.7963,
+      "alpha_20d_pct": null,
+      "rsi14": 44.5338,
+      "atr14": 11.2537,
+      "ema20": 344.4251,
+      "ema50": 349.0526,
+      "ema200": 339.0819,
+      "relative_volume": 0.6179,
+      "turnover_crore": 1.7052,
+      "trend_score": 16,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 345.5898,
+      "stop_reference": 328.7092,
+      "target_1_reference": 370.9106,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "ARIHANTCAP",
       "company": "Arihant Capital Markets Limited",
       "close": 93.15,
@@ -32600,6 +33994,30 @@
       "stop_reference": 78.1463,
       "target_1_reference": 93.1505,
       "last_checked_at_ist": "2026-11-19T23:05:04+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "MUNJALAU",
+      "company": "Munjal Auto Industries Limited",
+      "close": 93.88,
+      "daily_change_pct": 0.3099,
+      "return_20d_pct": -0.6351,
+      "alpha_20d_pct": null,
+      "rsi14": 39.2439,
+      "atr14": 4.22,
+      "ema20": 99.0002,
+      "ema50": 101.4408,
+      "ema200": 96.4825,
+      "relative_volume": 0.4352,
+      "turnover_crore": 1.6965,
+      "trend_score": 0,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 95.1199,
+      "stop_reference": 88.7899,
+      "target_1_reference": 104.6148,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -33732,6 +35150,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NAVKARCORP",
+      "company": "Navkar Corporation Limited",
+      "close": 79.16,
+      "daily_change_pct": -1.3828,
+      "return_20d_pct": -6.1752,
+      "alpha_20d_pct": null,
+      "rsi14": 41.2275,
+      "atr14": 2.9345,
+      "ema20": 81.4117,
+      "ema50": 84.7903,
+      "ema200": 93.6037,
+      "relative_volume": 0.3625,
+      "turnover_crore": 1.4058,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 80.7812,
+      "stop_reference": 76.3795,
+      "target_1_reference": 87.3839,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "BAJAJELEC",
       "company": "Bajaj Electricals Limited",
       "close": 278.1,
@@ -33800,6 +35242,54 @@
       "stop_reference": 89.6057,
       "target_1_reference": 106.9231,
       "last_checked_at_ist": "2026-11-19T14:26:18+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "MOLDTECH",
+      "company": "Mold-Tek Technologies Limited",
+      "close": 86.2,
+      "daily_change_pct": -3.3199,
+      "return_20d_pct": -2.9279,
+      "alpha_20d_pct": null,
+      "rsi14": 38.73,
+      "atr14": 6.4101,
+      "ema20": 94.1362,
+      "ema50": 94.7329,
+      "ema200": 83.633,
+      "relative_volume": 1.8378,
+      "turnover_crore": 1.362,
+      "trend_score": 16,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 91.8734,
+      "stop_reference": 82.2582,
+      "target_1_reference": 106.2962,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NAVNETEDUL",
+      "company": "Navneet Education Limited",
+      "close": 120.37,
+      "daily_change_pct": -1.328,
+      "return_20d_pct": -0.1939,
+      "alpha_20d_pct": null,
+      "rsi14": 42.7656,
+      "atr14": 3.7652,
+      "ema20": 123.0368,
+      "ema50": 123.9196,
+      "ema200": 131.803,
+      "relative_volume": 0.5178,
+      "turnover_crore": 1.3594,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 122.244,
+      "stop_reference": 116.5962,
+      "target_1_reference": 130.7157,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -33896,6 +35386,30 @@
       "stop_reference": 525.1776,
       "target_1_reference": 611.7772,
       "last_checked_at_ist": "2026-11-19T23:05:04+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "MPSLTD",
+      "company": "MPS Limited",
+      "close": 2144.3,
+      "daily_change_pct": -1.4024,
+      "return_20d_pct": -7.3256,
+      "alpha_20d_pct": null,
+      "rsi14": 33.48,
+      "atr14": 99.5049,
+      "ema20": 2279.557,
+      "ema50": 2389.5527,
+      "ema200": 2240.2201,
+      "relative_volume": 0.355,
+      "turnover_crore": 1.3228,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 2183.7587,
+      "stop_reference": 2034.5013,
+      "target_1_reference": 2407.6448,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -34184,6 +35698,30 @@
       "stop_reference": 6.9982,
       "target_1_reference": 7.6138,
       "last_checked_at_ist": "2026-11-20T00:15:34+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "MUKANDLTD",
+      "company": "Mukand Limited",
+      "close": 134.94,
+      "daily_change_pct": -1.2947,
+      "return_20d_pct": -12.0224,
+      "alpha_20d_pct": null,
+      "rsi14": 35.5489,
+      "atr14": 6.8703,
+      "ema20": 144.9538,
+      "ema50": 148.6199,
+      "ema200": 140.9148,
+      "relative_volume": 0.318,
+      "turnover_crore": 1.2613,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 136.5325,
+      "stop_reference": 126.2271,
+      "target_1_reference": 151.9907,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -37350,6 +38888,78 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "MOL",
+      "company": "Meghmani Organics Limited",
+      "close": 52.91,
+      "daily_change_pct": -1.3609,
+      "return_20d_pct": -0.2827,
+      "alpha_20d_pct": null,
+      "rsi14": 41.1952,
+      "atr14": 2.2213,
+      "ema20": 54.6627,
+      "ema50": 56.0244,
+      "ema200": 56.5363,
+      "relative_volume": 0.2215,
+      "turnover_crore": 0.7232,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 53.607,
+      "stop_reference": 50.2751,
+      "target_1_reference": 58.6048,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NECCLTD",
+      "company": "North Eastern Carrying Corporation Limited",
+      "close": 23.17,
+      "daily_change_pct": 2.2958,
+      "return_20d_pct": 26.1983,
+      "alpha_20d_pct": null,
+      "rsi14": 68.006,
+      "atr14": 1.3636,
+      "ema20": 20.5177,
+      "ema50": 19.1654,
+      "ema200": 17.5989,
+      "relative_volume": 0.4603,
+      "turnover_crore": 0.7194,
+      "trend_score": 83,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 23.3466,
+      "stop_reference": 21.3012,
+      "target_1_reference": 26.4146,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "MSPL",
+      "company": "MSP Steel & Power Limited",
+      "close": 31.39,
+      "daily_change_pct": -1.0404,
+      "return_20d_pct": 2.5147,
+      "alpha_20d_pct": null,
+      "rsi14": 48.8319,
+      "atr14": 1.3059,
+      "ema20": 31.5054,
+      "ema50": 32.1763,
+      "ema200": 34.4632,
+      "relative_volume": 0.3025,
+      "turnover_crore": 0.7169,
+      "trend_score": 16,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 31.7534,
+      "stop_reference": 29.7946,
+      "target_1_reference": 34.6916,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "VEEDOL",
       "company": "Veedol Corporation Limited",
       "close": 1386.2,
@@ -37490,6 +39100,54 @@
       "stop_reference": 611.604,
       "target_1_reference": 770.964,
       "last_checked_at_ist": "2026-11-20T18:58:27+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NIITLTD",
+      "company": "NIIT Limited",
+      "close": 69.57,
+      "daily_change_pct": -0.7985,
+      "return_20d_pct": -10.5669,
+      "alpha_20d_pct": null,
+      "rsi14": 35.4312,
+      "atr14": 2.86,
+      "ema20": 72.987,
+      "ema50": 79.0806,
+      "ema200": 84.6164,
+      "relative_volume": 0.363,
+      "turnover_crore": 0.6915,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 71.633,
+      "stop_reference": 67.3429,
+      "target_1_reference": 78.0681,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "MONTECARLO",
+      "company": "Monte Carlo Fashions Limited",
+      "close": 494.85,
+      "daily_change_pct": -1.0003,
+      "return_20d_pct": -2.8277,
+      "alpha_20d_pct": null,
+      "rsi14": 44.3739,
+      "atr14": 13.605,
+      "ema20": 501.7275,
+      "ema50": 509.4846,
+      "ema200": 549.4681,
+      "relative_volume": 0.448,
+      "turnover_crore": 0.6866,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 500.9499,
+      "stop_reference": 480.5424,
+      "target_1_reference": 531.5612,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -38622,6 +40280,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NCLIND",
+      "company": "NCL Industries Limited",
+      "close": 169.75,
+      "daily_change_pct": 0.183,
+      "return_20d_pct": 1.0357,
+      "alpha_20d_pct": null,
+      "rsi14": 55.2862,
+      "atr14": 5.7521,
+      "ema20": 165.9209,
+      "ema50": 167.935,
+      "ema200": 176.6856,
+      "relative_volume": 0.3058,
+      "turnover_crore": 0.5658,
+      "trend_score": 66,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 171.342,
+      "stop_reference": 162.7139,
+      "target_1_reference": 184.2842,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "HGS",
       "company": "Hinduja Global Solutions Limited",
       "close": 336.1,
@@ -38666,6 +40348,30 @@
       "stop_reference": 147.7666,
       "target_1_reference": 168.8546,
       "last_checked_at_ist": "2026-11-16T17:54:25+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NILASPACES",
+      "company": "Nila Spaces Limited",
+      "close": 8.57,
+      "daily_change_pct": -3.0543,
+      "return_20d_pct": -19.1509,
+      "alpha_20d_pct": null,
+      "rsi14": 23.1757,
+      "atr14": 0.4725,
+      "ema20": 9.7989,
+      "ema50": 10.6247,
+      "ema200": 12.5023,
+      "relative_volume": 1.6813,
+      "turnover_crore": 0.5535,
+      "trend_score": 16,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 9.0681,
+      "stop_reference": 8.3594,
+      "target_1_reference": 10.1312,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -39174,6 +40880,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NITTAGELA",
+      "company": "Nitta Gelatin India Limited",
+      "close": 1671.5,
+      "daily_change_pct": -4.1901,
+      "return_20d_pct": 11.53,
+      "alpha_20d_pct": null,
+      "rsi14": 46.4066,
+      "atr14": 73.6249,
+      "ema20": 1709.4201,
+      "ema50": 1680.3821,
+      "ema200": null,
+      "relative_volume": 0.6112,
+      "turnover_crore": 0.4847,
+      "trend_score": 33,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 1774.041,
+      "stop_reference": 1663.6037,
+      "target_1_reference": 1939.697,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "MALLCOM",
       "company": "Mallcom (India) Limited",
       "close": 871.0,
@@ -39554,6 +41284,30 @@
       "stop_reference": 34.3857,
       "target_1_reference": 43.3359,
       "last_checked_at_ist": "2026-11-21T13:54:36+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NINSYS",
+      "company": "NINtec Systems Limited",
+      "close": 949.6,
+      "daily_change_pct": 1.5724,
+      "return_20d_pct": 5.0966,
+      "alpha_20d_pct": null,
+      "rsi14": 64.1946,
+      "atr14": 40.7845,
+      "ema20": 911.7049,
+      "ema50": 857.9241,
+      "ema200": 695.1016,
+      "relative_volume": 0.3975,
+      "turnover_crore": 0.4587,
+      "trend_score": 83,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 956.91,
+      "stop_reference": 895.7332,
+      "target_1_reference": 1048.6752,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -40686,6 +42440,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NAHARSPING",
+      "company": "Nahar Spinning Mills Limited",
+      "close": 251.25,
+      "daily_change_pct": -0.0199,
+      "return_20d_pct": 5.8786,
+      "alpha_20d_pct": null,
+      "rsi14": 46.9704,
+      "atr14": 11.2802,
+      "ema20": 252.8378,
+      "ema50": 258.7942,
+      "ema200": 251.5961,
+      "relative_volume": 0.4667,
+      "turnover_crore": 0.3537,
+      "trend_score": 16,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 252.9048,
+      "stop_reference": 235.9846,
+      "target_1_reference": 278.2851,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "CHEMCON",
       "company": "Chemcon Speciality Chemicals Limited",
       "close": 187.21,
@@ -41378,6 +43156,30 @@
       "stop_reference": 145.4242,
       "target_1_reference": 166.4564,
       "last_checked_at_ist": "2026-11-16T18:33:29+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NIRLON",
+      "company": "Nirlon Limited",
+      "close": 640.4,
+      "daily_change_pct": -0.0936,
+      "return_20d_pct": 2.072,
+      "alpha_20d_pct": null,
+      "rsi14": 58.4894,
+      "atr14": 12.3255,
+      "ema20": 636.5264,
+      "ema50": 627.5402,
+      "ema200": null,
+      "relative_volume": 0.8485,
+      "turnover_crore": 0.3179,
+      "trend_score": 83,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 648.294,
+      "stop_reference": 629.8057,
+      "target_1_reference": 676.0264,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -42222,6 +44024,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NDL",
+      "company": "Nandan Denim Limited",
+      "close": 2.44,
+      "daily_change_pct": -0.813,
+      "return_20d_pct": 0.0,
+      "alpha_20d_pct": null,
+      "rsi14": 40.4534,
+      "atr14": 0.1092,
+      "ema20": 2.518,
+      "ema50": 2.5609,
+      "ema200": 2.6435,
+      "relative_volume": 1.0722,
+      "turnover_crore": 0.2696,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 2.485,
+      "stop_reference": 2.3212,
+      "target_1_reference": 2.7306,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "MANBA",
       "company": "Manba Finance Limited",
       "close": 142.76,
@@ -42314,6 +44140,30 @@
       "stop_reference": 201.7204,
       "target_1_reference": 261.0444,
       "last_checked_at_ist": "2026-11-16T22:43:50+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NDTV",
+      "company": "New Delhi Television Limited",
+      "close": 64.08,
+      "daily_change_pct": -1.8382,
+      "return_20d_pct": 4.3648,
+      "alpha_20d_pct": null,
+      "rsi14": 46.161,
+      "atr14": 2.2825,
+      "ema20": 64.7572,
+      "ema50": 66.7229,
+      "ema200": 74.4681,
+      "relative_volume": 0.5401,
+      "turnover_crore": 0.2636,
+      "trend_score": 16,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 65.5108,
+      "stop_reference": 62.0871,
+      "target_1_reference": 70.6463,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -42626,6 +44476,30 @@
       "stop_reference": 16.0289,
       "target_1_reference": 19.7941,
       "last_checked_at_ist": "2026-11-17T19:15:00+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NARMADA",
+      "company": "Narmada Agrobase Limited",
+      "close": 11.21,
+      "daily_change_pct": 0.1787,
+      "return_20d_pct": 10.6614,
+      "alpha_20d_pct": null,
+      "rsi14": 43.3132,
+      "atr14": 0.725,
+      "ema20": 11.5893,
+      "ema50": 12.2756,
+      "ema200": 14.2024,
+      "relative_volume": 0.8236,
+      "turnover_crore": 0.246,
+      "trend_score": 16,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 11.7635,
+      "stop_reference": 10.676,
+      "target_1_reference": 13.3948,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -43086,6 +44960,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "MUKKA",
+      "company": "Mukka Proteins Limited",
+      "close": 24.71,
+      "daily_change_pct": -1.7886,
+      "return_20d_pct": -2.2161,
+      "alpha_20d_pct": null,
+      "rsi14": 41.1677,
+      "atr14": 1.2501,
+      "ema20": 25.8684,
+      "ema50": 26.1189,
+      "ema200": 25.0574,
+      "relative_volume": 0.5438,
+      "turnover_crore": 0.2364,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 25.2003,
+      "stop_reference": 23.3252,
+      "target_1_reference": 28.0129,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "BELLACASA",
       "company": "Bella Casa Fashion & Retail Limited",
       "close": 189.66,
@@ -43178,6 +45076,30 @@
       "stop_reference": 87.1368,
       "target_1_reference": 94.2187,
       "last_checked_at_ist": "2026-11-18T22:58:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NILAINFRA",
+      "company": "Nila Infrastructures Limited",
+      "close": 6.76,
+      "daily_change_pct": -1.3139,
+      "return_20d_pct": 10.2773,
+      "alpha_20d_pct": null,
+      "rsi14": 51.102,
+      "atr14": 0.3659,
+      "ema20": 6.7562,
+      "ema50": 6.756,
+      "ema200": 7.4591,
+      "relative_volume": 1.2836,
+      "turnover_crore": 0.2346,
+      "trend_score": 100,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 6.9138,
+      "stop_reference": 6.365,
+      "target_1_reference": 7.737,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -43902,6 +45824,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NATCAPSUQ",
+      "company": "Natural Capsules Limited",
+      "close": 126.19,
+      "daily_change_pct": -4.9989,
+      "return_20d_pct": -16.058,
+      "alpha_20d_pct": null,
+      "rsi14": 31.8163,
+      "atr14": 7.2826,
+      "ema20": 143.5911,
+      "ema50": 152.3544,
+      "ema200": 161.1541,
+      "relative_volume": 3.5504,
+      "turnover_crore": 0.2059,
+      "trend_score": 16,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 139.278,
+      "stop_reference": 128.3541,
+      "target_1_reference": 155.6639,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "LANCORHOL",
       "company": "Lancor Holdings Limited",
       "close": 28.0,
@@ -44258,6 +46204,30 @@
       "stop_reference": 288.7332,
       "target_1_reference": 345.83,
       "last_checked_at_ist": "2026-11-20T00:15:34+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "MUFTI",
+      "company": "Credo Brands Marketing Limited",
+      "close": 73.81,
+      "daily_change_pct": -1.1385,
+      "return_20d_pct": 12.963,
+      "alpha_20d_pct": null,
+      "rsi14": 49.6755,
+      "atr14": 3.3231,
+      "ema20": 74.4675,
+      "ema50": 73.6888,
+      "ema200": 79.4268,
+      "relative_volume": 0.1997,
+      "turnover_crore": 0.1854,
+      "trend_score": 50,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 74.9396,
+      "stop_reference": 69.9549,
+      "target_1_reference": 82.4166,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -44646,6 +46616,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NECLIFE",
+      "company": "Nectar Lifesciences Limited",
+      "close": 9.81,
+      "daily_change_pct": -1.7034,
+      "return_20d_pct": -8.829,
+      "alpha_20d_pct": null,
+      "rsi14": 37.8601,
+      "atr14": 0.4591,
+      "ema20": 10.2657,
+      "ema50": 10.5503,
+      "ema200": 11.7229,
+      "relative_volume": 1.6322,
+      "turnover_crore": 0.1702,
+      "trend_score": 16,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 10.2104,
+      "stop_reference": 9.5217,
+      "target_1_reference": 11.2434,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "OSWALAGRO",
       "company": "Oswal Agro Mills Limited",
       "close": 34.75,
@@ -44766,6 +46760,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NILE",
+      "company": "Nile Limited",
+      "close": 1193.2,
+      "daily_change_pct": -0.7073,
+      "return_20d_pct": -7.0259,
+      "alpha_20d_pct": null,
+      "rsi14": 37.4841,
+      "atr14": 55.6821,
+      "ema20": 1271.0693,
+      "ema50": 1327.4267,
+      "ema200": null,
+      "relative_volume": 0.265,
+      "turnover_crore": 0.1625,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 1221.0372,
+      "stop_reference": 1137.514,
+      "target_1_reference": 1346.3219,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "MAHASTEEL",
       "company": "Mahamaya Steel Industries Limited",
       "close": 1456.1,
@@ -44858,6 +46876,30 @@
       "stop_reference": 154.9118,
       "target_1_reference": 195.7117,
       "last_checked_at_ist": "2026-11-20T22:40:16+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "MUTHOOTCAP",
+      "company": "Muthoot Capital Services Limited",
+      "close": 194.27,
+      "daily_change_pct": -0.8371,
+      "return_20d_pct": -3.8838,
+      "alpha_20d_pct": null,
+      "rsi14": 41.791,
+      "atr14": 9.6695,
+      "ema20": 199.4117,
+      "ema50": 208.0368,
+      "ema200": 223.0856,
+      "relative_volume": 0.5416,
+      "turnover_crore": 0.1586,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 197.8148,
+      "stop_reference": 183.3107,
+      "target_1_reference": 219.5711,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -45290,6 +47332,30 @@
       "stop_reference": 334.5308,
       "target_1_reference": 373.3255,
       "last_checked_at_ist": "2026-11-19T22:12:34+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NDLVENTURE",
+      "company": "NDL Ventures Limited",
+      "close": 102.36,
+      "daily_change_pct": -0.6021,
+      "return_20d_pct": -7.2406,
+      "alpha_20d_pct": null,
+      "rsi14": 34.5789,
+      "atr14": 6.7296,
+      "ema20": 109.4442,
+      "ema50": 114.0519,
+      "ema200": 114.9983,
+      "relative_volume": 0.8048,
+      "turnover_crore": 0.145,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 106.6028,
+      "stop_reference": 96.5084,
+      "target_1_reference": 121.7443,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -46230,6 +48296,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "MUNJALSHOW",
+      "company": "Munjal Showa Limited",
+      "close": 125.12,
+      "daily_change_pct": -0.398,
+      "return_20d_pct": 7.0866,
+      "alpha_20d_pct": null,
+      "rsi14": 49.8799,
+      "atr14": 4.2039,
+      "ema20": 125.3827,
+      "ema50": 125.5838,
+      "ema200": 125.8955,
+      "relative_volume": 0.2521,
+      "turnover_crore": 0.1189,
+      "trend_score": 16,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 126.1518,
+      "stop_reference": 119.8459,
+      "target_1_reference": 135.6107,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "CHEMFAB",
       "company": "Chemfab Alkalis Limited",
       "close": 321.45,
@@ -46686,6 +48776,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NAHARCAP",
+      "company": "Nahar Capital and Financial Services Limited",
+      "close": 236.83,
+      "daily_change_pct": 0.488,
+      "return_20d_pct": 7.6207,
+      "alpha_20d_pct": null,
+      "rsi14": 52.4451,
+      "atr14": 10.3523,
+      "ema20": 234.4368,
+      "ema50": 237.2175,
+      "ema200": 245.7437,
+      "relative_volume": 1.3265,
+      "turnover_crore": 0.1063,
+      "trend_score": 66,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 242.464,
+      "stop_reference": 226.9356,
+      "target_1_reference": 265.7565,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "MKEXIM",
       "company": "M.K. Exim (India) Limited",
       "close": 50.21,
@@ -46758,6 +48872,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NAHARINDUS",
+      "company": "Nahar Industrial Enterprises Limited",
+      "close": 124.83,
+      "daily_change_pct": 1.0687,
+      "return_20d_pct": 4.2509,
+      "alpha_20d_pct": null,
+      "rsi14": 51.193,
+      "atr14": 5.1243,
+      "ema20": 123.8339,
+      "ema50": 124.7656,
+      "ema200": 119.336,
+      "relative_volume": 0.9805,
+      "turnover_crore": 0.1049,
+      "trend_score": 66,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 127.0035,
+      "stop_reference": 119.317,
+      "target_1_reference": 138.5332,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "SURANASOL",
       "company": "Surana Solar Limited",
       "close": 21.73,
@@ -46802,6 +48940,30 @@
       "stop_reference": 15.2728,
       "target_1_reference": 18.9493,
       "last_checked_at_ist": "2026-11-21T13:54:36+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NAHARPOLY",
+      "company": "Nahar Poly Films Limited",
+      "close": 237.14,
+      "daily_change_pct": 0.5043,
+      "return_20d_pct": 9.8735,
+      "alpha_20d_pct": null,
+      "rsi14": 57.1488,
+      "atr14": 9.2606,
+      "ema20": 232.9462,
+      "ema50": 232.065,
+      "ema200": 241.0637,
+      "relative_volume": 0.6113,
+      "turnover_crore": 0.1011,
+      "trend_score": 83,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 240.3698,
+      "stop_reference": 226.4789,
+      "target_1_reference": 261.206,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -47334,6 +49496,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "MONEYBOXX",
+      "company": "Moneyboxx Finance Limited",
+      "close": 40.12,
+      "daily_change_pct": -2.2893,
+      "return_20d_pct": -15.891,
+      "alpha_20d_pct": null,
+      "rsi14": 34.1176,
+      "atr14": 2.5453,
+      "ema20": 43.3482,
+      "ema50": 47.5672,
+      "ema200": 57.6358,
+      "relative_volume": 1.1619,
+      "turnover_crore": 0.0884,
+      "trend_score": 16,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 42.074,
+      "stop_reference": 38.2561,
+      "target_1_reference": 47.8009,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "PUNJABCHEM",
       "company": "Punjab Chemicals & Crop Protection Limited",
       "close": 910.6,
@@ -47766,6 +49952,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "MODTHREAD",
+      "company": "Modern Threads (India) Limited",
+      "close": 50.83,
+      "daily_change_pct": -5.6607,
+      "return_20d_pct": 9.3353,
+      "alpha_20d_pct": null,
+      "rsi14": 55.0254,
+      "atr14": 3.7947,
+      "ema20": 49.1372,
+      "ema50": 48.525,
+      "ema200": 47.5157,
+      "relative_volume": 1.6472,
+      "turnover_crore": 0.081,
+      "trend_score": 100,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 55.4006,
+      "stop_reference": 49.7086,
+      "target_1_reference": 63.9386,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "SINCLAIR",
       "company": "Sinclairs Hotels Limited",
       "close": 72.79,
@@ -48026,6 +50236,30 @@
       "stop_reference": 17.1441,
       "target_1_reference": 21.8789,
       "last_checked_at_ist": "2026-11-19T23:05:04+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NAVKARURB",
+      "company": "Navkar Urbanstructure Limited",
+      "close": 0.97,
+      "daily_change_pct": -3.9604,
+      "return_20d_pct": 16.8675,
+      "alpha_20d_pct": null,
+      "rsi14": 57.7109,
+      "atr14": 0.0762,
+      "ema20": 0.9352,
+      "ema50": 0.907,
+      "ema200": 1.037,
+      "relative_volume": 0.9198,
+      "turnover_crore": 0.0779,
+      "trend_score": 83,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 1.0922,
+      "stop_reference": 0.9779,
+      "target_1_reference": 1.2637,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -49278,6 +51512,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NIPPOBATRY",
+      "company": "Indo-National Limited",
+      "close": 300.7,
+      "daily_change_pct": -0.1826,
+      "return_20d_pct": 1.5707,
+      "alpha_20d_pct": null,
+      "rsi14": 41.0986,
+      "atr14": 12.0727,
+      "ema20": 308.1118,
+      "ema50": 312.4255,
+      "ema200": 334.9022,
+      "relative_volume": 1.2236,
+      "turnover_crore": 0.0614,
+      "trend_score": 33,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 309.618,
+      "stop_reference": 291.5089,
+      "target_1_reference": 336.7816,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "INDOWIND",
       "company": "Indowind Energy Limited",
       "close": 8.71,
@@ -49658,6 +51916,30 @@
       "stop_reference": 103.4704,
       "target_1_reference": 130.3645,
       "last_checked_at_ist": "2026-11-20T18:58:27+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NGIL",
+      "company": "Nakoda Group of Industries Limited",
+      "close": 40.18,
+      "daily_change_pct": -3.6451,
+      "return_20d_pct": 10.8108,
+      "alpha_20d_pct": null,
+      "rsi14": 46.6932,
+      "atr14": 3.3644,
+      "ema20": 41.4103,
+      "ema50": 40.2053,
+      "ema200": 36.7713,
+      "relative_volume": 0.1783,
+      "turnover_crore": 0.0562,
+      "trend_score": 33,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 42.084,
+      "stop_reference": 37.0374,
+      "target_1_reference": 49.6539,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -50622,6 +52904,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NDGL",
+      "company": "Naga Dhunseri Group Limited",
+      "close": 2566.0,
+      "daily_change_pct": -2.0199,
+      "return_20d_pct": 12.2583,
+      "alpha_20d_pct": null,
+      "rsi14": 59.2697,
+      "atr14": 113.7475,
+      "ema20": 2480.973,
+      "ema50": 2491.4437,
+      "ema200": 2674.8802,
+      "relative_volume": 0.9539,
+      "turnover_crore": 0.0457,
+      "trend_score": 66,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 2633.256,
+      "stop_reference": 2462.6347,
+      "target_1_reference": 2889.1879,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "SWISSMLTRY",
       "company": "Swiss Military Consumer Goods Limited",
       "close": 12.72,
@@ -50642,6 +52948,30 @@
       "stop_reference": 12.0182,
       "target_1_reference": 14.5378,
       "last_checked_at_ist": "2026-11-19T00:51:09+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NEAGI",
+      "company": "Neelamalai Agro Industries Limited",
+      "close": 3490.0,
+      "daily_change_pct": 3.3768,
+      "return_20d_pct": 11.267,
+      "alpha_20d_pct": null,
+      "rsi14": 63.6892,
+      "atr14": 95.2151,
+      "ema20": 3327.9514,
+      "ema50": 3312.258,
+      "ema200": null,
+      "relative_volume": 5.0682,
+      "turnover_crore": 0.0454,
+      "trend_score": 100,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 3527.04,
+      "stop_reference": 3384.2173,
+      "target_1_reference": 3741.274,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -51347,6 +53677,30 @@
       "stop_reference": 138.8187,
       "target_1_reference": 164.7415,
       "last_checked_at_ist": "2026-11-19T23:05:04+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "MURUDCERA",
+      "company": "Murudeshwar Ceramics Limited",
+      "close": 27.12,
+      "daily_change_pct": -2.5862,
+      "return_20d_pct": 3.7888,
+      "alpha_20d_pct": null,
+      "rsi14": 45.1536,
+      "atr14": 1.4007,
+      "ema20": 27.657,
+      "ema50": 28.0988,
+      "ema200": 30.6616,
+      "relative_volume": 1.3061,
+      "turnover_crore": 0.0403,
+      "trend_score": 33,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 27.9859,
+      "stop_reference": 25.8848,
+      "target_1_reference": 31.1374,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -52815,6 +55169,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NATHBIOGEN",
+      "company": "Nath Bio-Genes (India) Limited",
+      "close": 132.73,
+      "daily_change_pct": -0.4575,
+      "return_20d_pct": 1.8102,
+      "alpha_20d_pct": null,
+      "rsi14": 40.0858,
+      "atr14": 4.2149,
+      "ema20": 135.9396,
+      "ema50": 139.6866,
+      "ema200": 149.9037,
+      "relative_volume": 0.3546,
+      "turnover_crore": 0.0294,
+      "trend_score": 16,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 134.268,
+      "stop_reference": 127.9456,
+      "target_1_reference": 143.7516,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "21STCENMGM",
       "company": "21st Century Management Services Limited",
       "close": 46.09,
@@ -53243,6 +55621,30 @@
       "stop_reference": 6.8889,
       "target_1_reference": 8.9301,
       "last_checked_at_ist": "2026-11-20T21:47:43+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NIBL",
+      "company": "NRB Industrial Bearings Limited",
+      "close": 32.5,
+      "daily_change_pct": -1.1256,
+      "return_20d_pct": 8.1531,
+      "alpha_20d_pct": null,
+      "rsi14": 53.6928,
+      "atr14": 2.4114,
+      "ema20": 31.9526,
+      "ema50": 31.5473,
+      "ema200": 31.3296,
+      "relative_volume": 0.1609,
+      "turnover_crore": 0.0264,
+      "trend_score": 83,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 33.0359,
+      "stop_reference": 29.4188,
+      "target_1_reference": 38.4617,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -54063,6 +56465,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "MOKSH",
+      "company": "Moksh Ornaments Limited",
+      "close": 8.67,
+      "daily_change_pct": -1.5891,
+      "return_20d_pct": -1.0274,
+      "alpha_20d_pct": null,
+      "rsi14": 45.419,
+      "atr14": 0.3842,
+      "ema20": 8.7413,
+      "ema50": 9.1478,
+      "ema200": 10.8684,
+      "relative_volume": 0.2092,
+      "turnover_crore": 0.022,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 8.8176,
+      "stop_reference": 8.2414,
+      "target_1_reference": 9.682,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "RAJPALAYAM",
       "company": "Rajapalayam Mills Limited",
       "close": 765.0,
@@ -54279,6 +56705,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NATIONSTD",
+      "company": "National Standard (India) Limited",
+      "close": 109.39,
+      "daily_change_pct": -1.406,
+      "return_20d_pct": 4.2803,
+      "alpha_20d_pct": null,
+      "rsi14": 51.9068,
+      "atr14": 5.2717,
+      "ema20": 107.6207,
+      "ema50": 109.9323,
+      "ema200": null,
+      "relative_volume": 0.3701,
+      "turnover_crore": 0.0212,
+      "trend_score": 50,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 112.0937,
+      "stop_reference": 104.1862,
+      "target_1_reference": 123.955,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "GOYALALUM",
       "company": "Goyal Aluminiums Limited",
       "close": 5.72,
@@ -54491,6 +56941,30 @@
       "stop_reference": 20.271,
       "target_1_reference": 24.7035,
       "last_checked_at_ist": "2026-11-20T21:47:43+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NICCOPAR",
+      "company": "Nicco Parks & Resorts Limited",
+      "close": 69.44,
+      "daily_change_pct": 1.254,
+      "return_20d_pct": -0.8567,
+      "alpha_20d_pct": null,
+      "rsi14": 47.8635,
+      "atr14": 3.6155,
+      "ema20": 69.4654,
+      "ema50": 72.3629,
+      "ema200": null,
+      "relative_volume": 1.3927,
+      "turnover_crore": 0.0199,
+      "trend_score": 16,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 69.8294,
+      "stop_reference": 64.4062,
+      "target_1_reference": 77.9642,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -55167,6 +57641,54 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NBIFIN",
+      "company": "N. B. I. Industrial Finance Company Limited",
+      "close": 1792.2,
+      "daily_change_pct": 0.1621,
+      "return_20d_pct": 0.969,
+      "alpha_20d_pct": null,
+      "rsi14": 45.9428,
+      "atr14": 52.5062,
+      "ema20": 1802.5541,
+      "ema50": 1847.1939,
+      "ema200": 1976.193,
+      "relative_volume": 0.6982,
+      "turnover_crore": 0.0177,
+      "trend_score": 16,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 1841.676,
+      "stop_reference": 1762.9166,
+      "target_1_reference": 1959.815,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NIRAJ",
+      "company": "Niraj Cement Structurals Limited",
+      "close": 26.54,
+      "daily_change_pct": 0.6829,
+      "return_20d_pct": 4.6943,
+      "alpha_20d_pct": null,
+      "rsi14": 52.58,
+      "atr14": 1.3796,
+      "ema20": 26.1424,
+      "ema50": 26.6865,
+      "ema200": 29.3214,
+      "relative_volume": 0.2308,
+      "turnover_crore": 0.0175,
+      "trend_score": 50,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 27.054,
+      "stop_reference": 24.9845,
+      "target_1_reference": 30.1582,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "ROML",
       "company": "Raj Oil Mills Limited",
       "close": 40.6,
@@ -55235,6 +57757,54 @@
       "stop_reference": 37.6046,
       "target_1_reference": 44.72,
       "last_checked_at_ist": "2026-11-16T17:54:25+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NITIRAJ",
+      "company": "Nitiraj Engineers Limited",
+      "close": 189.85,
+      "daily_change_pct": 1.9329,
+      "return_20d_pct": -5.5332,
+      "alpha_20d_pct": null,
+      "rsi14": 44.9652,
+      "atr14": 11.3103,
+      "ema20": 192.7734,
+      "ema50": 199.7376,
+      "ema200": 201.6673,
+      "relative_volume": 0.9071,
+      "turnover_crore": 0.016,
+      "trend_score": 0,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 194.378,
+      "stop_reference": 177.4125,
+      "target_1_reference": 219.8262,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NIMBSPROJ",
+      "company": "Nimbus Projects Limited",
+      "close": 159.6,
+      "daily_change_pct": -5.0,
+      "return_20d_pct": -15.9956,
+      "alpha_20d_pct": null,
+      "rsi14": 32.646,
+      "atr14": 9.8872,
+      "ema20": 178.7976,
+      "ema50": 181.4146,
+      "ema200": null,
+      "relative_volume": 0.306,
+      "turnover_crore": 0.0159,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 168.336,
+      "stop_reference": 153.5052,
+      "target_1_reference": 190.5822,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -55379,6 +57949,30 @@
       "stop_reference": 21.6606,
       "target_1_reference": 26.8526,
       "last_checked_at_ist": "2026-11-13T23:58:36+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NAGREEKEXP",
+      "company": "Nagreeka Exports Limited",
+      "close": 21.17,
+      "daily_change_pct": 1.1467,
+      "return_20d_pct": 1.4375,
+      "alpha_20d_pct": null,
+      "rsi14": 48.9812,
+      "atr14": 1.1802,
+      "ema20": 21.1684,
+      "ema50": 21.5796,
+      "ema200": 23.6108,
+      "relative_volume": 0.8851,
+      "turnover_crore": 0.0153,
+      "trend_score": 33,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 21.6933,
+      "stop_reference": 19.9231,
+      "target_1_reference": 24.3487,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -56175,6 +58769,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NEUEON",
+      "company": "Neueon Corporation Limited",
+      "close": 9.82,
+      "daily_change_pct": 4.6908,
+      "return_20d_pct": -18.0984,
+      "alpha_20d_pct": null,
+      "rsi14": 37.5953,
+      "atr14": 0.6933,
+      "ema20": 10.3674,
+      "ema50": 11.6964,
+      "ema200": 13.2246,
+      "relative_volume": 0.4892,
+      "turnover_crore": 0.0123,
+      "trend_score": 0,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 9.8597,
+      "stop_reference": 8.8197,
+      "target_1_reference": 11.4196,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "BURNPUR",
       "company": "Burnpur Cement Limited",
       "close": 11.04,
@@ -56339,6 +58957,30 @@
       "stop_reference": 24.1649,
       "target_1_reference": 30.1352,
       "last_checked_at_ist": "2026-11-21T13:54:36+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "MUKTAARTS",
+      "company": "Mukta Arts Limited",
+      "close": 50.89,
+      "daily_change_pct": -2.6774,
+      "return_20d_pct": -0.2157,
+      "alpha_20d_pct": null,
+      "rsi14": 46.0463,
+      "atr14": 3.1571,
+      "ema20": 52.0639,
+      "ema50": 53.3299,
+      "ema200": 56.1263,
+      "relative_volume": 0.5888,
+      "turnover_crore": 0.0115,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 53.106,
+      "stop_reference": 48.3703,
+      "target_1_reference": 60.2095,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -56847,6 +59489,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NIRAJISPAT",
+      "company": "Niraj Ispat Industries Limited",
+      "close": 289.95,
+      "daily_change_pct": 5.3636,
+      "return_20d_pct": 18.3469,
+      "alpha_20d_pct": null,
+      "rsi14": 71.7509,
+      "atr14": 8.9054,
+      "ema20": 248.3757,
+      "ema50": 253.2099,
+      "ema200": 242.016,
+      "relative_volume": 6.8763,
+      "turnover_crore": 0.0095,
+      "trend_score": 83,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 303.9868,
+      "stop_reference": 290.6286,
+      "target_1_reference": 324.0239,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "ZENITHSTL",
       "company": "Zenith Steel Pipes & Industries Limited",
       "close": 4.81,
@@ -56943,6 +59609,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "MOHITIND",
+      "company": "Mohit Industries Limited",
+      "close": 19.84,
+      "daily_change_pct": 0.0,
+      "return_20d_pct": -7.3763,
+      "alpha_20d_pct": null,
+      "rsi14": 41.6852,
+      "atr14": 1.4411,
+      "ema20": 20.2971,
+      "ema50": 21.388,
+      "ema200": 23.5795,
+      "relative_volume": 0.325,
+      "turnover_crore": 0.0092,
+      "trend_score": 0,
+      "direction": "flat",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 20.4909,
+      "stop_reference": 18.3293,
+      "target_1_reference": 23.7333,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "DAICHI",
       "company": "Dai-Ichi Karkaria Limited",
       "close": 295.05,
@@ -56963,6 +59653,54 @@
       "stop_reference": 276.281,
       "target_1_reference": 324.6787,
       "last_checked_at_ist": "2026-11-16T17:54:25+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "MOTOGENFIN",
+      "company": "The Motor & General Finance Limited",
+      "close": 23.8,
+      "daily_change_pct": 0.933,
+      "return_20d_pct": -1.4493,
+      "alpha_20d_pct": null,
+      "rsi14": 47.5416,
+      "atr14": 1.1812,
+      "ema20": 23.8577,
+      "ema50": 24.6258,
+      "ema200": 25.271,
+      "relative_volume": 0.36,
+      "turnover_crore": 0.009,
+      "trend_score": 0,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 24.3185,
+      "stop_reference": 22.5468,
+      "target_1_reference": 26.9761,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "MYSORPETRO",
+      "company": "Mysore Petro Chemicals Limited",
+      "close": 121.43,
+      "daily_change_pct": -1.3326,
+      "return_20d_pct": 6.5175,
+      "alpha_20d_pct": null,
+      "rsi14": 52.7235,
+      "atr14": 6.4006,
+      "ema20": 122.1203,
+      "ema50": 122.1353,
+      "ema200": null,
+      "relative_volume": 0.5861,
+      "turnover_crore": 0.0088,
+      "trend_score": 33,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 128.1558,
+      "stop_reference": 118.5549,
+      "target_1_reference": 142.5571,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -57255,6 +59993,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "MORARJEE",
+      "company": "Morarjee Textiles Limited",
+      "close": 6.12,
+      "daily_change_pct": 2.0,
+      "return_20d_pct": 21.67,
+      "alpha_20d_pct": null,
+      "rsi14": 62.5392,
+      "atr14": 0.2493,
+      "ema20": 5.2538,
+      "ema50": 6.3015,
+      "ema200": 7.7598,
+      "relative_volume": 1.0741,
+      "turnover_crore": 0.0078,
+      "trend_score": 50,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 6.3126,
+      "stop_reference": 5.9386,
+      "target_1_reference": 6.8736,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "PEARLPOLY",
       "company": "Pearl Polymers Limited",
       "close": 15.0,
@@ -57539,6 +60301,30 @@
       "stop_reference": 141.0878,
       "target_1_reference": 163.8678,
       "last_checked_at_ist": "2026-11-16T18:33:29+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "MOHITE",
+      "company": "Mohite Industries Limited",
+      "close": 2.47,
+      "daily_change_pct": 0.4065,
+      "return_20d_pct": 3.7815,
+      "alpha_20d_pct": null,
+      "rsi14": 53.301,
+      "atr14": 0.1514,
+      "ema20": 2.403,
+      "ema50": 2.4395,
+      "ema200": null,
+      "relative_volume": 0.4268,
+      "turnover_crore": 0.0065,
+      "trend_score": 66,
+      "direction": "green",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 2.495,
+      "stop_reference": 2.2679,
+      "target_1_reference": 2.8356,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -58239,6 +61025,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "MSL",
+      "company": "Mangalam Seeds Limited",
+      "close": 136.07,
+      "daily_change_pct": -2.3958,
+      "return_20d_pct": -3.4759,
+      "alpha_20d_pct": null,
+      "rsi14": 49.8568,
+      "atr14": 9.6066,
+      "ema20": 136.108,
+      "ema50": 137.2648,
+      "ema200": null,
+      "relative_volume": 0.6351,
+      "turnover_crore": 0.0046,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 138.8672,
+      "stop_reference": 124.4573,
+      "target_1_reference": 160.482,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "SHRENIK",
       "company": "Shrenik Limited",
       "close": 0.27,
@@ -58839,6 +61649,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NAGREEKCAP",
+      "company": "Nagreeka Capital & Infrastructure Limited",
+      "close": 23.57,
+      "daily_change_pct": -1.5455,
+      "return_20d_pct": -1.8326,
+      "alpha_20d_pct": null,
+      "rsi14": 43.2082,
+      "atr14": 1.8542,
+      "ema20": 24.2378,
+      "ema50": 24.7556,
+      "ema200": 25.6452,
+      "relative_volume": 0.3438,
+      "turnover_crore": 0.0033,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 24.9498,
+      "stop_reference": 22.1685,
+      "target_1_reference": 29.1218,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "ANSALBU",
       "company": "Ansal Buildwell Limited",
       "close": 88.98,
@@ -59171,6 +62005,30 @@
       "stop_reference": 8.5721,
       "target_1_reference": 10.739,
       "last_checked_at_ist": "2026-11-19T00:51:09+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "NKIND",
+      "company": "NK Industries Limited",
+      "close": 58.7,
+      "daily_change_pct": -2.4106,
+      "return_20d_pct": 4.467,
+      "alpha_20d_pct": null,
+      "rsi14": 45.6289,
+      "atr14": 5.8326,
+      "ema20": 60.8146,
+      "ema50": 60.1744,
+      "ema200": 61.9956,
+      "relative_volume": 0.053,
+      "turnover_crore": 0.0029,
+      "trend_score": 33,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 60.12,
+      "stop_reference": 51.371,
+      "target_1_reference": 73.2435,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -59631,6 +62489,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "NEXTMEDIA",
+      "company": "Next Mediaworks Limited",
+      "close": 2.96,
+      "daily_change_pct": -1.0033,
+      "return_20d_pct": -10.0304,
+      "alpha_20d_pct": null,
+      "rsi14": 39.4249,
+      "atr14": 0.165,
+      "ema20": 3.0974,
+      "ema50": 3.3593,
+      "ema200": 4.1328,
+      "relative_volume": 0.2318,
+      "turnover_crore": 0.0017,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 3.0962,
+      "stop_reference": 2.8487,
+      "target_1_reference": 3.4673,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "ADDIND",
       "company": "Addi Industries Limited",
       "close": 73.0,
@@ -59987,6 +62869,30 @@
       "stop_reference": 130.5339,
       "target_1_reference": 148.1606,
       "last_checked_at_ist": "2026-11-19T00:51:09+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "MTEDUCARE",
+      "company": "MT Educare Limited",
+      "close": 1.43,
+      "daily_change_pct": -4.6667,
+      "return_20d_pct": -8.3333,
+      "alpha_20d_pct": null,
+      "rsi14": 32.3952,
+      "atr14": 0.1098,
+      "ema20": 1.5839,
+      "ema50": 1.6505,
+      "ema200": 1.7321,
+      "relative_volume": 0.6027,
+      "turnover_crore": 0.0011,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 1.5531,
+      "stop_reference": 1.3884,
+      "target_1_reference": 1.8002,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -60663,6 +63569,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "MUKESHB",
+      "company": "Mukesh Babu Financial Services Limited",
+      "close": 125.4,
+      "daily_change_pct": -2.1688,
+      "return_20d_pct": 5.449,
+      "alpha_20d_pct": null,
+      "rsi14": 50.1344,
+      "atr14": 5.0338,
+      "ema20": 125.653,
+      "ema50": 126.7764,
+      "ema200": null,
+      "relative_volume": 0.0433,
+      "turnover_crore": 0.0002,
+      "trend_score": 33,
+      "direction": "red",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 125.6508,
+      "stop_reference": 118.1001,
+      "target_1_reference": 136.9769,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "ORTEL",
       "company": "Ortel Communications Limited",
       "close": 1.25,
@@ -60997,51 +63927,59 @@
       "last_checked_at_ist": "2026-11-19T00:51:09+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
+    },
+    {
+      "symbol": "MPDL",
+      "company": "MPDL Limited",
+      "close": 23.9,
+      "daily_change_pct": 0.0,
+      "return_20d_pct": -6.4945,
+      "alpha_20d_pct": null,
+      "rsi14": 42.1114,
+      "atr14": 0.5805,
+      "ema20": 24.4244,
+      "ema50": 26.0039,
+      "ema200": null,
+      "relative_volume": 0.0,
+      "turnover_crore": 0.0,
+      "trend_score": 0,
+      "direction": "flat",
+      "last_price_bar": "2026-11-20 00:00:00",
+      "entry_reference": 23.9478,
+      "stop_reference": 23.0771,
+      "target_1_reference": 25.2539,
+      "last_checked_at_ist": "2026-11-22T13:46:54+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
     }
   ],
   "intraday_timeline": [
     {
-      "snapshot_at_ist": "2026-11-21T00:32:17+05:30",
-      "fresh_green": 69,
-      "fresh_red": 52,
-      "uptrend_count": 53,
-      "indices": {
-        "^NSEI": 25514.3008,
-        "^GSPC": 7024.8101,
-        "BZ=F": 89.55,
-        "GC=F": 3513.0,
-        "SI=F": 40.97,
-        "INR=X": 92.67
-      }
-    },
-    {
-      "snapshot_at_ist": "2026-11-21T13:54:36+05:30",
-      "fresh_green": 52,
-      "fresh_red": 65,
+      "snapshot_at_ist": "2026-11-22T13:46:54+05:30",
+      "fresh_green": 41,
+      "fresh_red": 78,
       "uptrend_count": 42,
       "indices": {
-        "^NSEI": 25800.5996,
         "^GSPC": 6910.3901,
-        "BZ=F": 92.57,
+        "BZ=F": 89.95,
         "GC=F": 3515.3999,
-        "SI=F": 41.035,
-        "INR=X": 92.67
+        "SI=F": 41.07
       }
     }
   ],
   "day_review": {
-    "first_observation_ist": "2026-11-21T00:32:17+05:30",
-    "last_observation_ist": "2026-11-21T13:54:36+05:30",
-    "nifty_change_since_first_snapshot_pct": 1.1221,
+    "first_observation_ist": "2026-11-22T13:46:54+05:30",
+    "last_observation_ist": "2026-11-22T13:46:54+05:30",
+    "nifty_change_since_first_snapshot_pct": null,
     "first_snapshot_breadth": {
-      "green": 69,
-      "red": 52
+      "green": 41,
+      "red": 78
     },
     "last_snapshot_breadth": {
-      "green": 52,
-      "red": 65
+      "green": 41,
+      "red": 78
     },
-    "interpretation": "Mixed breadth: look for confirmation rather than a directional bet.",
+    "interpretation": "Conditional defensive bias: more fresh stocks falling than rising. Watch for volatility next session.",
     "warning": "Breadth totals reflect rotating stock batches; changes across batches are NOT an apples-to-apples measure of NSE market breadth."
   }
 }
