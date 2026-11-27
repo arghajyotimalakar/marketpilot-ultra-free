@@ -1,10 +1,10 @@
 {
-  "generated_at_ist": "2026-11-27T18:57:28+05:30",
+  "generated_at_ist": "2026-11-27T19:41:27+05:30",
   "market_date_ist": "2026-11-27",
   "source": "Yahoo Finance unofficial feed; may be delayed, rate-limited or unavailable",
   "universe_source": "https://archives.nseindia.com/content/equities/EQUITY_L.csv",
   "directory_count": 2636,
-  "run_symbol_count": 125,
+  "run_symbol_count": 11,
   "symbols_with_record": 2575,
   "quote_freshness_note": "Daily candle bar may be partial during market hours; no guaranteed 1-minute or live update.",
   "indices": {
@@ -19,18 +19,18 @@
       "last_price_bar": "2026-11-25 00:00:00"
     },
     "BZ=F": {
-      "close": 91.89,
-      "daily_change_pct": -2.875,
+      "close": 91.7,
+      "daily_change_pct": -3.0758,
       "last_price_bar": "2026-11-27 00:00:00"
     },
     "GC=F": {
-      "close": 3683.8,
-      "daily_change_pct": 4.1858,
+      "close": 3671.7,
+      "daily_change_pct": 3.8435,
       "last_price_bar": "2026-11-27 00:00:00"
     },
     "SI=F": {
-      "close": 44.14,
-      "daily_change_pct": 10.2067,
+      "close": 44.17,
+      "daily_change_pct": 10.2816,
       "last_price_bar": "2026-11-27 00:00:00"
     },
     "INR=X": {
@@ -40,14 +40,20 @@
     }
   },
   "summary": {
-    "fresh_green": 68,
-    "fresh_red": 52,
-    "fresh_flat_or_unavailable": 5,
-    "uptrend_count": 44,
-    "next_session_scenario": "Mixed breadth: look for confirmation rather than a directional bet.",
+    "fresh_green": 5,
+    "fresh_red": 6,
+    "fresh_flat_or_unavailable": 0,
+    "uptrend_count": 3,
+    "next_session_scenario": "Uncertain: insufficient fresh breadth data.",
     "warning": "Scenario derived from available daily returns, not trained news prediction."
   },
   "news": [
+    {
+      "title": "Capital market industry hopes for relief in capital gains taxation in Budget 2027-28: Axis Capital MD",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/capital-market-industry-hopes-for-relief-in-capital-gains-taxation-in-budget-2027-28-axis-capital-md/articleshow/136224186.cms",
+      "published": "Fri, 27 Nov 2026 18:56:12 +0530",
+      "source": "Economic Times Markets"
+    },
     {
       "title": "Nasdaq futures rise as investors return to battered AI stocks: Stock Market Live Updates",
       "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-gold-silver-price-coreqeave-nebius-meta-nvidia-ai-stocks-fed-rate-hike-treasury-yield-news-27th-november-2026/liveblog/136223511.cms",
@@ -283,10 +289,10 @@
       "source": "Economic Times Markets"
     },
     {
-      "title": "LTIMindtree Share Price Highlights: LTIMindtree Stock Price History",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ltimindtree-share-price-today-live-27-nov-2026/liveblog/136209086.cms",
-      "published": "Fri, 27 Nov 2026 10:03:23 +0530",
-      "source": "Economic Times Markets"
+      "title": "Sterlite Electric, Svatantra Microfin among 8 firms cleared for IPOs",
+      "url": "https://www.livemint.com/market/ipo/sebi-approves-eight-ipos-sterlite-electric-svatantra-microfin-11795783678926.html",
+      "published": "Fri, 27 Nov 2026 19:04:09 +0530",
+      "source": "Mint Markets"
     },
     {
       "title": "South Korea's Kospi crashes 48% from record high: How the AI trade unwind is hitting investors and pension funds",
@@ -460,12 +466,6 @@
       "title": "Top stocks to watch today: NSE, Tata Group, Texmaco Rail, Tata Motors shares in focus on Friday, 27 November | Full list",
       "url": "https://www.livemint.com/market/stock-market-news/top-stocks-to-watch-today-nse-tata-group-texmaco-rail-tata-motors-shares-in-focus-on-friday-27-november-full-list-11795742921342.html",
       "published": "Fri, 27 Nov 2026 07:20:20 +0530",
-      "source": "Mint Markets"
-    },
-    {
-      "title": "Stock market outlook today, 27 Nov: Sensex, Nifty prediction-DJIA, S&amp;P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
-      "url": "https://www.livemint.com/market/stock-market-news/stock-market-outlook-today-16-nov-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-nikkei-taiwan-cue-11795740282564.html",
-      "published": "Fri, 27 Nov 2026 06:50:12 +0530",
       "source": "Mint Markets"
     }
   ],
@@ -668,15 +668,15 @@
         "source": "Economic Times Markets"
       },
       {
-        "title": "LTIMindtree Share Price Highlights: LTIMindtree Stock Price History",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ltimindtree-share-price-today-live-27-nov-2026/liveblog/136209086.cms",
-        "published": "Fri, 27 Nov 2026 10:03:23 +0530",
-        "source": "Economic Times Markets"
-      },
-      {
         "title": "Up 57% YTD! Healthcare stock shows resilience against the Indian stock market crash; should you buy? Target, stop-loss",
         "url": "https://www.livemint.com/market/stock-market-news/up-55-ytd-healthcare-stock-park-medi-world-shows-resilience-against-the-indian-stock-market-crash-should-you-buy-11795765259630.html",
         "published": "Fri, 27 Nov 2026 13:33:17 +0530",
+        "source": "Mint Markets"
+      },
+      {
+        "title": "Railway stock Jupiter Wagons shares fall 7.5% after 29% surge in 2 days post Woojin JV: Should you buy the multibagger?",
+        "url": "https://www.livemint.com/market/stock-market-news/railway-stock-jupiter-wagons-shares-fall-7-5-after-29-surge-in-2-days-post-woojin-jv-should-you-buy-the-multibagger-11795760304111.html",
+        "published": "Fri, 27 Nov 2026 12:06:54 +0530",
         "source": "Mint Markets"
       }
     ],
@@ -1064,19 +1064,19 @@
         "source": "Mint Markets"
       }
     ],
-    "KEI": [
-      {
-        "title": "Stock market outlook today, 27 Nov: Sensex, Nifty prediction-DJIA, S&amp;P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
-        "url": "https://www.livemint.com/market/stock-market-news/stock-market-outlook-today-16-nov-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-nikkei-taiwan-cue-11795740282564.html",
-        "published": "Fri, 27 Nov 2026 06:50:12 +0530",
-        "source": "Mint Markets"
-      }
-    ],
     "APOLLOHOSP": [
       {
         "title": "APL Apollo Tubes shares jump 4% after 28% crash in a week as SEBI may scrutinise Tata Steel deal | Buy, sell or hold?",
         "url": "https://www.livemint.com/market/stock-market-news/apl-apollo-tubes-shares-jump-4-after-28-crash-in-a-week-as-sebi-may-scrutinise-tata-steel-deal-buy-sell-or-hold-11795758411479.html",
         "published": "Fri, 27 Nov 2026 11:53:22 +0530",
+        "source": "Mint Markets"
+      }
+    ],
+    "STLTECH": [
+      {
+        "title": "Sterlite Electric, Svatantra Microfin among 8 firms cleared for IPOs",
+        "url": "https://www.livemint.com/market/ipo/sebi-approves-eight-ipos-sterlite-electric-svatantra-microfin-11795783678926.html",
+        "published": "Fri, 27 Nov 2026 19:04:09 +0530",
         "source": "Mint Markets"
       }
     ],
@@ -1258,6 +1258,12 @@
     ],
     "INDUSTOWER": [
       {
+        "title": "Capital market industry hopes for relief in capital gains taxation in Budget 2027-28: Axis Capital MD",
+        "url": "https://economictimes.indiatimes.com/markets/stocks/news/capital-market-industry-hopes-for-relief-in-capital-gains-taxation-in-budget-2027-28-axis-capital-md/articleshow/136224186.cms",
+        "published": "Fri, 27 Nov 2026 18:56:12 +0530",
+        "source": "Economic Times Markets"
+      },
+      {
         "title": "Sensex, Nifty down today but ​Hindustan Zinc, Vedanta Aluminium to Vedanta Power are rising - Vedanta boost reason here",
         "url": "https://www.livemint.com/market/stock-market-news/sensex-nifty-down-today-but-hindustan-zinc-vedanta-aluminium-to-vedanta-power-are-rising-vedanta-boost-reason-here-11795752280141.html",
         "published": "Fri, 27 Nov 2026 09:57:05 +0530",
@@ -1301,6 +1307,14 @@
         "title": "Indian shares set to open higher, eye fifth weekly gain as inflows boost momentum",
         "url": "https://www.livemint.com/market/stock-market-news/indian-shares-set-to-open-higher-eye-fifth-weekly-gain-as-inflows-boost-momentum-11795747396152.html",
         "published": "Fri, 27 Nov 2026 08:14:54 +0530",
+        "source": "Mint Markets"
+      }
+    ],
+    "OLAELEC": [
+      {
+        "title": "Sterlite Electric, Svatantra Microfin among 8 firms cleared for IPOs",
+        "url": "https://www.livemint.com/market/ipo/sebi-approves-eight-ipos-sterlite-electric-svatantra-microfin-11795783678926.html",
+        "published": "Fri, 27 Nov 2026 19:04:09 +0530",
         "source": "Mint Markets"
       }
     ],
@@ -3943,6 +3957,39 @@
         "beta": 1.75
       },
       "fundamentals_asof": "2026-11-24T01:59:12+05:30"
+    },
+    {
+      "symbol": "ZYDUSLIFE",
+      "company": "Zydus Lifesciences Limited",
+      "close": 1156.9,
+      "daily_change_pct": -3.1234,
+      "return_20d_pct": -1.5823,
+      "alpha_20d_pct": -14.3951,
+      "rsi14": 42.6573,
+      "atr14": 31.3097,
+      "ema20": 1192.6642,
+      "ema50": 1174.567,
+      "ema200": 1088.4216,
+      "relative_volume": 1.5814,
+      "turnover_crore": 294.6194,
+      "trend_score": 33,
+      "direction": "red",
+      "last_price_bar": "2026-11-27 00:00:00",
+      "entry_reference": 1197.39,
+      "stop_reference": 1150.4255,
+      "target_1_reference": 1267.8368,
+      "last_checked_at_ist": "2026-11-27T19:41:27+05:30",
+      "fundamentals": {
+        "pe": 27.5912,
+        "forward_pe": 23.4279,
+        "pb": 4.1477,
+        "roe": 0.1472,
+        "debt_to_equity": 46.059,
+        "revenue_growth": 0.292,
+        "free_cashflow": 13829624832.0,
+        "beta": 0.308
+      },
+      "fundamentals_asof": "2026-11-27T19:41:27+05:30"
     },
     {
       "symbol": "CDSL",
@@ -8125,39 +8172,6 @@
       "last_checked_at_ist": "2026-11-27T01:34:08+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
-    },
-    {
-      "symbol": "ZYDUSLIFE",
-      "company": "Zydus Lifesciences Limited",
-      "close": 1202.0,
-      "daily_change_pct": -0.1827,
-      "return_20d_pct": 7.9091,
-      "alpha_20d_pct": -2.3098,
-      "rsi14": 55.2956,
-      "atr14": 30.9691,
-      "ema20": 1189.6633,
-      "ema50": 1168.3403,
-      "ema200": 1080.854,
-      "relative_volume": 0.4816,
-      "turnover_crore": 95.7901,
-      "trend_score": 83,
-      "direction": "red",
-      "last_price_bar": "2026-11-18 00:00:00",
-      "entry_reference": 1215.927,
-      "stop_reference": 1169.4734,
-      "target_1_reference": 1285.6074,
-      "last_checked_at_ist": "2026-11-18T18:50:27+05:30",
-      "fundamentals": {
-        "pe": 28.7216,
-        "forward_pe": 24.3412,
-        "pb": 4.3094,
-        "roe": 0.1472,
-        "debt_to_equity": 46.059,
-        "revenue_growth": 0.292,
-        "free_cashflow": 13829624832.0,
-        "beta": 0.308
-      },
-      "fundamentals_asof": "2026-11-18T18:50:27+05:30"
     },
     {
       "symbol": "INDUSTOWER",
@@ -15720,39 +15734,6 @@
       "fundamentals_asof": null
     },
     {
-      "symbol": "ZIMLAB",
-      "company": "Zim Laboratories Limited",
-      "close": 148.82,
-      "daily_change_pct": 9.8546,
-      "return_20d_pct": 12.4953,
-      "alpha_20d_pct": null,
-      "rsi14": 60.0779,
-      "atr14": 9.0718,
-      "ema20": 138.1928,
-      "ema50": 135.0951,
-      "ema200": 113.2892,
-      "relative_volume": 18.1916,
-      "turnover_crore": 23.0532,
-      "trend_score": 100,
-      "direction": "green",
-      "last_price_bar": "2026-11-19 00:00:00",
-      "entry_reference": 159.7789,
-      "stop_reference": 146.1713,
-      "target_1_reference": 180.1904,
-      "last_checked_at_ist": "2026-11-19T23:05:04+05:30",
-      "fundamentals": {
-        "pe": 170.1829,
-        "forward_pe": null,
-        "pb": 2.5739,
-        "roe": 0.0076,
-        "debt_to_equity": 51.682,
-        "revenue_growth": 0.189,
-        "free_cashflow": -307371008.0,
-        "beta": 0.792
-      },
-      "fundamentals_asof": "2026-11-14T13:12:39+05:30"
-    },
-    {
       "symbol": "ABREL",
       "company": "Aditya Birla Real Estate Limited",
       "close": 1257.0,
@@ -17532,6 +17513,39 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "ZFCVINDIA",
+      "company": "ZF Commercial Vehicle Control Systems India Limited",
+      "close": 2187.1001,
+      "daily_change_pct": -0.1324,
+      "return_20d_pct": 4.2817,
+      "alpha_20d_pct": -8.5311,
+      "rsi14": 47.5468,
+      "atr14": 76.869,
+      "ema20": 2203.0841,
+      "ema50": 2250.0538,
+      "ema200": 2347.4592,
+      "relative_volume": 1.2536,
+      "turnover_crore": 17.2396,
+      "trend_score": 33,
+      "direction": "red",
+      "last_price_bar": "2026-11-27 00:00:00",
+      "entry_reference": 2209.5103,
+      "stop_reference": 2094.2068,
+      "target_1_reference": 2382.4656,
+      "last_checked_at_ist": "2026-11-27T19:41:27+05:30",
+      "fundamentals": {
+        "pe": 47.9838,
+        "forward_pe": 35.2332,
+        "pb": 6.4136,
+        "roe": 0.1423,
+        "debt_to_equity": 1.337,
+        "revenue_growth": 0.331,
+        "free_cashflow": 1359466112.0,
+        "beta": 0.079
+      },
+      "fundamentals_asof": "2026-11-27T19:41:27+05:30"
+    },
+    {
       "symbol": "PARADEEP",
       "company": "Paradeep Phosphates Limited",
       "close": 140.56,
@@ -18934,6 +18948,39 @@
       "last_checked_at_ist": "2026-11-25T20:18:59+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
+    },
+    {
+      "symbol": "ZYDUSWELL",
+      "company": "Zydus Wellness Limited",
+      "close": 450.45,
+      "daily_change_pct": -1.1954,
+      "return_20d_pct": -2.8365,
+      "alpha_20d_pct": -15.6493,
+      "rsi14": 38.8512,
+      "atr14": 17.6553,
+      "ema20": 466.8262,
+      "ema50": 485.7461,
+      "ema200": 492.4717,
+      "relative_volume": 1.0236,
+      "turnover_crore": 14.116,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-27 00:00:00",
+      "entry_reference": 465.93,
+      "stop_reference": 439.4471,
+      "target_1_reference": 505.6544,
+      "last_checked_at_ist": "2026-11-27T19:41:27+05:30",
+      "fundamentals": {
+        "pe": 58.1977,
+        "forward_pe": 28.0,
+        "pb": 2.4304,
+        "roe": 0.0424,
+        "debt_to_equity": 53.613,
+        "revenue_growth": 0.732,
+        "free_cashflow": 2673625088.0,
+        "beta": -0.056
+      },
+      "fundamentals_asof": "2026-11-27T19:41:27+05:30"
     },
     {
       "symbol": "MBAPL",
@@ -22130,30 +22177,6 @@
       "stop_reference": 843.1066,
       "target_1_reference": 938.2372,
       "last_checked_at_ist": "2026-11-26T23:20:53+05:30",
-      "fundamentals": {},
-      "fundamentals_asof": null
-    },
-    {
-      "symbol": "ZFCVINDIA",
-      "company": "ZF Commercial Vehicle Control Systems India Limited",
-      "close": 2212.8,
-      "daily_change_pct": -1.2892,
-      "return_20d_pct": 5.5574,
-      "alpha_20d_pct": null,
-      "rsi14": 48.4095,
-      "atr14": 80.2653,
-      "ema20": 2224.411,
-      "ema50": 2267.8112,
-      "ema200": 2354.5914,
-      "relative_volume": 0.5698,
-      "turnover_crore": 8.8313,
-      "trend_score": 16,
-      "direction": "red",
-      "last_price_bar": "2026-11-19 00:00:00",
-      "entry_reference": 2266.9247,
-      "stop_reference": 2146.5267,
-      "target_1_reference": 2447.5216,
-      "last_checked_at_ist": "2026-11-19T23:05:04+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -30186,39 +30209,6 @@
       "fundamentals_asof": null
     },
     {
-      "symbol": "ZOTA",
-      "company": "Zota Health Care LImited",
-      "close": 1314.5,
-      "daily_change_pct": 1.8519,
-      "return_20d_pct": -3.3385,
-      "alpha_20d_pct": -13.5574,
-      "rsi14": 54.6505,
-      "atr14": 58.6998,
-      "ema20": 1283.0464,
-      "ema50": 1267.5449,
-      "ema200": 1291.9546,
-      "relative_volume": 0.3971,
-      "turnover_crore": 3.0679,
-      "trend_score": 66,
-      "direction": "green",
-      "last_price_bar": "2026-11-18 00:00:00",
-      "entry_reference": 1321.0368,
-      "stop_reference": 1232.9871,
-      "target_1_reference": 1453.1114,
-      "last_checked_at_ist": "2026-11-18T18:50:27+05:30",
-      "fundamentals": {
-        "pe": null,
-        "forward_pe": null,
-        "pb": 7.277,
-        "roe": -0.2409,
-        "debt_to_equity": 43.21,
-        "revenue_growth": 0.546,
-        "free_cashflow": -1942240640.0,
-        "beta": 0.349
-      },
-      "fundamentals_asof": "2026-11-18T18:50:27+05:30"
-    },
-    {
       "symbol": "ONIXSOLAR",
       "company": "Onix Solar Energy Limited",
       "close": 278.65,
@@ -30915,6 +30905,39 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "ZOTA",
+      "company": "Zota Health Care LImited",
+      "close": 1304.7,
+      "daily_change_pct": -0.7455,
+      "return_20d_pct": 2.6434,
+      "alpha_20d_pct": -10.1694,
+      "rsi14": 52.6263,
+      "atr14": 53.999,
+      "ema20": 1291.4137,
+      "ema50": 1274.6651,
+      "ema200": 1288.5284,
+      "relative_volume": 0.4632,
+      "turnover_crore": 2.749,
+      "trend_score": 83,
+      "direction": "red",
+      "last_price_bar": "2026-11-27 00:00:00",
+      "entry_reference": 1344.0828,
+      "stop_reference": 1263.0844,
+      "target_1_reference": 1465.5805,
+      "last_checked_at_ist": "2026-11-27T19:41:27+05:30",
+      "fundamentals": {
+        "pe": null,
+        "forward_pe": null,
+        "pb": 7.2227,
+        "roe": -0.2409,
+        "debt_to_equity": 43.21,
+        "revenue_growth": 0.546,
+        "free_cashflow": -1942240640.0,
+        "beta": 0.349
+      },
+      "fundamentals_asof": "2026-11-27T19:41:27+05:30"
+    },
+    {
       "symbol": "KABRAEXTRU",
       "company": "Kabra Extrusion Technik Limited",
       "close": 716.55,
@@ -31537,39 +31560,6 @@
       "last_checked_at_ist": "2026-11-25T20:18:59+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
-    },
-    {
-      "symbol": "ZYDUSWELL",
-      "company": "Zydus Wellness Limited",
-      "close": 456.6,
-      "daily_change_pct": -0.8146,
-      "return_20d_pct": -11.4086,
-      "alpha_20d_pct": -21.6275,
-      "rsi14": 37.9221,
-      "atr14": 17.626,
-      "ema20": 475.4448,
-      "ema50": 493.7008,
-      "ema200": 496.3376,
-      "relative_volume": 0.1913,
-      "turnover_crore": 2.5318,
-      "trend_score": 0,
-      "direction": "red",
-      "last_price_bar": "2026-11-18 00:00:00",
-      "entry_reference": 465.1284,
-      "stop_reference": 438.6894,
-      "target_1_reference": 504.787,
-      "last_checked_at_ist": "2026-11-18T18:50:27+05:30",
-      "fundamentals": {
-        "pe": 58.9923,
-        "forward_pe": 28.3823,
-        "pb": 2.4636,
-        "roe": 0.0424,
-        "debt_to_equity": 53.613,
-        "revenue_growth": 0.732,
-        "free_cashflow": 2673625088.0,
-        "beta": -0.056
-      },
-      "fundamentals_asof": "2026-11-18T18:50:27+05:30"
     },
     {
       "symbol": "CMRGREEN",
@@ -36717,39 +36707,6 @@
       "fundamentals_asof": null
     },
     {
-      "symbol": "ZUARI",
-      "company": "Zuari Agro Chemicals Limited",
-      "close": 183.93,
-      "daily_change_pct": -2.3674,
-      "return_20d_pct": -9.2734,
-      "alpha_20d_pct": -19.4923,
-      "rsi14": 36.3562,
-      "atr14": 7.0032,
-      "ema20": 193.0956,
-      "ema50": 203.0127,
-      "ema200": 226.4305,
-      "relative_volume": 0.7288,
-      "turnover_crore": 1.1532,
-      "trend_score": 0,
-      "direction": "red",
-      "last_price_bar": "2026-11-18 00:00:00",
-      "entry_reference": 190.38,
-      "stop_reference": 179.8752,
-      "target_1_reference": 206.1372,
-      "last_checked_at_ist": "2026-11-18T18:50:27+05:30",
-      "fundamentals": {
-        "pe": 4.5381,
-        "forward_pe": 42.7744,
-        "pb": 0.3081,
-        "roe": 0.0677,
-        "debt_to_equity": 27.537,
-        "revenue_growth": -0.72,
-        "free_cashflow": 2464427520.0,
-        "beta": 0.002
-      },
-      "fundamentals_asof": "2026-11-18T18:50:27+05:30"
-    },
-    {
       "symbol": "KALPATARU",
       "company": "Kalpataru Limited",
       "close": 239.56,
@@ -36844,39 +36801,6 @@
       "last_checked_at_ist": "2026-11-21T00:32:17+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
-    },
-    {
-      "symbol": "ZUARIIND",
-      "company": "ZUARI INDUSTRIES LIMITED",
-      "close": 233.87,
-      "daily_change_pct": -2.9505,
-      "return_20d_pct": -9.7376,
-      "alpha_20d_pct": -19.9565,
-      "rsi14": 36.5762,
-      "atr14": 9.2545,
-      "ema20": 246.5676,
-      "ema50": 255.0015,
-      "ema200": 266.6662,
-      "relative_volume": 1.1226,
-      "turnover_crore": 1.128,
-      "trend_score": 16,
-      "direction": "red",
-      "last_price_bar": "2026-11-18 00:00:00",
-      "entry_reference": 242.8748,
-      "stop_reference": 228.9931,
-      "target_1_reference": 263.6973,
-      "last_checked_at_ist": "2026-11-18T18:50:27+05:30",
-      "fundamentals": {
-        "pe": 6.4179,
-        "forward_pe": null,
-        "pb": 0.1645,
-        "roe": 0.0286,
-        "debt_to_equity": 39.675,
-        "revenue_growth": 0.363,
-        "free_cashflow": -2910891520.0,
-        "beta": null
-      },
-      "fundamentals_asof": "2026-11-18T18:50:27+05:30"
     },
     {
       "symbol": "TAKE",
@@ -37837,6 +37761,39 @@
       "last_checked_at_ist": "2026-11-24T04:01:08+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
+    },
+    {
+      "symbol": "ZIMLAB",
+      "company": "Zim Laboratories Limited",
+      "close": 142.36,
+      "daily_change_pct": 0.5722,
+      "return_20d_pct": 0.7787,
+      "alpha_20d_pct": -12.0341,
+      "rsi14": 53.4092,
+      "atr14": 9.56,
+      "ema20": 140.0748,
+      "ema50": 136.5468,
+      "ema200": 114.5609,
+      "relative_volume": 0.2118,
+      "turnover_crore": 0.9605,
+      "trend_score": 83,
+      "direction": "green",
+      "last_price_bar": "2026-11-27 00:00:00",
+      "entry_reference": 148.2459,
+      "stop_reference": 133.9059,
+      "target_1_reference": 169.7558,
+      "last_checked_at_ist": "2026-11-27T19:41:27+05:30",
+      "fundamentals": {
+        "pe": 268.6038,
+        "forward_pe": null,
+        "pb": 2.6257,
+        "roe": 0.0076,
+        "debt_to_equity": 51.682,
+        "revenue_growth": 0.189,
+        "free_cashflow": -307371008.0,
+        "beta": 0.792
+      },
+      "fundamentals_asof": "2026-11-27T19:41:27+05:30"
     },
     {
       "symbol": "RELINFRA",
@@ -40863,6 +40820,39 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "ZUARIIND",
+      "company": "ZUARI INDUSTRIES LIMITED",
+      "close": 231.88,
+      "daily_change_pct": 1.6438,
+      "return_20d_pct": -3.7243,
+      "alpha_20d_pct": -16.5371,
+      "rsi14": 39.7957,
+      "atr14": 8.3635,
+      "ema20": 238.6126,
+      "ema50": 249.4367,
+      "ema200": 264.913,
+      "relative_volume": 0.6037,
+      "turnover_crore": 0.5491,
+      "trend_score": 0,
+      "direction": "green",
+      "last_price_bar": "2026-11-27 00:00:00",
+      "entry_reference": 234.6383,
+      "stop_reference": 222.0931,
+      "target_1_reference": 253.4562,
+      "last_checked_at_ist": "2026-11-27T19:41:27+05:30",
+      "fundamentals": {
+        "pe": 6.3633,
+        "forward_pe": null,
+        "pb": 0.1631,
+        "roe": 0.0286,
+        "debt_to_equity": 39.675,
+        "revenue_growth": 0.148,
+        "free_cashflow": -2986245888.0,
+        "beta": 0.391
+      },
+      "fundamentals_asof": "2026-11-27T19:41:27+05:30"
+    },
+    {
       "symbol": "DCMSRIND",
       "company": "DCM Shriram Industries Limited",
       "close": 55.2,
@@ -41053,6 +41043,39 @@
       "last_checked_at_ist": "2026-11-19T14:26:18+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
+    },
+    {
+      "symbol": "ZUARI",
+      "company": "Zuari Agro Chemicals Limited",
+      "close": 182.24,
+      "daily_change_pct": -0.5566,
+      "return_20d_pct": -4.5314,
+      "alpha_20d_pct": -17.3442,
+      "rsi14": 36.2994,
+      "atr14": 6.091,
+      "ema20": 188.4504,
+      "ema50": 198.7128,
+      "ema200": 223.1883,
+      "relative_volume": 0.3768,
+      "turnover_crore": 0.5329,
+      "trend_score": 0,
+      "direction": "red",
+      "last_price_bar": "2026-11-27 00:00:00",
+      "entry_reference": 184.5484,
+      "stop_reference": 175.4119,
+      "target_1_reference": 198.253,
+      "last_checked_at_ist": "2026-11-27T19:41:27+05:30",
+      "fundamentals": {
+        "pe": 4.5381,
+        "forward_pe": 42.7744,
+        "pb": 0.3081,
+        "roe": 0.0677,
+        "debt_to_equity": 27.537,
+        "revenue_growth": -0.72,
+        "free_cashflow": 2464427520.0,
+        "beta": 0.002
+      },
+      "fundamentals_asof": "2026-11-18T18:50:27+05:30"
     },
     {
       "symbol": "INDOSTAR",
@@ -48183,6 +48206,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "ZFSTEERING",
+      "company": "ZF Steering Gear (India) Limited",
+      "close": 752.8,
+      "daily_change_pct": -1.9473,
+      "return_20d_pct": 15.9581,
+      "alpha_20d_pct": 3.1453,
+      "rsi14": 52.6421,
+      "atr14": 35.3025,
+      "ema20": 753.5357,
+      "ema50": 727.8116,
+      "ema200": null,
+      "relative_volume": 0.3188,
+      "turnover_crore": 0.1293,
+      "trend_score": 66,
+      "direction": "red",
+      "last_price_bar": "2026-11-27 00:00:00",
+      "entry_reference": 784.7163,
+      "stop_reference": 731.7625,
+      "target_1_reference": 864.1471,
+      "last_checked_at_ist": "2026-11-27T19:41:27+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "BELLACASA",
       "company": "Bella Casa Fashion & Retail Limited",
       "close": 197.85,
@@ -48275,30 +48322,6 @@
       "stop_reference": 13.911,
       "target_1_reference": 17.9359,
       "last_checked_at_ist": "2026-11-26T01:56:47+05:30",
-      "fundamentals": {},
-      "fundamentals_asof": null
-    },
-    {
-      "symbol": "ZFSTEERING",
-      "company": "ZF Steering Gear (India) Limited",
-      "close": 771.15,
-      "daily_change_pct": -0.4518,
-      "return_20d_pct": 16.4791,
-      "alpha_20d_pct": null,
-      "rsi14": 59.7671,
-      "atr14": 33.5038,
-      "ema20": 746.6614,
-      "ema50": 719.675,
-      "ema200": null,
-      "relative_volume": 0.2998,
-      "turnover_crore": 0.1283,
-      "trend_score": 83,
-      "direction": "red",
-      "last_price_bar": "2026-11-19 00:00:00",
-      "entry_reference": 799.6962,
-      "stop_reference": 749.4405,
-      "target_1_reference": 875.0797,
-      "last_checked_at_ist": "2026-11-19T23:05:04+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -48899,6 +48922,30 @@
       "stop_reference": 6.7024,
       "target_1_reference": 7.331,
       "last_checked_at_ist": "2026-11-27T18:57:28+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
+      "symbol": "ZODIAC",
+      "company": "Zodiac Energy Limited",
+      "close": 197.66,
+      "daily_change_pct": 1.4369,
+      "return_20d_pct": 0.575,
+      "alpha_20d_pct": -12.2378,
+      "rsi14": 42.7672,
+      "atr14": 10.9654,
+      "ema20": 204.0662,
+      "ema50": 212.1307,
+      "ema200": 249.4969,
+      "relative_volume": 0.2546,
+      "turnover_crore": 0.1116,
+      "trend_score": 16,
+      "direction": "green",
+      "last_price_bar": "2026-11-27 00:00:00",
+      "entry_reference": 200.1896,
+      "stop_reference": 183.7414,
+      "target_1_reference": 224.8618,
+      "last_checked_at_ist": "2026-11-27T19:41:27+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -50291,30 +50338,6 @@
       "stop_reference": 78.8723,
       "target_1_reference": 92.1116,
       "last_checked_at_ist": "2026-11-25T23:35:51+05:30",
-      "fundamentals": {},
-      "fundamentals_asof": null
-    },
-    {
-      "symbol": "ZODIAC",
-      "company": "Zodiac Energy Limited",
-      "close": 208.66,
-      "daily_change_pct": 0.7776,
-      "return_20d_pct": 11.0484,
-      "alpha_20d_pct": null,
-      "rsi14": 49.8296,
-      "atr14": 12.4663,
-      "ema20": 207.991,
-      "ema50": 215.214,
-      "ema200": 254.4388,
-      "relative_volume": 0.2032,
-      "turnover_crore": 0.0853,
-      "trend_score": 33,
-      "direction": "green",
-      "last_price_bar": "2026-11-19 00:00:00",
-      "entry_reference": 209.5683,
-      "stop_reference": 190.8688,
-      "target_1_reference": 237.6175,
-      "last_checked_at_ist": "2026-11-19T23:05:04+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -53751,39 +53774,6 @@
       "fundamentals_asof": null
     },
     {
-      "symbol": "ZSARACOM",
-      "company": "Saraswati Commercial India Limited",
-      "close": 10054.0,
-      "daily_change_pct": 0.54,
-      "return_20d_pct": 2.6966,
-      "alpha_20d_pct": -7.5223,
-      "rsi14": 52.9289,
-      "atr14": 416.6512,
-      "ema20": 9763.1782,
-      "ema50": 10172.2877,
-      "ema200": null,
-      "relative_volume": 1.9196,
-      "turnover_crore": 0.0432,
-      "trend_score": 66,
-      "direction": "green",
-      "last_price_bar": "2026-11-18 00:00:00",
-      "entry_reference": 10220.4,
-      "stop_reference": 9595.4231,
-      "target_1_reference": 11157.8653,
-      "last_checked_at_ist": "2026-11-18T18:50:27+05:30",
-      "fundamentals": {
-        "pe": 8.7555,
-        "forward_pe": null,
-        "pb": 0.8967,
-        "roe": 0.1081,
-        "debt_to_equity": 0.002,
-        "revenue_growth": -0.122,
-        "free_cashflow": 752889728.0,
-        "beta": 0.05
-      },
-      "fundamentals_asof": "2026-11-18T18:50:27+05:30"
-    },
-    {
       "symbol": "HARRMALAYA",
       "company": "Harrisons  Malayalam Limited",
       "close": 143.98,
@@ -56736,6 +56726,30 @@
       "fundamentals_asof": null
     },
     {
+      "symbol": "ZODIACLOTH",
+      "company": "Zodiac Clothing Company Limited",
+      "close": 63.08,
+      "daily_change_pct": 0.7507,
+      "return_20d_pct": -2.1864,
+      "alpha_20d_pct": -14.9991,
+      "rsi14": 43.6153,
+      "atr14": 2.9486,
+      "ema20": 64.4488,
+      "ema50": 66.4898,
+      "ema200": 73.5157,
+      "relative_volume": 1.2977,
+      "turnover_crore": 0.0251,
+      "trend_score": 16,
+      "direction": "green",
+      "last_price_bar": "2026-11-27 00:00:00",
+      "entry_reference": 66.0318,
+      "stop_reference": 61.6088,
+      "target_1_reference": 72.6663,
+      "last_checked_at_ist": "2026-11-27T19:41:27+05:30",
+      "fundamentals": {},
+      "fundamentals_asof": null
+    },
+    {
       "symbol": "COUNCODOS",
       "company": "Country Condo's Limited",
       "close": 6.23,
@@ -58102,6 +58116,39 @@
       "last_checked_at_ist": "2026-11-26T19:00:43+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
+    },
+    {
+      "symbol": "ZSARACOM",
+      "company": "Saraswati Commercial India Limited",
+      "close": 9541.0,
+      "daily_change_pct": 0.326,
+      "return_20d_pct": 1.6081,
+      "alpha_20d_pct": -11.2047,
+      "rsi14": 44.7478,
+      "atr14": 436.616,
+      "ema20": 9695.3525,
+      "ema50": 10054.7769,
+      "ema200": null,
+      "relative_volume": 0.5304,
+      "turnover_crore": 0.0162,
+      "trend_score": 16,
+      "direction": "green",
+      "last_price_bar": "2026-11-27 00:00:00",
+      "entry_reference": 9819.099,
+      "stop_reference": 9164.175,
+      "target_1_reference": 10801.4849,
+      "last_checked_at_ist": "2026-11-27T19:41:27+05:30",
+      "fundamentals": {
+        "pe": 8.7555,
+        "forward_pe": null,
+        "pb": 0.8967,
+        "roe": 0.1081,
+        "debt_to_equity": 0.002,
+        "revenue_growth": -0.122,
+        "free_cashflow": 752889728.0,
+        "beta": 0.05
+      },
+      "fundamentals_asof": "2026-11-18T18:50:27+05:30"
     },
     {
       "symbol": "ROML",
@@ -60836,30 +60883,6 @@
       "stop_reference": 122.1509,
       "target_1_reference": 154.6981,
       "last_checked_at_ist": "2026-11-26T19:00:43+05:30",
-      "fundamentals": {},
-      "fundamentals_asof": null
-    },
-    {
-      "symbol": "ZODIACLOTH",
-      "company": "Zodiac Clothing Company Limited",
-      "close": 63.19,
-      "daily_change_pct": 0.1585,
-      "return_20d_pct": -2.3489,
-      "alpha_20d_pct": -12.5678,
-      "rsi14": 39.4224,
-      "atr14": 2.658,
-      "ema20": 65.3003,
-      "ema50": 67.3166,
-      "ema200": 74.6677,
-      "relative_volume": 0.3874,
-      "turnover_crore": 0.0083,
-      "trend_score": 0,
-      "direction": "green",
-      "last_price_bar": "2026-11-18 00:00:00",
-      "entry_reference": 64.0278,
-      "stop_reference": 60.0408,
-      "target_1_reference": 70.0083,
-      "last_checked_at_ist": "2026-11-18T18:50:27+05:30",
       "fundamentals": {},
       "fundamentals_asof": null
     },
@@ -65109,21 +65132,35 @@
         "SI=F": 44.14,
         "INR=X": 92.87
       }
+    },
+    {
+      "snapshot_at_ist": "2026-11-27T19:41:27+05:30",
+      "fresh_green": 5,
+      "fresh_red": 6,
+      "uptrend_count": 3,
+      "indices": {
+        "^NSEI": 25607.1992,
+        "^GSPC": 7182.7798,
+        "BZ=F": 91.7,
+        "GC=F": 3671.7,
+        "SI=F": 44.17,
+        "INR=X": 92.87
+      }
     }
   ],
   "day_review": {
     "first_observation_ist": "2026-11-27T00:05:45+05:30",
-    "last_observation_ist": "2026-11-27T18:57:28+05:30",
+    "last_observation_ist": "2026-11-27T19:41:27+05:30",
     "nifty_change_since_first_snapshot_pct": -0.8213,
     "first_snapshot_breadth": {
       "green": 57,
       "red": 63
     },
     "last_snapshot_breadth": {
-      "green": 68,
-      "red": 52
+      "green": 5,
+      "red": 6
     },
-    "interpretation": "Mixed breadth: look for confirmation rather than a directional bet.",
+    "interpretation": "Uncertain: insufficient fresh breadth data.",
     "warning": "Breadth totals reflect rotating stock batches; changes across batches are NOT an apples-to-apples measure of NSE market breadth."
   }
 }
